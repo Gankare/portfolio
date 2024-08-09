@@ -6,4 +6,4 @@
 - Game development | LBS Kreativa Gymnasiet in Borås (2017-2020)
 
 ### Projects
-[Publication](https://yrgo-game-creator.itch.io/starlit-seas)
+[Starlitseas_itch](https://yrgo-game-creator.itch.io/starlit-seas)
