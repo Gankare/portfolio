@@ -10,7 +10,7 @@
 
 _______________________________________________________________________________________________________________________
 ### Tjom
-Tjom is a mario type game, made in Unity. A solo, 2 week project. Tjom has 3 levels, 2 normal and 1 boss level. Made in 2021.
+Tjom is a mario type game, made in Unity. A solo, 2 week project. Tjom has 3 levels, 2 normal and 1 boss level. Made in 2020.
 
 Website link: [Tjom indiedb](https://www.indiedb.com/games/tjom/downloads/tjom)
 
