@@ -7,8 +7,7 @@
 
 ### Projects
 [Starlitseas_itch](https://yrgo-game-creator.itch.io/starlit-seas)
-### Projects1
-### Projects2
+
 ________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 In 2021 i spent half a year learning how to make a cool looking cartoon style 3D rpg/survival game in unity for my degree project. 
 In the link below is my essay and a powerpoint on the game (in Swedish).
