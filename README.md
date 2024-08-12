@@ -11,7 +11,7 @@
 _______________________________________________________________________________________________________________________
 ### Islands of Tjom
 I spent half a year learning how to make a cool looking cartoon style 3D rpg/survival game in unity for my degree project. 
-In the link below you my essay and a powerpoint on the game (in Swedish).
+In the link below is my essay and a powerpoint on the game (in Swedish).
 
 Degree project rpg game: [Drive_Document](https://drive.google.com/drive/folders/1aACRJVYvIYw3PrxSMH7jPCPunhG_WQpW)
 _______________________________________________________________________________________________________________________
