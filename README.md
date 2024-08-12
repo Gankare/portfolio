@@ -9,7 +9,7 @@
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 ### Starlitseas
 Starlitseas is a solo 3D parkour game, made in Unreal with viual scripting. 8 week project with 4 programmers and 3 artists. I was the lead programmer and mainly focused on character movement and leveldesign.
-![](/Assests/Starlitseas_Title)
+![Starlitseas_Title](/Assests/Starlitseas_Title.png)
 Website link: [Starlitseas_itch](https://yrgo-game-creator.itch.io/starlit-seas)
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
@@ -26,6 +26,6 @@ Website link: [Tjom indiedb](https://www.indiedb.com/games/tjom/downloads/tjom)
 
 ![Tjom_Level1](/Assests/Tjom_Level1.png)
 ![Tjom_Level2](/Assests/Tjom_Level2.png)
-![](/Assests/Tjom_Level3.png)
+![Tjom_Level3](/Assests/Tjom_Level3.png)
 
 
