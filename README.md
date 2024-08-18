@@ -10,7 +10,7 @@ ________________________________________________________________________________
 ### Starlitseas
 Starlitseas is a solo 3D parkour game, made in Unreal with viual scripting. 8 week project with 4 programmers and 3 artists. I was the lead programmer and mainly focused on character movement and leveldesign.
 
-![Starlitseas Dokumentation](/Assests/Starlitseas_Dokumentation)
+[Starlitseas Dokumentation](https://gankare.github.io/Starlitseas_Dokumentation/)
 
 ![Starlitseas_Title](/Assests/Starlitseas_Title.png)
 
