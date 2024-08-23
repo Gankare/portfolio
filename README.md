@@ -15,11 +15,8 @@ Team: 4 Programmers and 3 Artists
 <details>
 <summary>Old Game Projects</summary>  
 
-## [***Islands of Tjom***](Islands of Tjom) ← Click here for more info!
-Developed: *2024 April - 2024 Juni*  
-Engine: Unreal Engine  
-Genré: First Person, Single player, Parkour Speedrunner  
-Team: 4 Programmers and 3 Artists
+## [***Islands of Tjom***]([Drive_Document](https://drive.google.com/drive/folders/1aACRJVYvIYw3PrxSMH7jPCPunhG_WQpW)) ← Click here for more info!
+
 ## Islands of Tjom  
 In 2021 i spent half a year learning how to make a cool looking cartoon style 3D rpg/survival game in unity for my degree project.   
 In the link below is my essay and a powerpoint on the game (in Swedish).
