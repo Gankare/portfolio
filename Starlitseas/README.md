@@ -1,7 +1,7 @@
 # Starlitseas  
 ## Character movement
 The character movement is half of the game, espacially in a parkour speedrun game. So I worked on the movement on and off the entire project, the movement script is pretty big so I won't go over it all. 
-
+https://yrgo-game-creator.itch.io/starlit-seas 
 [Whole PlayerController node script](https://blueprintue.com/blueprint/zrsn74_s/ )
 
 Making movement for jumping upwards on moving animated whales was hard, making it feel like the player is moving fast but still not making the game to hard. 
