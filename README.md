@@ -2,6 +2,7 @@
 
 # Game Projects
 
+## [***Mr A's Laboratory***](MrA'sLaboratory#mr-as-laboratory) ← Click here for more info!
 ## Starlitseas ![](/Starlitseas/README.md) 
 Starlitseas is a solo 3D parkour game, made in Unreal with viual scripting. 8 week project with 4 programmers and 3 artists. I was the lead programmer and mainly focused on character movement and leveldesign.
 
