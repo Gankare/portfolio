@@ -3,9 +3,9 @@
 # Game Projects
 
 ## [***Starlitseas***](Starlitseas) ← Click here for more info!
-Developed: *2024 September - 2023 October*  
+Developed: *2024 April - 2024 Juni*  
 Engine: Unreal Engine  
-Genré: First Person, Single player, Parkour Speedrunning game  
+Genré: First Person, Single player, Parkour Speedrunner
 Team: 4 Programmers and 3 Artists
 
 Starlitseas is a solo 3D parkour game, made in Unreal with viual scripting. 8 week project with 4 programmers and 3 artists. I was the lead programmer and mainly focused on character movement and leveldesign.
