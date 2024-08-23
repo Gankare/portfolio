@@ -5,7 +5,7 @@
 ## [***Starlitseas***](Starlitseas) ← Click here for more info!
 Developed: *2024 April - 2024 Juni*  
 Engine: Unreal Engine  
-Genré: First Person, Single player, Parkour Speedrunner
+Genré: First Person, Single player, Parkour Speedrunner  
 Team: 4 Programmers and 3 Artists
 ![Starlitseas_Title](/Assests/Starlitseas_Title.png)
 
