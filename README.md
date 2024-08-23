@@ -26,6 +26,6 @@ Website link: [Tjom indiedb](https://www.indiedb.com/games/tjom/downloads/tjom)
 ![Tjom_Level3](/Assests/Tjom_Level3.png)
 
 <details>
-<summary>Optimization</summary>
+<summary>Old Game Projects</summary>
 Due to performance issues, I tried to optimize as much as possible by reducing foliage, adjusting culling, tweaking LOD, using Nanite, and so on.
 </details>
