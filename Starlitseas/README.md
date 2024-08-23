@@ -1,6 +1,6 @@
 # Starlitseas  
-[Itch.io page](https://yrgo-game-creator.itch.io/starlit-seas )
-[Repository Link](https://yrgo-game-creator.itch.io/starlit-seas )
+[Itch.io page](https://yrgo-game-creator.itch.io/starlit-seas )  
+[Repository Link](https://github.com/Z1LENT/Starlitseas)
 
 ## Character movement  
 The character movement is half of the game, espacially in a parkour speedrun game. So I worked on the movement on and off the entire project, the movement script is pretty big so I won't go over it all. 
