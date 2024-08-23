@@ -1,4 +1,5 @@
 # Starlitseas  
+![Starlitseas_Title](/Assests/Starlitseas_Title.png)  
 [Itch.io page](https://yrgo-game-creator.itch.io/starlit-seas )  
 [Repository Link](https://github.com/Z1LENT/Starlitseas)
 
