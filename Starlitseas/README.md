@@ -2,7 +2,11 @@
 ![Starlitseas_Title](/Starlitseas/Images/Starlitseas_Portal.png)  
 [Itch.io page](https://yrgo-game-creator.itch.io/starlit-seas )  
 [Repository Link](https://github.com/Z1LENT/Starlitseas)
+## *A brief game description*
 
+**Starlitseas** is a parkour speedrunning game located between the seas and the heavens. The spirits of the sea help guide you towards heaven, granting you abilities to glide and dash your way up into the sky. Jump on whales and floating islands through eight beautiful levels to reach your final destination.
+
+---
 ## Character movement  
 The character movement is half of the game, espacially in a parkour speedrun game. So I worked on the movement on and off the entire project, the movement script is pretty big so I won't go over it all. 
 [Whole PlayerController node script](https://blueprintue.com/blueprint/zrsn74_s/ )
