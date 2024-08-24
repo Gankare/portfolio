@@ -95,9 +95,10 @@ The rays text is set in the level blueprint. You can see the sprirt guide in the
 Starlitseas has 8 levels, every level going upwards towards heaven. I made the levels increasingly harder and longer. Adding different obsticles and changing the envoiroment to make every level special while keeping the same theme. 
 
 The player follows the whales and floating islands throughout every level, the whales follows splines and thats how the levels are built. 
-
-### - Level 1: 
+<details>
+<summary>### - Level 1 </summary>  
 The first level starts at the beach and the bridge is higher than the player can walk, so the only way to get forward in the game is to learn to jump. there is also a spirit guide that shows the player the basic controls.
+</details>
 
 ![](/Starlitseas/Images/Level1_Ingame.png)
 Level 1 is straight forward with only whale sharks, making it hard to fail. The player learns to jump on whales that slowly moves forward.
