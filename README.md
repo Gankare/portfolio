@@ -18,9 +18,9 @@ Team: 4 Programmers and 3 Artists
 
 ## [***Spellslingers***](SpellSlingers) ← Click here for more info!
 Developed: *2023 November - 2024 Januari*  
-Engine: Unity 
-Genré: Pixel art, Top-down, Local multiplayer arena shooter, Controller game
-Team: 3 Programmers and 3 Artists
+Engine: Unity  
+Genré: Pixel art, Top-down, Local multiplayer arena shooter, Controller game  
+Team: 3 Programmers and 3 Artists  
 
 ---
 
