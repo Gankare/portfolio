@@ -126,7 +126,7 @@ There are no whales in this level to make the player focus on the new mechanic w
 <details>
 <summary> - Level 4 </summary>  
 The fourth level combines the new mechanics with the whale jumping and it has two different ways of getting to the goal, one way faster than the other but more risky for the players that want to speedrun.  
-
+- 
   
 The level also has a new darker look, making it feel like your higher up than in previous levels.  
 ![](/Starlitseas/Images/Level4_Ingame.png)
