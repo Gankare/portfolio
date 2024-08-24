@@ -92,7 +92,7 @@ The rays text is set in the level blueprint. You can see the sprirt guide in the
 ---  
 
 ## *LevelDesign*
-Starlitseas has 8 levels, every level going upwards towards heaven. I made the levels increasingly harder and longer, the whales are guiding the player towards heaven. Adding different obsticles and changing the envoiroment to make every level special while keeping the same theme. 
+Starlitseas has 8 levels, every level going upwards towards heaven. I made the levels increasingly harder and longer. Adding different obsticles and changing the envoiroment to make every level special while keeping the same theme. 
 
 The player follows the whales and floating islands throughout every level, the whales follows splines and thats how the levels are built. 
 
