@@ -7,6 +7,10 @@
 **Starlitseas** is a parkour speedrunning game located between the seas and the heavens. The spirits of the sea help guide you towards heaven, granting you abilities to glide and dash your way up into the sky. Jump on whales and floating islands through eight beautiful levels to reach your final destination.
 
 ---
+My contributions to this project
+Below is a summary of some of my visual scripts written to this game, keep in mind that this is a group effort and we co-developed a lot of features, but all the highlighted features below have been implemented by me.
+
+---
 ## Character movement  
 The character movement is half of the game, espacially in a parkour speedrun game. So I worked on the movement on and off the entire project, the movement script is pretty big so I won't go over it all. 
 [Whole PlayerController node script](https://blueprintue.com/blueprint/zrsn74_s/ )
