@@ -100,7 +100,6 @@ The player follows the whales and floating islands throughout every level, the w
 <summary> - Level 1 </summary>  
   
 The first level starts at the beach and the bridge is higher than the player can walk, so the only way to get forward in the game is to learn to jump. there is also a spirit guide that shows the player the basic controls.  
-
 ![](/Starlitseas/Images/Level1_Ingame.png)
 Level 1 is straight forward with only whale sharks, making it hard to fail. The player learns to jump on whales that slowly moves forward.  
 ![](/Starlitseas/Images/Level1.png)
@@ -119,7 +118,6 @@ Still an easy level but introducing new elements.
 <summary> - Level 3 </summary>  
   
 The third level is an introduction level for the glide mechanic and boosting rings, the only way to get from one platform to another is to use the glider and the boosts. Making the player learn how to use the mechanic in different ways.   
-  
 ![](/Starlitseas/Images/Level3_ingame.png)
 There are no whales in this level to make the player focus on the new mechanic without being stressed by constantly having to move forward.  
 ![](/Starlitseas/Images/Level3.png)
@@ -130,7 +128,7 @@ There are no whales in this level to make the player focus on the new mechanic w
   
 The fourth level combines the new mechanics with the whale jumping and it has two different ways of getting to the goal, one way faster than the other but more risky for the players that want to speedrun.  
 
-  The level also has a new darker look, making it feel like your higher up than in previous levels.  
+The level also has a new darker look, making it feel like your higher up than in previous levels.  
 ![](/Starlitseas/Images/Level4_Ingame.png)
 The level also introduces the first obsticle that can kill you, the jellyfish rings are at the end of the level and makes for a more interesting gameplay, having to glide through them.  
 ![](/Starlitseas/Images/Level4.png)
@@ -141,7 +139,6 @@ The level also introduces the first obsticle that can kill you, the jellyfish ri
   
 The fifth level is pretty straight forward, The splines are tight together with alot of obsticles to make it slower and harder for the player to go around them.
 ![](/Starlitseas/Images/Level5_Ingame.png)  
-
 ![](/Starlitseas/Images/Level5.png)
 </details>
 
