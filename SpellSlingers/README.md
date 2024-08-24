@@ -1,6 +1,7 @@
 # *Spellslingers*
 
 <img src="portfolio/SpellSlingers/Images/SpellSlingers_Menu.png" width="100%"/>
+![Starlitseas_Title](/SpellSlingers/Images/SpellSlingers_Menu.png)  
 
 [Itch.io page](https://yrgo-game-creator.itch.io/spellslingers)  
 
