@@ -165,11 +165,9 @@ Midlevel there is a giant leap of faith, fog should be hiding the islands ahead 
 
 <details>
 <summary> - Level 8 </summary>  
-The eight level is the last level before arriving in heaven. Whales flying in every direction and then going down again giving the feeling they have reached their destination, leading the player towards the sky. This is the most magical looking level.  
--
-  -
-  -
   
+The eight level is the last level before arriving in heaven. Whales flying in every direction and then going down again giving the feeling they have reached their destination, leading the player towards the sky. This is the most magical looking level.  
+
 To get to the end the player has to jump and dash from island to island, every island higher than the last, reaching the top taking them to heaven and clearing the game.  
 ![](/Starlitseas/Images/Level8_Ingame.png)
 ![](/Starlitseas/Images/Level8.png)
