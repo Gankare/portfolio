@@ -96,13 +96,13 @@ Starlitseas has 8 levels, every level going upwards towards heaven. I made the l
 
 The player follows the whales and floating islands throughout every level, the whales follows splines and thats how the levels are built. 
 <details>
-<summary>### - Level 1 </summary>  
+### <summary> - Level 1 </summary>  
 The first level starts at the beach and the bridge is higher than the player can walk, so the only way to get forward in the game is to learn to jump. there is also a spirit guide that shows the player the basic controls.
-</details>
 
 ![](/Starlitseas/Images/Level1_Ingame.png)
 Level 1 is straight forward with only whale sharks, making it hard to fail. The player learns to jump on whales that slowly moves forward.
 ![](/Starlitseas/Images/Level1.png)
+</details>
 
 ### - Level 2: 
 The second level is slightly longer, moving upwards making it harder to jump on the whales, introducing blow whales that shoots the player in the air when walking on them.
