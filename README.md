@@ -1,5 +1,5 @@
 # Filip Salomonsson Portfolio
-## [***CV***](FilipSalomonsson_CV) ← Click here for more info!
+## [***CV***](FilipSalomonsson_CV.pdf) ← Click here for more info!
 Assests/FilipSalomonsson_CV.pdf 
 # Game Projects
 
