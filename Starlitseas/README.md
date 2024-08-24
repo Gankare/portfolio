@@ -143,7 +143,7 @@ The fifth level is pretty straight forward, The splines are tight together with 
 
 <details>
 <summary> - Level 6 </summary>  
-The sixth level is an introduction level for the dash mechanic, the dash works like one of Genji's abilities in the game Overwatch meaning you go in the direction that you are looking. I noticed that many playtesters thought that the dash was only forward. To make every player understand how the dash works I made level six have floating islands above the player that only are accessible if the player dashes upwards.  
+The sixth level is an introduction level for the dash mechanic, the dash works like one of Genji's abilities in the game Overwatch meaning you go in the direction that you are looking. I noticed that many playtesters thought that the dash was only forward. To make every player understand how the dash works I made level six have floating islands above the player that only are accessible if the player dashes upwards.     
 
 The look of the level is lighter with an aurora and fantasy feel, to create the feeling of heading towards space/heaven.   
 
