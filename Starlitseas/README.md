@@ -116,8 +116,8 @@ Still an easy level but introducing new elements.
 
 <details>
 <summary> - Level 3 </summary>  
-
 The third level is an introduction level for the glide mechanic and boosting rings, the only way to get from one platform to another is to use the glider and the boosts. Making the player learn how to use the mechanic in different ways.   
+  
 ![](/Starlitseas/Images/Level3_ingame.png)
 There are no whales in this level to make the player focus on the new mechanic without being stressed by constantly having to move forward.  
 ![](/Starlitseas/Images/Level3.png)
@@ -131,7 +131,6 @@ The fourth level combines the new mechanics with the whale jumping and it has tw
 ![](/Starlitseas/Images/Level4_Ingame.png)
 The level also introduces the first obsticle that can kill you, the jellyfish rings are at the end of the level and makes for a more interesting gameplay, having to glide through them.  
 ![](/Starlitseas/Images/Level4.png)
-
 </details>
 
 <details>
@@ -140,7 +139,6 @@ The fifth level is pretty straight forward, The splines are tight together with 
 ![](/Starlitseas/Images/Level5_Ingame.png)  
 
 ![](/Starlitseas/Images/Level5.png)
-
 </details>
 
 <details>
@@ -153,7 +151,6 @@ I also added the giant whale in the background to add to the fantasy feel. The g
 ![](/Starlitseas/Images/Level6_Ingame.png)
 The level is like the third level but harder. It takes a combination of all the mechanics to beat it, this level is where most players gets stuck a while and it's to makes the player ready for the last two levels.  
 ![](/Starlitseas/Images/Level6.png)
-
 </details>
 
 <details>
@@ -164,15 +161,16 @@ Midlevel there is a giant leap of faith, fog should be hiding the islands ahead 
 ![](/Starlitseas/Images/Level7_Ingame.png)
 ![](/Starlitseas/Images/Level7_Glide.gif)
 ![](/Starlitseas/Images/Level7.png)
-
 </details>
 
 <details>
 <summary> - Level 8 </summary>  
 The eight level is the last level before arriving in heaven. Whales flying in every direction and then going down again giving the feeling they have reached their destination, leading the player towards the sky. This is the most magical looking level.  
-
+-
+  -
+  -
+  
 To get to the end the player has to jump and dash from island to island, every island higher than the last, reaching the top taking them to heaven and clearing the game.  
 ![](/Starlitseas/Images/Level8_Ingame.png)
 ![](/Starlitseas/Images/Level8.png)
-
 </details>
