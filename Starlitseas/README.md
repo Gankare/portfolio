@@ -98,6 +98,7 @@ The player follows the whales and floating islands throughout every level, the w
 
 <details>
 <summary> - Level 1 </summary>  
+  
 The first level starts at the beach and the bridge is higher than the player can walk, so the only way to get forward in the game is to learn to jump. there is also a spirit guide that shows the player the basic controls.  
 
 ![](/Starlitseas/Images/Level1_Ingame.png)
@@ -116,6 +117,7 @@ Still an easy level but introducing new elements.
 
 <details>
 <summary> - Level 3 </summary>  
+  
 The third level is an introduction level for the glide mechanic and boosting rings, the only way to get from one platform to another is to use the glider and the boosts. Making the player learn how to use the mechanic in different ways.   
   
 ![](/Starlitseas/Images/Level3_ingame.png)
@@ -125,6 +127,7 @@ There are no whales in this level to make the player focus on the new mechanic w
 
 <details>
 <summary> - Level 4 </summary>  
+  
 The fourth level combines the new mechanics with the whale jumping and it has two different ways of getting to the goal, one way faster than the other but more risky for the players that want to speedrun.  
 
   The level also has a new darker look, making it feel like your higher up than in previous levels.  
@@ -135,6 +138,7 @@ The level also introduces the first obsticle that can kill you, the jellyfish ri
 
 <details>
 <summary> - Level 5 </summary>  
+  
 The fifth level is pretty straight forward, The splines are tight together with alot of obsticles to make it slower and harder for the player to go around them.
 ![](/Starlitseas/Images/Level5_Ingame.png)  
 
@@ -143,7 +147,8 @@ The fifth level is pretty straight forward, The splines are tight together with 
 
 <details>
 <summary> - Level 6 </summary>  
-The sixth level is an introduction level for the dash mechanic, the dash works like one of Genji's abilities in the game Overwatch meaning you go in the direction that you are looking. I noticed that many playtesters thought that the dash was only forward. To make every player understand how the dash works I made level six have floating islands above the player that only are accessible if the player dashes upwards.     
+  
+The sixth level is an introduction level for the dash mechanic, the dash works like one of Genji's abilities in the game Overwatch meaning you go in the direction that you are looking. I noticed that many playtesters thought that the dash was only forward. To make every player understand how the dash works I made level six have floating islands above the player that only are accessible if the player dashes upwards.   
 
 The look of the level is lighter with an aurora and fantasy feel, to create the feeling of heading towards space/heaven.   
 
@@ -155,6 +160,7 @@ The level is like the third level but harder. It takes a combination of all the 
 
 <details>
 <summary> - Level 7 </summary>  
+  
 The seventh level is the longest one, it has two possible paths for the player to go right from the start, one faster than the other. There is a bunch of gliding in this level and it gives of a magical/fantasy feeling.  
 
 Midlevel there is a giant leap of faith, fog should be hiding the islands ahead (not like in the image below), making the player glide into the fog then revealing a bunch of islands with whales soaring around them. Giving the player an epic feeling.  
