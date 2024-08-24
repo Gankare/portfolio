@@ -11,7 +11,7 @@
 Below is a summary of some of my visual scripts written to this game, keep in mind that this is a group effort and we co-developed a lot of features, but all the highlighted features below have been implemented by me.
 
 ---
-## - Character movement  
+## *Character movement*
 The character movement is half of the game, espacially in a parkour speedrun game. So I worked on the movement on and off the entire project, the movement script is pretty big so I won't go over it all.   
 [Whole PlayerController node script](https://blueprintue.com/blueprint/zrsn74_s/ )
 
@@ -89,7 +89,7 @@ Scipt of how this is done:
 The rays text is set in the level blueprint. You can see the sprirt guide in the leveldesign images below. 
 ![](/Starlitseas/Images/RayText_LevelBlueprint.png)
 
-## - LevelDesign
+## *LevelDesign*
 Starlitseas has 8 levels, every level going upwards towards heaven. I made the levels increasingly harder and longer, the whales are guiding the player towards heaven. Adding different obsticles and changing the envoiroment to make every level special while keeping the same theme. 
 
 The player follows the whales and floating islands throughout every level, the whales follows splines and thats how the levels are built. 
