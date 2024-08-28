@@ -25,7 +25,7 @@ Team: 3 Programmers and 3 Artists
 ---
 
 ## [***Frostfall***](Frostfall) ← Click here for more info!  
-Developed: *2024 May - 2024 May*  2 week project  
+Developed: *2024 May - 2024 May*  (2 week project)    
 Engine: Unreal  
 Genré: First person solo horror game  
 Team: solo   
