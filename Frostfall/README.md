@@ -2,7 +2,7 @@
 
 ![Spellslingers Menu](/SpellSlingers/Images/SpellSlingers_Menu.png)  
 
-[Itch.io page](https://yrgo-game-creator.itch.io/spellslingers)  
+[Indiedb page](https://www.indiedb.com/games/frostfall)  
 
 [Repository Link](https://github.com/Gankare/FrostfallHorrorGame)  
 
