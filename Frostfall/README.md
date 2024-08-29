@@ -16,7 +16,7 @@ Gather fuel and fill the car upp, when you have a full gass tank you can escape 
 
 ## *My contributions to this project*
 
-All the features below have been implemented by me. 
+All the features have been implemented by me. 
 
 ---
 
