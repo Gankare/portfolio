@@ -1,6 +1,6 @@
 # *Frostfall*
 
-![Spellslingers Menu](/SpellSlingers/Images/SpellSlingers_Menu.png)  
+![Frostfall Jumpscare](/Frostfall/Images/Jumpscare.png)  
 
 [Indiedb page](https://www.indiedb.com/games/frostfall)  
 
