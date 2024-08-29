@@ -31,6 +31,13 @@ Engine: Unreal Engine
 Genré: Low resolution PS1 graphics, First person, Solo, Horror game  
 Team: Solo   
 
+<table>
+  <tr>
+    <td><img src="Frostfall/Images/PickUp&Drop.gif" /></td>
+    <td><img src="Frostfall/Images/Turnin.gif" /></td>
+  </tr>
+</table>
+
 ---
 
 <details>
