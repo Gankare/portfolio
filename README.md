@@ -1,5 +1,5 @@
 # Filip Salomonsson Portfolio
-(Not finished)
+(Portfolio not finished)
 # Game Projects
 
 ## [***Starlitseas***](Starlitseas) ← Click here for more info!
