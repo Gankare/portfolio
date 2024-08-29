@@ -20,22 +20,22 @@ All the features have been implemented by me.
 
 ---  
 
-## Player  
+## - Player  
 ### True first person character & camera  
 ### Lighter  
 ### Fuel  
 ---  
 
-## Wendigo  
+## - Wendigo  
 ### Walking patern  
 ### Jumpscare  
 ---  
 
-## Car  
+## - Car  
 ### Cinematic    
 ---  
-## Widgets and menus  
+## - Widgets and menus  
 
 ---  
-## LevelDesign   
+## - LevelDesign   
 
