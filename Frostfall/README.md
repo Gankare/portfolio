@@ -18,5 +18,24 @@ Gather fuel and fill the car upp, when you have a full gass tank you can escape 
 
 All the features have been implemented by me. 
 
----
+---  
+
+## Player  
+### True first person character & camera  
+### Lighter  
+### Fuel  
+---  
+
+## Wendigo  
+### Walking patern  
+### Jumpscare  
+---  
+
+## Car  
+### Cinematic    
+---  
+## Widgets and menus  
+
+---  
+## LevelDesign   
 
