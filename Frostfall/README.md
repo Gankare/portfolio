@@ -27,6 +27,7 @@ All the features have been implemented by me.
 ---  
 
 ## - Wendigo  
+[Wendigo blueprint:](https://blueprintue.com/blueprint/rngndrt9/)  
 ### Walking patern  
 ### Jumpscare  
 ---  
