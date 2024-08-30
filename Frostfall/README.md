@@ -21,6 +21,7 @@ All the features have been implemented by me.
 ---  
 
 ## - Player  
+[Player blueprint:](https://blueprintue.com/blueprint/ydhxzuci/)  
 ### True first person character & camera  
 ### Lighter  
 ### Fuel  
