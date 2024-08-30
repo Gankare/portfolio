@@ -34,7 +34,7 @@ Team: Solo
 <table>
   <tr>
     <td><img src="Frostfall/Images/PickUp&Drop.gif" /></td>
-    <td><img src="Frostfall/Images/Turnin.gif" /></td>
+    <td><img src="Frostfall/Images/Escape.gif" /></td>
   </tr>
 </table>
 
