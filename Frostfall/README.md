@@ -34,15 +34,15 @@ All the features have been implemented by me.
 ---  
 
 ## - Wendigo  
-[Wendigo blueprint](https://blueprintue.com/blueprint/rngndrt9/) 
-![Wendigo](/Frostfall/Images/Wendigo.png) 
+[Wendigo blueprint](https://blueprintue.com/blueprint/rngndrt9/)  
+![Wendigo](/Frostfall/Images/Wendigo.png)  
 ### Walking patern  
-![Wendigo Running](/Frostfall/Images/RunningWendigo.gif) 
-![Wendigo catching](/Frostfall/Images/Chased.gif) 
+![Wendigo Running](/Frostfall/Images/RunningWendigo.gif)  
+![Wendigo catching](/Frostfall/Images/Chased.gif)  
 
-### Jumpscare 
-![Jumpscare animation](/Frostfall/Images/ScareAnimation.gif) 
-![Jumpscare ingame](/Frostfall/Images/WendigoInGame.gif) 
+### Jumpscare  
+![Jumpscare animation](/Frostfall/Images/ScareAnimation.gif)   
+![Jumpscare ingame](/Frostfall/Images/WendigoInGame.gif)   
 
 ---  
 
@@ -53,26 +53,26 @@ All the features have been implemented by me.
 ---  
 
 ## - Car  
-![Car](/Frostfall/Images/Car.png) 
-![Car Code](/Frostfall/Images/CarCode.png) 
-![Car Turnin](/Frostfall/Images/Turnin.gif) 
+![Car](/Frostfall/Images/Car.png)  
+![Car Code](/Frostfall/Images/CarCode.png)   
+![Car Turnin](/Frostfall/Images/Turnin.gif)   
 ### Cinematic    
-![Car Cinematic](/Frostfall/Images/Escape.gif) 
+![Car Cinematic](/Frostfall/Images/Escape.gif)   
 
 ---  
 
 ## - Widgets and menus  
-![Main menu](/Frostfall/Images/NewMenu.png) 
-![PauseMenu](/Frostfall/Images) 
+![Main menu](/Frostfall/Images/NewMenu.png)   
+![PauseMenu](/Frostfall/Images/3DPauseMenu.png)   
 
 ---  
 
 ## - Sound  
-![Sound files](/Frostfall/Images/Sounds.png) 
+![Sound files](/Frostfall/Images/Sounds.png)  
 
 ---  
 
 ## - LevelDesign   
-![First map](/Frostfall/Images/FirstMapLayout.png) 
-![Second map](/Frostfall/Images/SecondMapLayout.png) 
-![Finished map](/Frostfall/Images/Map finished.png) 
+![First map](/Frostfall/Images/FirstMapLayout.png)  
+![Second map](/Frostfall/Images/SecondMapLayout.png)  
+![Finished map](/Frostfall/Images/FinishedMap.png)  
