@@ -25,7 +25,6 @@ All the features have been implemented by me.
 ### True first person character & camera  
 ![Player](/Frostfall/Images/Player.png)  
 ### Lighter  
-![Lighter](/Frostfall/Images/Lighter.png)  
 ![Flame](/Frostfall/Images/Flame.gif)  
 ### Fuel  
 ![FuelCan](/Frostfall/Images/FuelCan.png) 
