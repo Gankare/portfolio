@@ -33,26 +33,27 @@ All the features have been implemented by me.
 
 ---  
 
-## - Wendigo  
+## - Npc's    
+### Wendigo  
 [Wendigo blueprint](https://blueprintue.com/blueprint/rngndrt9/)  
 ![Wendigo](/Frostfall/Images/Wendigo.png)  
 ### Walking patern  
 ![Wendigo Running](/Frostfall/Images/RunningWendigo.gif)  
 ![Wendigo catching](/Frostfall/Images/Chased.gif)  
 
-### Jumpscare  
+### Wendigo Jumpscare  
 ![Jumpscare animation](/Frostfall/Images/ScareAnimation.gif)   
 ![Jumpscare ingame](/Frostfall/Images/WendigoInGame.gif)   
 
----  
-
-## - Deer Npc 
+### Deer Npc 
 ![Deer](/Frostfall/Images/DeerNpc.png) 
 ![Npc Code](/Frostfall/Images/SmallDeerAiCode.png) 
 
 ---  
 
 ## - Car  
+
+### Turn in
 ![Car](/Frostfall/Images/Car.png)  
 ![Car Code](/Frostfall/Images/CarCode.png)   
 ![Car Turnin](/Frostfall/Images/Turnin.gif)   
@@ -62,7 +63,10 @@ All the features have been implemented by me.
 ---  
 
 ## - Widgets and menus  
+
+### Main menu  
 ![Main menu](/Frostfall/Images/NewMenu.png)   
+### Pause menu  
 ![PauseMenu](/Frostfall/Images/3DPauseMenu.png)   
 
 ---  
@@ -72,7 +76,7 @@ All the features have been implemented by me.
 
 ---  
 
-## - LevelDesign   
+## - LevelDesign process   
 ![First map](/Frostfall/Images/FirstMapLayout.png)  
 ![Second map](/Frostfall/Images/SecondMapLayout.png)  
 ![Finished map](/Frostfall/Images/FinishedMap.png)  
