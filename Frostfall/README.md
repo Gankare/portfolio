@@ -36,6 +36,7 @@ All the features have been implemented by me.
 ## - Npc's    
 ### Wendigo  
 [Wendigo blueprint](https://blueprintue.com/blueprint/rngndrt9/)  
+
 ![Wendigo](/Frostfall/Images/Wendigo.png)  
 ### Walking patern  
 ![Wendigo Running](/Frostfall/Images/RunningWendigo.gif)  
@@ -68,6 +69,8 @@ All the features have been implemented by me.
 ![Main menu](/Frostfall/Images/NewMenu.png)   
 ### Pause menu  
 ![PauseMenu](/Frostfall/Images/3DPauseMenu.png)   
+### Mini map and compass 
+Adding the compass and minimap was the last thing i added because people that playtested the game thought that it was to dark and did not know where they where most of the time. The compass and minimap helps the player be able to figure out where they are and where they are headed.  
 
 ---  
 
