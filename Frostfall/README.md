@@ -34,14 +34,21 @@ All the features have been implemented by me.
 ---  
 
 ## - Wendigo  
-[Wendigo blueprint](https://blueprintue.com/blueprint/rngndrt9/)  
-
-![Wendigo](/Frostfall/Images/Wendigo.png)  
+[Wendigo blueprint](https://blueprintue.com/blueprint/rngndrt9/) 
+![Wendigo](/Frostfall/Images/Wendigo.png) 
 ### Walking patern  
-![Wendigo Running](/Frostfall/Images/RunningWendigo.gif)  
-![Wendigo catching](/Frostfall/Images/Chased.gif)  
+![Wendigo Running](/Frostfall/Images/RunningWendigo.gif) 
+![Wendigo catching](/Frostfall/Images/Chased.gif) 
 
 ### Jumpscare 
+![Jumpscare animation](/Frostfall/Images/ScareAnimation.gif) 
+![Jumpscare ingame](/Frostfall/Images/WendigoInGame.gif) 
+
+---  
+
+## - Deer Npc 
+![Deer](/Frostfall/Images/DeerNpc.png) 
+![Npc Code](/Frostfall/Images/SmallDeerAiCode.png) 
 
 ---  
 
@@ -55,9 +62,17 @@ All the features have been implemented by me.
 ---  
 
 ## - Widgets and menus  
+![Main menu](/Frostfall/Images/NewMenu.png) 
+![PauseMenu](/Frostfall/Images) 
 
+---  
+
+## - Sound  
+![Sound files](/Frostfall/Images/Sounds.png) 
 
 ---  
 
 ## - LevelDesign   
-
+![First map](/Frostfall/Images/FirstMapLayout.png) 
+![Second map](/Frostfall/Images/SecondMapLayout.png) 
+![Finished map](/Frostfall/Images/Map finished.png) 
