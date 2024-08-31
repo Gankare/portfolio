@@ -21,15 +21,23 @@ All the features have been implemented by me.
 ---  
 
 ## - Player  
-[Player blueprint:](https://blueprintue.com/blueprint/ydhxzuci/)  
+[Player blueprint](https://blueprintue.com/blueprint/ydhxzuci/)  
 ### True first person character & camera  
+![Player](/Frostfall/Images/Player.png)  
 ### Lighter  
+![Lighter](/Frostfall/Images/Lighter.png)  
+![Flame](/Frostfall/Images/Flame.gif)  
 ### Fuel  
+![FuelCan](/Frostfall/Images/FuelCan.png) 
+![FuelCan_Code](/Frostfall/Images/FuelCode.png) 
+![Pick&Drop Fuel](/Frostfall/Images/PickUp&Drop.gif) 
+
 ---  
 
 ## - Wendigo  
-[Wendigo blueprint:](https://blueprintue.com/blueprint/rngndrt9/)  
+[Wendigo blueprint](https://blueprintue.com/blueprint/rngndrt9/)  
 ### Walking patern  
+![Wendigo Running](/Frostfall/Images/RunningWendigo.gif) 
 ### Jumpscare  
 ---  
 
