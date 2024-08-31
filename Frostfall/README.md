@@ -34,17 +34,29 @@ All the features have been implemented by me.
 ---  
 
 ## - Wendigo  
-[Wendigo blueprint](https://blueprintue.com/blueprint/rngndrt9/)  
+[Wendigo blueprint](https://blueprintue.com/blueprint/rngndrt9/) 
+![Wendigo](/Frostfall/Images/Wendigo.png) 
 ### Walking patern  
 ![Wendigo Running](/Frostfall/Images/RunningWendigo.gif) 
-### Jumpscare  
+![Wendigo catching](/Frostfall/Images/Chased.gif) 
+
+### Jumpscare 
+
 ---  
 
 ## - Car  
+![Car](/Frostfall/Images/Car.png) 
+![Car Code](/Frostfall/Images/CarCode.png) 
+![Car Turnin](/Frostfall/Images/Turnin.gif) 
 ### Cinematic    
----  
-## - Widgets and menus  
+![Car Cinematic](/Frostfall/Images/Escape.gif) 
 
 ---  
+
+## - Widgets and menus  
+
+
+---  
+
 ## - LevelDesign   
 
