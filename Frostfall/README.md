@@ -34,11 +34,12 @@ All the features have been implemented by me.
 ---  
 
 ## - Wendigo  
-[Wendigo blueprint](https://blueprintue.com/blueprint/rngndrt9/) 
-![Wendigo](/Frostfall/Images/Wendigo.png) 
+[Wendigo blueprint](https://blueprintue.com/blueprint/rngndrt9/)  
+
+![Wendigo](/Frostfall/Images/Wendigo.png)  
 ### Walking patern  
-![Wendigo Running](/Frostfall/Images/RunningWendigo.gif) 
-![Wendigo catching](/Frostfall/Images/Chased.gif) 
+![Wendigo Running](/Frostfall/Images/RunningWendigo.gif)  
+![Wendigo catching](/Frostfall/Images/Chased.gif)  
 
 ### Jumpscare 
 
