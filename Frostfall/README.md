@@ -80,7 +80,7 @@ Adding the compass and minimap was the last thing i added because people that pl
 ---  
 
 ## - LevelDesign process   
-![First drawing](/Frostfall/Images/Drawing.jpg)/2  
-![First map](/Frostfall/Images/FirstMapLayout.png)/2   
+![First drawing](/Frostfall/Images/Drawing.jpg | width=100)   
+![First map](/Frostfall/Images/FirstMapLayout.png)     
 ![Second map](/Frostfall/Images/SecondMapLayout.png)  
 ![Finished map](/Frostfall/Images/FinishedMap.png)  
