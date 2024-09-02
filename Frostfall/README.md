@@ -22,7 +22,10 @@ All the features have been implemented by me.
 
 ## - Player  
 [Player blueprint](https://blueprintue.com/blueprint/ydhxzuci/)  
+The player controller blueprint is pretty basic, nothing changed with the movement. I Added a picup and drop for the fuelcans, flickering for the lighter that the player holds and also a pause game button. Link above for the code.
 ### True first person character & camera  
+I decided to go with a third person template instead of a first person template when starting my project because I wanted a true first person (where the player is able to see their own body).
+I used a megascan 3D character model for the player and i put a camera in the head, adjusted the fov and camera wobble when the player walks.   
 ![Player](/Frostfall/Images/Player.png)  
 ### Lighter  
 ![Flame](/Frostfall/Images/Flame.gif)  
