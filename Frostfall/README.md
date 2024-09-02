@@ -31,7 +31,7 @@ I used a megascan 3D character model for the player and socketed the camera to t
 
 ### Lighter  
 
-I downloaded a lighter model and living candles from the unreal store. Then I socketed the lighter to the player's hand and socketed the living flame from the candles to the lighter. I set two point lights to the lighter, one closer and stronger and one farther away that's more subtle. 
+I downloaded a lighter model and living candles from the unreal store. Then I socketed the lighter to the player's hand and socketed the living flame from the candles to the lighter. I set three different pointlights and one spotlight around the player and lighter, I also added flickering to the strongest pointlight called "FlameLight" in "Event Beginplay", in the player blueprint.
 
 It looks like this:  
 ![Flame](/Frostfall/Images/Flame.gif)  
