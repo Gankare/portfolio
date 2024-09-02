@@ -36,8 +36,9 @@ I downloaded a lighter model and living candles from the unreal store. Then I so
 It looks like this:  
 ![Flame](/Frostfall/Images/Flame.gif)  
 ### Fuel  
-![FuelCan](/Frostfall/Images/FuelCan.png) 
-![FuelCan_Code](/Frostfall/Images/FuelCode.png) 
+ <img src="/Frostfall/Images/FuelCan.png" alt="FuelCan" width="500" height="500">
+ <img src="/Frostfall/Images/FuelCode.png" alt="FuelCan_Code" width="500" height="500">
+
 ![Pick&Drop Fuel](/Frostfall/Images/PickUp&Drop.gif) 
 
 ---  
