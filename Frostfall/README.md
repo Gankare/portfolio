@@ -45,9 +45,9 @@ I took this oilcan from megascans and made the texture emissive to glow in the d
 
 ## - Npc's    
 ### Wendigo  
-[Wendigo blueprint](https://blueprintue.com/blueprint/rngndrt9/)
-![Frostfall Jumpscare](/Frostfall/Images/WendigoStare.png)   
+[Wendigo blueprint](https://blueprintue.com/blueprint/rngndrt9/)  
 
+![Frostfall Jumpscare](/Frostfall/Images/WendigoStare.png)
 ![Wendigo](/Frostfall/Images/Wendigo.png)  
 ### Walking patern  
 ![Wendigo Running](/Frostfall/Images/RunningWendigo.gif)  
