@@ -1,9 +1,8 @@
 # *Frostfall*
 
-![Frostfall Jumpscare](/Frostfall/Images/Jumpscare.png)  
-![Frostfall Jumpscare](/Frostfall/Images/WendigoStare.png)   
-[Indiedb page](https://www.indiedb.com/games/frostfall)   
+![Frostfall Jumpscare](/Frostfall/Images/Jumpscare.png)   
 
+[Indiedb page](https://www.indiedb.com/games/frostfall)   
 [Repository Link](https://github.com/Gankare/FrostfallHorrorGame)  
 
 ## *A brief game description*  
