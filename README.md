@@ -10,8 +10,8 @@ Team: 4 Programmers and 3 Artists
 
 <table>
   <tr>
-    <td><img src="Starlitseas/Images/TailJump.gif" /></td>
     <td><img src="Starlitseas/Images/Level7_Glide.gif" /></td>
+    <td><img src="Starlitseas/Images/TailJump.gif" /></td>
   </tr>
 </table>
 
