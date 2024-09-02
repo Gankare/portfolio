@@ -38,8 +38,9 @@ It looks like this:
 I took this oilcan from megascans and made the texture emissive to glow in the dark, making it clear that the can is an interanctable object.    
  <img src="/Frostfall/Images/FuelCan.png" alt="Fuelcan" width="500" height="400">  
 
-In the fulecan blueprint I added a 3D widget that allways faces the player and 
-![FuelCan code](/Frostfall/Images/FuelCode.png) 
+In the fulecan blueprint, I added a 3D widget that always faces the player and a collider on the fuelcan that turns on the widget when the player enters and vice versa:
+![FuelCan code](/Frostfall/Images/FuelCode.png)  
+This is how the pick & drop system looks ingame:  
 ![Pick&Drop Fuel](/Frostfall/Images/PickUp&Drop.gif) 
 
 ---  
