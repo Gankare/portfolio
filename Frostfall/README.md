@@ -1,6 +1,6 @@
 # *Frostfall*
 
-![Frostfall Jumpscare](/Frostfall/Images/Jumpscare.png)  
+![Frostfall Jumpscare](/Frostfall/Images/WendigoStare.png)  
 
 [Indiedb page](https://www.indiedb.com/games/frostfall)  
 
