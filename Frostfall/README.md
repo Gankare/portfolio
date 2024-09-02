@@ -26,9 +26,12 @@ The player controller blueprint is pretty basic, nothing changed with the moveme
 ### True first person character & camera   
 I decided to go with a third person template instead of a first person template when starting my project because I wanted a true first person (where the player is able to see their own body).  
 
-I used a megascan 3D character model for the player and i put a camera in the head, adjusted the fov and camera wobble when the player walks.   
+I used a megascan 3D character model for the player and socketed the camera to the head, adjusted the fov and camera wobble when the player walks.   
 ![Player](/Frostfall/Images/Player.png)  
+
 ### Lighter  
+
+I downloaded a lighter model and living candles from the unreal store. Then I socketed the lighter to the players hand and socketed the living flame from the candles to the lighter. It looks like this:  
 ![Flame](/Frostfall/Images/Flame.gif)  
 ### Fuel  
 ![FuelCan](/Frostfall/Images/FuelCan.png) 
