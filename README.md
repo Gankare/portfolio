@@ -33,8 +33,8 @@ Team: Solo
 
 <table>
   <tr>
-    <td><img src="Frostfall/Images/WendigoInGame.gif" /></td>
-    <td><img src="Frostfall/Images/Turnin.gif" /></td>   
+    <td><img src="Frostfall/Images/PickUp&Drop.gif" /></td>
+    <td><img src="Frostfall/Images/Chased.gif" /></td>   
   </tr>
 </table>
 
