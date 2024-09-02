@@ -37,6 +37,8 @@ It looks like this:
 ![Flame](/Frostfall/Images/Flame.gif)  
 ### Fuel  
 
+ <img src="/Frostfall/Images/FuelCan.png" alt="" width="1000" height="1000">  
+ 
 ![FuelCan](/Frostfall/Images/FuelCan.png) 
 ![FuelCan code](/Frostfall/Images/FuelCode.png) 
 ![Pick&Drop Fuel](/Frostfall/Images/PickUp&Drop.gif) 
