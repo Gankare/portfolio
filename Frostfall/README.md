@@ -36,9 +36,8 @@ I downloaded a lighter model and living candles from the unreal store. Then I so
 It looks like this:  
 ![Flame](/Frostfall/Images/Flame.gif)  
 ### Fuel  
-
+I took this oilcan from megascans and made the texture emissive to glow in the dark, making it clear that the can is an interanctable object.    
  <img src="/Frostfall/Images/FuelCan.png" alt="Fuelcan" width="500" height="400">  
-  <img src="/Frostfall/Images/FuelCode.png" alt="Fuelcan code" width="500" height="400">  
  
 ![FuelCan code](/Frostfall/Images/FuelCode.png) 
 ![Pick&Drop Fuel](/Frostfall/Images/PickUp&Drop.gif) 
