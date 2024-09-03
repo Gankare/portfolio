@@ -71,9 +71,11 @@ Gif of wendigo gradually slowing down when chasing the player:
 ![Wendigo Running](/Frostfall/Images/RunningWendigo.gif)  
 
 ### Wendigo Jumpscare  
-The wendigo model came with animations for movement and the scream but there was no jumpscare animation so i made my own animation as you can see below:  
+The wendigo model did not come with a jump scare animation, so I made this:  
 ![Jumpscare animation](/Frostfall/Images/ScareAnimation.gif)   
+
 ![Jumpscare ingame](/Frostfall/Images/WendigoInGame.gif)   
+ <img src="/Frostfall/Images/Chased.gif" alt="Chase" width="400" height="400">  
 
 ### Deer Npc 
 ![Deer](/Frostfall/Images/DeerNpc.png) 
