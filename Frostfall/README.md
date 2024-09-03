@@ -74,6 +74,9 @@ Gif of wendigo gradually slowing down when chasing the player:
 The wendigo model did not come with a jump scare animation, so I made this:  
 ![Jumpscare animation](/Frostfall/Images/ScareAnimation.gif)  
 
+When the player gets jumpscared/caught by the wendigo, I Disable player input, makes the player mesh invisable, set the camera towards the wendigo, add camera shake, screaming sound, and grain on the screen. This is all done inside of Event tick/Update, in the player controller blurprint. [Player blueprint](https://blueprintue.com/blueprint/ydhxzuci/)   
+
+The jumpscare looks like this ingame:  
 <table>
   <tr>
     <td><img src="/Frostfall/Images/Chased.gif" /></td>
