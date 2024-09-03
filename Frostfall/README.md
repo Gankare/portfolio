@@ -66,9 +66,9 @@ I found an oldschool wendigo model that fit my game perfectly. So I got premissi
 The wendigo slowly chases the player almost constantly with the "Ai move to" node set to the player. When the wendigo sees the player with the "OnSeePawn(pawnsensing)" event, the wendigo stands still and screams, then gains a high speed that goes down each second. If the wendigo does not see the player for 10 seconds, the wendigo stop chasing the player for a while, just walking around randomly before starting to slowly chase the player again.  
 
 Link for the wendigo code: [Wendigo blueprint](https://blueprintue.com/blueprint/rngndrt9/)  
-
+  
+Gif of wendigo gradually slowing down when chasing the player:  
 ![Wendigo Running](/Frostfall/Images/RunningWendigo.gif)  
-![Wendigo catching](/Frostfall/Images/Chased.gif)  
 
 ### Wendigo Jumpscare  
 ![Jumpscare animation](/Frostfall/Images/ScareAnimation.gif)   
