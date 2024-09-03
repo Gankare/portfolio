@@ -86,10 +86,13 @@ The jumpscare looks like this ingame:
 
 
 ### Deer Npc  
-After making the game loop I wanted to add a little bit of a randomness into the game. So i added a deer that i around randomly at a very high speed, suprising the player with sounds.   
-![Deer](/Frostfall/Images/DeerNpc.png) 
-The deer npc unleaches a terrefying sound 
-![Npc Code](/Frostfall/Images/SmallDeerAiCode.png) 
+After making the game loop I wanted to add a little bit of a randomness into the game. 
+
+So I added a deer that runs around the map randomly at a very high speed, suprising the player with hoof noises and random screams.   
+![Deer](/Frostfall/Images/DeerNpc.png)  
+
+The deer npc's code: 
+![Npc Code](/Frostfall/Images/SmallDeerAiCode.png)  
 
 ---  
 
