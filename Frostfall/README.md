@@ -21,7 +21,7 @@ All the features have been implemented by me.
 
 ## - Player  
 
-The player controller blueprint is pretty basic, nothing changed with the movement. I Added a picup and drop for the fuelcans, flickering for the lighter that the player holds and also a pause game button.  Link for the code: [Player blueprint](https://blueprintue.com/blueprint/ydhxzuci/)   
+The player controller blueprint is pretty basic, nothing changed with the movement. I Added a pickup and drop for the fuelcans, flickering for the lighter that the player holds and also a pause game button.  Link for the code: [Player blueprint](https://blueprintue.com/blueprint/ydhxzuci/)   
 ### True first person character & camera   
 I decided to go with a third person template instead of a first person template when starting my project because I wanted a true first person (where the player is able to see their own body).  
 
@@ -38,7 +38,7 @@ It looks like this:
 I took this oilcan from megascans and made the texture emissive to glow in the dark, making it clear that the can is an interanctable object.    
  <img src="/Frostfall/Images/FuelCan.png" alt="Fuelcan" width="500" height="400">  
 
-In the fulecan blueprint, I added a 3D widget that always faces the player and a collider on the fuelcan that turns on the widget when the player enters and vice versa:
+In the fuelcan blueprint, I made the players movement slower while carying fuel and I added a 3D widget that always faces the player and a collider on the fuelcan that turns on the widget when the player enters and vice versa:
 ![FuelCan code](/Frostfall/Images/FuelCode.png)  
 This is how the pick & drop system looks ingame:  
 ![Pick&Drop Fuel](/Frostfall/Images/PickUp&Drop.gif) 
@@ -46,7 +46,7 @@ This is how the pick & drop system looks ingame:
 ---  
 
 ## - Graphics  
-This was my first game in Unreal Engine, so I decided to go for the ps1 looking graphics to keep the models and textures low resolution because I had previously heard that Unreal games can get laggy because the graphics are higher than in Unity for example. Also, ps1 graphics fit horror games.  
+This was my first game in Unreal Engine, so I decided to go for the ps1 looking graphics to keep the models and textures low resolution, since Unreal is known to get laggy due to demanding graphics. Also, ps1 graphics fit horror games.  
 
 I lowered all the megascan texture sizes to as low as possible while still keeping the power of two rule.  
 
@@ -55,13 +55,13 @@ I lowered all the megascan texture sizes to as low as possible while still keepi
 ## - Npc's    
 ### Wendigo  
 
-I found a oldschool wendigo model that fit my game perfectly. So I got premission from Evan Sorrell, the guy who made the model to use it for my project. He makes horror games this is his website: 
+I found an oldschool wendigo model that fit my game perfectly. So I got premission from Evan Sorrell, the guy who made the model to use it for my project. He makes horror games, this is his website: 
 [Pixelwolf.net site](https://pixelwolf.net/)  
 
 ![Frostfall Jumpscare](/Frostfall/Images/WendigoStare.png)
  <img src="/Frostfall/Images/Wendigo.png" alt="Wendigo" width="450" height="410">  
  
-### Walking patern  
+### Walking pattern  
 
 The wendigo slowly chases the player almost constantly with the "Ai move to" node set to the player. When the wendigo sees the player with the "OnSeePawn(pawnsensing)" event, the wendigo stands still and screams, then gains a high speed that goes down each second. If the wendigo does not see the player for 10 seconds, the wendigo stop chasing the player for a while, just walking around randomly before starting to slowly chase the player again.  
 
@@ -98,7 +98,7 @@ Link for the wendigo code: [Wendigo blueprint](https://blueprintue.com/blueprint
 ### Pause menu  
 ![PauseMenu](/Frostfall/Images/3DPauseMenu.png)   
 ### Mini map and compass 
-Adding the compass and minimap was the last thing i added because people that playtested the game thought that it was to dark and did not know where they where most of the time. The compass and minimap helps the player be able to figure out where they are and where they are headed.  
+Adding the compass and minimap was the last thing i added because people that playtested the game thought that it was to dark and did not know where they were most of the time. The compass and minimap helps the player be able to figure out where they are and where they are headed.  
 
 ---  
 
