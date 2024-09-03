@@ -77,7 +77,7 @@ The wendigo model did not come with a jump scare animation, so I made this:
 <table>
   <tr>
     <td><img src="/Frostfall/Images/Chased.gif" /></td>
-    <td><img src="Frostfall/Images/WendigoInGame.gif" /></td>
+    <td><img src="/Frostfall/Images/WendigoInGame.gif" /></td>
   </tr>
 </table>
 
