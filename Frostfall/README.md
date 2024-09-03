@@ -45,9 +45,20 @@ This is how the pick & drop system looks ingame:
 
 ---  
 
+## - Graphics  
+This was my first game in Unreal Engine, so I decided to go for the ps1 looking graphics to keep the models and textures low resolution because I had previously heard that Unreal games can get laggy because the graphics are higher than in Unity for example. Also, ps1 graphics fit horror games.  
+
+I lowered all the megascan texture sizes to as low as possible while still keeping the power of two rule.  
+
+---  
+
 ## - Npc's    
 ### Wendigo  
-[Wendigo blueprint](https://blueprintue.com/blueprint/rngndrt9/)  
+
+I found a oldschool wendigo model that fit my game perfectly. So I got premission from Evan Sorrell, the guy who made the model to use it for my project. He makes horror games this is his website: 
+[Pixelwolf.net site](https://pixelwolf.net/)  
+
+The wendigo slowly chases the player almost constantly with the "Ai move to" node set to the player. When the wendigo sees the player with the "OnSeePawn(pawnsensing)" event, the wendigo stands still and screams then gains a high speed that goes down each second. If the wendigo does not see the player for 10 seconds, the wendigo stop chasing the player for a while, just walking around randomly before starting to slowly chase the player again. Wendigo blueprint:[](https://blueprintue.com/blueprint/rngndrt9/)  
 
 ![Frostfall Jumpscare](/Frostfall/Images/WendigoStare.png)
  <img src="/Frostfall/Images/Wendigo.png" alt="Wendigo" width="450" height="410">  
