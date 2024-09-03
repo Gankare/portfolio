@@ -75,7 +75,8 @@ The wendigo model did not come with a jump scare animation, so I made this:
 ![Jumpscare animation](/Frostfall/Images/ScareAnimation.gif)
 
 ![Jumpscare ingame](/Frostfall/Images/WendigoInGame.gif)
- <img src="/Frostfall/Images/Chased.gif" alt="Chase" width=0,5f height=0,5f>
+ <img src="/Frostfall/Images/Chased.gif" alt="Chase" width="500" height="333">
+ <img src="/Frostfall/Images/Wendigo.png" alt="Wendigo" width="500" height="333">  
 
 ### Deer Npc 
 ![Deer](/Frostfall/Images/DeerNpc.png) 
