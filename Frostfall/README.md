@@ -74,7 +74,7 @@ Gif of wendigo gradually slowing down when chasing the player:
 The wendigo model did not come with a jump scare animation, so I made this:  
 ![Jumpscare animation](/Frostfall/Images/ScareAnimation.gif)  
 
-When the player gets jumpscared/caught by the wendigo, I Disable player input, makes the player mesh invisable, set the camera towards the wendigo, add camera shake, screaming sound, and grain on the screen. This is all done inside of Event tick/Update, in the player controller blurprint. [Player blueprint](https://blueprintue.com/blueprint/ydhxzuci/)   
+When the player gets jump scared/caught by the wendigo, I disable player input, makes the player mesh invisible, set the camera towards the wendigo, add camera shake, screaming sound and grain on the screen. This is all done inside of Event tick/Update, in the player controller blueprint. Relink: [Player blueprint](https://blueprintue.com/blueprint/ydhxzuci/)   
 
 The jumpscare looks like this ingame:  
 <table>
@@ -85,8 +85,10 @@ The jumpscare looks like this ingame:
 </table>
 
 
-### Deer Npc 
+### Deer Npc  
+After making the game loop I wanted to add a little bit of a randomness into the game. So i added a deer that i around randomly at a very high speed, suprising the player with sounds.   
 ![Deer](/Frostfall/Images/DeerNpc.png) 
+The deer npc unleaches a terrefying sound 
 ![Npc Code](/Frostfall/Images/SmallDeerAiCode.png) 
 
 ---  
