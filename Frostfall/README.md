@@ -82,8 +82,7 @@ The jumpscare looks like this ingame:
     <td><img src="/Frostfall/Images/Chased.gif" /></td>
     <td><img src="/Frostfall/Images/WendigoInGame.gif" /></td>
   </tr>
-</table>
-
+</table>  
   
 ### Deer Npc  
 After making the game loop, I wanted to add a little bit of a randomness into the game. 
@@ -98,8 +97,8 @@ The deer npc's code:
 
 ## - Car  
 
-### Turn in
 ![Car](/Frostfall/Images/Car.png)  
+### Turn in  
 ![Car Code](/Frostfall/Images/CarCode.png)   
 ![Car Turnin](/Frostfall/Images/Turnin.gif)   
 ### Cinematic    
