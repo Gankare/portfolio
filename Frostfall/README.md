@@ -96,7 +96,7 @@ The deer npc's code:
 ---  
 
 ## - Car  
-I downloaded this car model and changed some of the materials on it, the windows were emissive before and the internal looked weird. After making the materials look good, I added spotlights to the car's headlights, so the player easily could find where to go with the fuel.  
+I downloaded this car model and changed some of the materials on it, the windows were emissive before and the internal did not match the car. After making the materials look good, I added spotlights to the car's headlights, so the player easily could find where to go with the fuel.  
  <img src="/Frostfall/Images/Car.png" alt="Car" width="550" height="400">  
  
 ### Turn in  
