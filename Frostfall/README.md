@@ -114,6 +114,8 @@ When filling the car up with five fuelcans you win the game, I made a cinematic 
 The cinematic looks like this ingame:  
 ![Car Cinematic](/Frostfall/Images/Escape.gif)   
 
+Note this is how the window material looked before i changed it.  
+
 ---  
 
 ## - Widgets and menus  
