@@ -135,7 +135,9 @@ Adding the compass and minimap was the last thing I added because people that pl
 ---  
 
 ## - Sound  
-Sounds is alomost the most important element in making a horror game. I used sound attenuation to make some of the sounds 3D, meaning the sounds get higher the closer you are to them. I made the footsteeps and screams 3D, i also added 2D ambient background noises and owl howls for a errie feel.  
+Sounds is alomost the most important element in making a horror game. I used sound attenuation to make some of the sounds 3D, meaning the sounds get higher the closer you are to them.  
+
+I made the footsteep and scream sounds 3D, I also added 2D ambient background noises and owl howls for a errie feel.  
 
 The sound files used:  
 ![Sound files](/Frostfall/Images/Sounds.png)  
