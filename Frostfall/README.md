@@ -109,7 +109,7 @@ This is what it looks like to turn in a fuelcan ingame:
 ![Car Turnin](/Frostfall/Images/Turnin.gif)   
 
 ### Cinematic    
-When filling the car up with five fuelcans you win the game, I made a cinematic with the sequencer in the scene, I move both the camera and the car in the sequence. So when you win, both the player and wendigo gets removed, the cinematic starts with added car sounds.
+When filling the car up with five fuelcans you win the game, I made a cinematic with the sequencer in the scene, I move both the camera and the car in the sequence. So when you win, both the player and wendigo gets removed, the cinematic starts and car start + speeding away sounds play.
 
 The cinematic looks like this ingame:  
 ![Car Cinematic](/Frostfall/Images/Escape.gif)   
