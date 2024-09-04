@@ -96,13 +96,22 @@ The deer npc's code:
 ---  
 
 ## - Car  
-
+I downloaded this car model and changed some of the materials on it, the windows were emissive before and the internal looked weird. After making the materials look good, I added spotlights to the car's headlights, so the player easily could find where to go with the fuel.  
  <img src="/Frostfall/Images/Car.png" alt="Car" width="550" height="400">  
  
 ### Turn in  
+The car blueprints do not differ so much from the fuelcans blueprint. If the player is close, a text of how many fuelcans have been turned in shows, and the text is always turned towards the player.    
+
+Car blurprint code:  
 ![Car Code](/Frostfall/Images/CarCode.png)   
+
+This is what it looks like to turn in a fuelcan ingame:  
 ![Car Turnin](/Frostfall/Images/Turnin.gif)   
+
 ### Cinematic    
+When filling the car up with five fuelcans you win the game, I made a cinematic with the sequencer in the scene, I move both the camera and the car in the sequence. So when you win, both the player and wendigo gets removed, the cinematic starts with added car sounds.
+
+The cinematic looks like this ingame:  
 ![Car Cinematic](/Frostfall/Images/Escape.gif)   
 
 ---  
