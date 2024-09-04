@@ -123,6 +123,9 @@ When first making the widgets my goal was to have them all in world space as 3D 
 
 ![PauseMenu](/Frostfall/Images/3DPauseMenu.png)   
 
+ <img src="/Frostfall/Images/3DPauseMenu.png" alt="3D_PauseMenu" width="550" height="400">  
+ <img src="/Frostfall/Images/New_PauseMenu.png" alt="New_PauseMenu" width="550" height="400">  
+
 This is how the main menu looks now:  
 ![Main menu](/Frostfall/Images/NewMenu.png)   
 
