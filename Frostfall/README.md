@@ -119,7 +119,7 @@ Note this is how the window material looked before i changed it.
 ---  
 
 ## - Widgets and menus  
-When first making the widgets my goal was to have them all in world space as 3D texts, but for some reason it only worked in the editor and not when i built the game. With limited time I decided to make the menu and pause menu 2D like most UI, even if it does not fit in with the rest of the game.  
+When first making the widgets, my goal was to have them all in world space as 3D texts, but for some reason it only worked in the editor and not when I built the game. With limited time, I decided to make the menu and pause menu 2D like most UI, even if it does not fit in with the rest of the game.  
 
 This is how the 3D pausemenu looked before, in the editor:  
  <img src="/Frostfall/Images/3DPauseMenu.png" alt="3D_PauseMenu" width="700" height="450">   
@@ -135,9 +135,9 @@ Adding the compass and minimap was the last thing I added because people that pl
 ---  
 
 ## - Sound  
-Sounds is alomost the most important element in making a horror game. I used sound attenuation to make some of the sounds 3D, meaning the sounds get higher the closer you are to them.  
+Sounds are one of the most important elements in making a horror game. I used sound attenuation to make some of the sounds 3D, meaning the sounds get higher the closer you are to them.  
 
-I made the footsteep and scream sounds 3D, I also added 2D ambient background noises and owl howls for a errie feel.  
+I made the footstep and scream sounds 3D, I also added 2D ambient background noises and owl howls for an eerie feel.  
 
 The sound files used:  
 ![Sound files](/Frostfall/Images/Sounds.png)  
