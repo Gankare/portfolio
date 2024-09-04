@@ -99,7 +99,7 @@ The deer npc's code:
 I downloaded this car model and changed some of the materials on it, the windows were emissive before and the internal did not match the car. After making the materials look good, I added spotlights to the car's headlights, so the player easily could find where to go with the fuel.  
  <img src="/Frostfall/Images/Car.png" alt="Car" width="550" height="400">  
  
-### Turn in  
+### Turn in fuelcan  
 The car blueprints do not differ so much from the fuelcans blueprint. If the player is close, a text of how many fuelcans have been turned in shows, and the text is always turned towards the player.    
 
 Car blurprint code:  
