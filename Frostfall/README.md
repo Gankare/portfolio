@@ -97,7 +97,7 @@ The deer npc's code:
 
 ## - Car  
 
- <img src="/Frostfall/Images/Car.png" alt="Car" width="500" height="500">  
+ <img src="/Frostfall/Images/Car.png" alt="Car" width="600" height="500">  
  
 ### Turn in  
 ![Car Code](/Frostfall/Images/CarCode.png)   
