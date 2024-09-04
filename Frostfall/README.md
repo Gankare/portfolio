@@ -124,10 +124,10 @@ When first making the widgets my goal was to have them all in world space as 3D 
 This is how the 3D pausemenu looked before, in the editor:  
  <img src="/Frostfall/Images/3DPauseMenu.png" alt="3D_PauseMenu" width="700" height="450">   
  This is the 2D pausemenu looks now:  
- <img src="/Frostfall/Images/New_PauseMenu.png" alt="New_PauseMenu" width="650" height="450">  
+ <img src="/Frostfall/Images/New_PauseMenu.png" alt="New_PauseMenu" width="700" height="450">  
 
 This is how the main menu looks now:  
- <img src="/Frostfall/Images/NewMenu.png" alt="Main menu" width="675" height="450">  
+ <img src="/Frostfall/Images/NewMenu.png" alt="Main menu" width="700" height="450">  
 
 ### Mini map and compass 
 Adding the compass and minimap was the last thing I added because people that playtested the game thought that it was too dark and did not know where they were most of the time. The compass and minimap helps the player be able to figure out where they are and where they are headed. The compass code is in the player blueprint, the map is an image added in the level blueprint.
