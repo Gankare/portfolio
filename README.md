@@ -1,5 +1,6 @@
 # Filip Salomonsson Portfolio
 (Portfolio not finished)
+Assests/FilipSalomonsson_CV.pdf
 # Game Projects
 
 ## [***Starlitseas***](Starlitseas) ← Click here for more info!
