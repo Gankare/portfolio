@@ -1,6 +1,8 @@
 # Filip Salomonsson Portfolio
 (Portfolio not finished)  
-My Cv: ![](/Assests/FilipSalomonsson_CV.pdf)
+My Cv:
+![](/Assests/FilipSalomonsson_CV.pdf)
+
 # Game Projects
 
 ## [***Starlitseas***](Starlitseas) ← Click here for more info!
