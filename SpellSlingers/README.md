@@ -1,7 +1,7 @@
 # *Spellslingers*
 
 ![Spellslingers Menu](/SpellSlingers/Images/SpellSlingers_Menu.png)    
-[Itch.io page](https://yrgo-game-creator.itch.io/spellslingers)
+[Itch.io page](https://yrgo-game-creator.itch.io/spellslingers)   
 [Repository Link](https://github.com/jheden/Spellslingers)  
 
 ## *A brief game description*  
