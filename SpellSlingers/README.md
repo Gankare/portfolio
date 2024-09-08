@@ -56,13 +56,13 @@ This is what it looks like to browse threw some spells in the spell menu:
 </details>  
 
 <details>  
-<summary>Combolist script for the structure of the spellmenu</summary>   
+<summary>Combolist script for the structure of all buttons in the spellmenu</summary>   
   
 ![Combolist Script](/SpellSlingers/Code/Combolist_Script.png) 
 </details>  
 
 <details>  
-<summary>Combo button script</summary>   
+<summary>Combo button script is on each button, for the combo text and senario</summary>   
   
 ![ComboButton Script](/SpellSlingers/Code/ComboButton_Script.png) 
 </details>  
