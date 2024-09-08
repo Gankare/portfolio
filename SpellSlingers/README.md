@@ -50,13 +50,21 @@ This is what it looks like to browse threw some spells in the spell menu:
 ![Spellmenu](/SpellSlingers/Images/SpellMenu.gif)  
 
 <details>  
-<summary>VersusUI script(controlls all UI ingame)</summary>   
+<summary>VersusUI script(controlls all UI in the arena)</summary>   
 
+![VersusUI Script](/SpellSlingers/Code/VersusUI_Script.png) 
 </details>  
 
 <details>  
-<summary>Combolist Code for the structure of the spellmenu</summary>   
+<summary>Combolist script for the structure of the spellmenu</summary>   
   
+![Combolist Script](/SpellSlingers/Code/Combolist_Script.png) 
+</details>  
+
+<details>  
+<summary>Combo button script</summary>   
+  
+![ComboButton Script](/SpellSlingers/Code/ComboButton_Script.png) 
 </details>  
 
 ## - ScoreScreen & Bookpiles   
