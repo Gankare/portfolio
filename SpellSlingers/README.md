@@ -20,11 +20,25 @@ Below is a summary of my code written to this game, keep in mind that this is a 
 
 When we started the project, we divided the tasks among us, I wanted to learn Unity's new input system so doing the all UI became my task. 
 
+The game was from the beginning suppose to be a dungeon rougelike co-op with friendly fire, so some scripts below has functionality for solo, co-op, and versus mode even if versus mode is the only mode in the game. We changed the game to only a versus game mode because we did not have time for the rest. 
+
 ---  
 
 ## - Character Select menu  
-![SelectMenuEditor](/SpellSlingers/Images/VersusMenu_Editor.png)    
+![SelectMenuEditor](/SpellSlingers/Images/VersusMenu_Editor.png)     
+
+<details>  
+<summary>MenuCharacterSelect Script, lets players join the selection menu making sure they dont have the same team or hat color as the other players)</summary>   
+   
+![Player Controller pause](/SpellSlingers/Code/MenuCharacterselect_Script.png) 
+</details>  
+
 ![Character prefab](/SpellSlingers/Images/CharacterSelect_Prefab.png)   
+<details>  
+<summary>Character Select Script, Includes all the functionality for the select menu)</summary>   
+   
+![Player Controller pause](/SpellSlingers/Code/Characterselect_Script.png) 
+</details>  
 
 The left gif shows changing hat, the right gif shows changing teams:  
 <table>
@@ -38,6 +52,26 @@ The left gif shows changing hat, the right gif shows changing teams:
 
 ## - Saving information across scenes  
 ![MapSelect](/SpellSlingers/Images/ReadyTo_MapSelect.gif)    
+<details>  
+<summary>In the bottom of the Character Select script, the players infromation to the gamesettings script about the players team, hat color, gamemode and controller id is saved when all the players readies up )</summary>   
+   
+![Player Controller pause](/SpellSlingers/Code/Characterselect_Ready.png) 
+</details>  
+
+<details>  
+<summary>GameSettings script, this script has dictionaries with all the information that needs to be saved cross scenes)</summary>   
+   
+![Player Controller pause](/SpellSlingers/Code/Characterselect_Script.png) 
+</details>  
+
+<details>  
+<summary>PlayerSpawnSettings script, this script spawns in each players with all the infromation saved in the gamesettings script)</summary>  
+  
+The biggest challenge was to keep information of each player to the same controller cross scenes, I managed to do this with Unity Engines's Input System, referencing to the inputdecive and 
+this line of code in the script below: var player = PlayerInput.Instantiate(GameSettings.instance.players[inputDevice], controlScheme: "Gamepad", pairWithDevice: inputDevice.device);
+![Player Controller pause](/SpellSlingers/Code/Characterselect_Script.png) 
+</details>  
+
 ![Select to ingame](/SpellSlingers/Images/ReadyTo_Ingame.gif)  
 
 ---  
@@ -50,8 +84,7 @@ This is what it looks like to go from in game through the pause menu to the spel
 
 <details>  
 <summary>Playercontroller script, Controlls for pausing the game and navigating the pausemenu)</summary>   
-     
-      
+  
 The player who paused the game becomes the pausemaster and is the only one that can navigate the pause menu:   
 ![Player Controller pause](/SpellSlingers/Code/Playercontroller_Pause.png) 
 </details>  
