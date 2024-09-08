@@ -16,19 +16,17 @@ Below is a summary of my code written to this game, keep in mind that this is a 
 
 ---  
 
-# - Movement & UI 
+# - UI 
 
-When we started the project, we divided the tasks among us, I wanted to learn Unity's new input system so i started with doing the basic movement for the player and then doing the UI was my job. 
-
-## - Player movement 
+When we started the project, we divided the tasks among us, I wanted to learn Unity's new input system so doing the all UI was my task. 
 
 ---  
 
 ## - Character Select menu  
 ![SelectMenuEditor](/SpellSlingers/Images/VersusMenu_Editor.png)    
 ![Character prefab](/SpellSlingers/Images/CharacterSelect_Prefab.png)   
-The left gif shows changing hat, the right gif shows changing teams:  
 
+The left gif shows changing hat, the right gif shows changing teams:  
 <table>
   <tr>
     <td><img src="/SpellSlingers/Images/ChangeHat.gif" /></td>
