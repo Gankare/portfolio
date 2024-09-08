@@ -26,6 +26,13 @@ Engine: Unity
 Genré: Pixel art, Top-down, Local multiplayer arena shooter, Controller game  
 Team: 3 Programmers and 3 Artists  
 
+<table>
+  <tr>
+    <td><img src="SpellSlingers/Images/ChangeHat.gif" /></td>
+    <td><img src="SpellSlingers/Images/Gameplay.gif" /></td>
+  </tr>
+</table>
+
 ---
 
 ## [***Frostfall***](Frostfall) ← Click here for more info!  
