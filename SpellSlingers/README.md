@@ -27,7 +27,12 @@ When we started the project, we divided the tasks among us, doing all the UI was
 ## - Character Select menu
 ![SelectMenuEditor](/SpellSlingers/Images/VersusMenu_Editor.png)    
 
-![SelectMenuEditor](/SpellSlingers/Images/VersusMenu_Editor.png)    
+<table>
+  <tr>
+    <td><img src="SpellSlingers/Images/ChangeHat.gif" /></td>
+    <td><img src="SpellSlingers/Images/ChangeTeam.gif" /></td>
+  </tr>
+</table>
 
 ## - Saving information across scenes  
 
