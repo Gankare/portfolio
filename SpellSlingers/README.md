@@ -25,10 +25,15 @@ When we started the project, we divided the tasks among us, doing all the UI was
 
 
 ## - Character Select menu  
-![SelectMenuEditor](/SpellSlingers/Images/VersusMenu_Editor.png)    
-![Character prefab](/SpellSlingers/Images/CharacterSelect_Prefab.png)  
-The left gif shows changing hat, the right gif shows changing teams:  
 
+<table>
+  <tr>
+    <td><img src="/SpellSlingers/Images/VersusMenu_Editor.png" /></td>
+    <td><img src="/SpellSlingers/Images/CharacterSelect_Prefab.png" /></td>
+  </tr>
+</table>
+
+The left gif shows changing hat, the right gif shows changing teams:  
 <table>
   <tr>
     <td><img src="/SpellSlingers/Images/ChangeHat.gif" /></td>
@@ -37,12 +42,22 @@ The left gif shows changing hat, the right gif shows changing teams:
 </table>
 
 ## - Saving information across scenes  
-![MapSelect](/SpellSlingers/Images/ReadyTo_MapSelect.gif)    
-![Select to ingame](/SpellSlingers/Images/ReadyTo_Ingame.gif)  
+
+<table>
+  <tr>
+    <td><img src="/SpellSlingers/Images/ReadyTo_MapSelect.gif" /></td>
+    <td><img src="/SpellSlingers/Images/ReadyTo_Ingame.gif" /></td>
+  </tr>
+</table>
 
 ## - Pause & SpellMenu
-![Ingame to spellmenu](/SpellSlingers/Images/IngameTo_SpellMenu.gif)  
-![Spellmenu](/SpellSlingers/Images/SpellMenu.gif)  
+
+<table>
+  <tr>
+    <td><img src="/SpellSlingers/Images/IngameTo_SpellMenu.gif" /></td>
+    <td><img src="/SpellSlingers/Images/SpellMenu.gif" /></td>
+  </tr>
+</table>
 
 ## - ScoreScreen & Bookpiles   
 ![Books](/SpellSlingers/Images/Books.png)   
