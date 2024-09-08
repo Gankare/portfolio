@@ -28,14 +28,14 @@ The game was from the beginning suppose to be a dungeon rougelike co-op with fri
 ![SelectMenuEditor](/SpellSlingers/Images/VersusMenu_Editor.png)     
 
 <details>  
-<summary>MenuCharacterSelect Script, lets players join the selection menu making sure they dont have the same team or hat color as the other players)</summary>   
+<summary>MenuCharacterSelect Script, lets players join the selection menu making sure they dont have the same team or hat color as the other players</summary>   
    
 ![Player Controller pause](/SpellSlingers/Code/MenuCharacterselect_Script.png) 
 </details>  
 
 ![Character prefab](/SpellSlingers/Images/CharacterSelect_Prefab.png)   
 <details>  
-<summary>Character Select Script, Includes all the functionality for the select menu)</summary>   
+<summary>Character Select Script, Includes all the functionality for the select menu</summary>   
    
 ![Player Controller pause](/SpellSlingers/Code/Characterselect_Script.png) 
 </details>  
@@ -53,7 +53,7 @@ The left gif shows changing hat, the right gif shows changing teams:
 ## - Saving information across scenes  
 ![MapSelect](/SpellSlingers/Images/ReadyTo_MapSelect.gif)    
 <details>  
-<summary>In the bottom of the Character Select script, the players infromation to the gamesettings script about the players team, hat color, gamemode and controller id is saved when all the players readies up)</summary>   
+<summary>In the bottom of the Character Select script, the players infromation to the gamesettings script about the players team, hat color, gamemode and controller id is saved when all the players readies up</summary>   
    
 ![Player Controller pause](/SpellSlingers/Code/Characterselect_Ready.png) 
 </details>  
