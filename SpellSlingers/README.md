@@ -21,12 +21,21 @@ Below is a summary of my code written to this game, keep in mind that this is a 
 When we started the project, we divided the tasks among us, doing all the UI was my task. 
 
 ## - Main Menu  
+![MainMenu](/SpellSlingers/Images/Mainmenu_ToSelect.gif)    
+
 
 ## - Character Select menu
+![SelectMenuEditor](/SpellSlingers/Images/VersusMenu_Editor.png)    
+
+![SelectMenuEditor](/SpellSlingers/Images/VersusMenu_Editor.png)    
 
 ## - Saving information across scenes  
 
+
+
 ## - Pause & SpellMenu
+
+
 
 ## - ScoreScreen & Bookpiles   
 
