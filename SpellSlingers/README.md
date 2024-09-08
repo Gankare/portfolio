@@ -44,12 +44,21 @@ The left gif shows changing hat, the right gif shows changing teams:
 I made a spell menu where the player can see all the 126 spells of the game, the menu plays a demo of the spell that's clicked on and show what buttons/elements to use to cast it.  
 
 This is what it looks like to go from in game through the pause menu to the spell menu:
-![Ingame to spellmenu](/SpellSlingers/Images/IngameTo_SpellMenu.gif)  
+![Ingame to spellmenu](/SpellSlingers/Images/IngameTo_SpellMenu.gif) 
+
 <details>  
-<summary>VersusUI script(controlls all UI in the arena)</summary>   
+<summary>Playercontroller script, Controlls for pausing the game and navigating the pausemenu)</summary>   
+
+The player who paused the game becomes the pausemaster and is the only one that can navigate the pause menu:  
+![Player Controller pause](/SpellSlingers/Code/Playercontroller_Pause.png) 
+</details>  
+
+<details>  
+<summary>VersusUI script(controlls all visual UI in the arena)</summary>   
 
 ![VersusUI Script](/SpellSlingers/Code/VersusUI_Script.png) 
 </details>  
+
 This is what it looks like to browse through some spells in the spell menu:  
 ![Spellmenu](/SpellSlingers/Images/SpellMenu.gif)  
 
