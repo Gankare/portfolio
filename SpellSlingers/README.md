@@ -16,7 +16,7 @@ Below is a summary of my code written to this game, keep in mind that this is a 
 
 ---  
 
-# - UI 
+# - Movement & UI 
 
 When we started the project, we divided the tasks among us, I wanted to learn Unity's new input system so i started with doing the basic movement for the player and then doing the UI was my job. 
 
