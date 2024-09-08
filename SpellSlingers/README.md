@@ -18,7 +18,17 @@ Below is a summary of my code written to this game, keep in mind that this is a 
 
 # - UI 
 
+When we started the project, we divided the tasks among us, doing all the UI was my task. 
 
+## - Main Menu  
+
+## - Character Select menu
+
+## - Saving information across scenes  
+
+## - Pause & SpellMenu
+
+## - ScoreScreen & Bookpiles   
 
 ---  
 
