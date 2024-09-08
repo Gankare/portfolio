@@ -31,6 +31,7 @@ The game was from the beginning suppose to be a dungeon rougelike co-op with fri
    
 ![Main Menu script](/SpellSlingers/Code/MainMenu_Script.png) 
 </details>  
+
 ---  
 
 ## - Character Select menu  
