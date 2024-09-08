@@ -53,7 +53,7 @@ The left gif shows changing hat, the right gif shows changing teams:
 ## - Saving information across scenes  
 ![MapSelect](/SpellSlingers/Images/ReadyTo_MapSelect.gif)    
 <details>  
-<summary>In the bottom of the Character Select script, the players infromation to the gamesettings script about the players team, hat color, gamemode and controller id is saved when all the players readies up )</summary>   
+<summary>In the bottom of the Character Select script, the players infromation to the gamesettings script about the players team, hat color, gamemode and controller id is saved when all the players readies up)</summary>   
    
 ![Player Controller pause](/SpellSlingers/Code/Characterselect_Ready.png) 
 </details>  
