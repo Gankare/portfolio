@@ -18,7 +18,7 @@ Below is a summary of my code written to this game, keep in mind that this is a 
 
 # - UI 
 
-When we started the project, we divided the tasks among us, I wanted to learn Unity's new input system so doing the all UI was my task. 
+When we started the project, we divided the tasks among us, I wanted to learn Unity's new input system so doing the all UI became my task. 
 
 ---  
 
@@ -39,6 +39,8 @@ The left gif shows changing hat, the right gif shows changing teams:
 ## - Saving information across scenes  
 ![MapSelect](/SpellSlingers/Images/ReadyTo_MapSelect.gif)    
 ![Select to ingame](/SpellSlingers/Images/ReadyTo_Ingame.gif)  
+
+---  
 
 ## - Pause & Spell Menu
 I made a spell menu where the player can see all the 126 spells of the game, the menu plays a demo of the spell that's clicked on and show what buttons/elements to use to cast it.  
@@ -74,6 +76,8 @@ This is what it looks like to browse through some spells in the spell menu:
   
 ![ComboButton Script](/SpellSlingers/Code/ComboButton_Script.png) 
 </details>  
+
+---  
 
 ## - ScoreScreen & Bookpiles   
 ![Books](/SpellSlingers/Images/Books.png)   
