@@ -1,6 +1,6 @@
 # *Spellslingers*
 
-![Spellslingers Menu](/SpellSlingers/Images/SpellSlingers_Menu.png)    
+![MainMenu](/SpellSlingers/Images/Mainmenu_ToSelect.gif)    
 [Itch.io page](https://yrgo-game-creator.itch.io/spellslingers)   
 [Repository Link](https://github.com/jheden/Spellslingers)  
 
@@ -18,11 +18,11 @@ Below is a summary of my code written to this game, keep in mind that this is a 
 
 # - UI 
 
-When we started the project, we divided the tasks among us, doing all the UI was my task. 
+When we started the project, we divided the tasks among us, I wanted to learn Unity's new input system so i started with doing the basic movement for the player and then doing the UI was my job. 
 
-## - Main Menu  
-![MainMenu](/SpellSlingers/Images/Mainmenu_ToSelect.gif)    
+## - Player movement 
 
+---  
 
 ## - Character Select menu  
 ![SelectMenuEditor](/SpellSlingers/Images/VersusMenu_Editor.png)    
@@ -35,6 +35,8 @@ The left gif shows changing hat, the right gif shows changing teams:
     <td><img src="/SpellSlingers/Images/ChangeTeam.gif" /></td>
   </tr>
 </table>
+
+---  
 
 ## - Saving information across scenes  
 ![MapSelect](/SpellSlingers/Images/ReadyTo_MapSelect.gif)    
