@@ -1,6 +1,6 @@
 # *Spellslingers*
 
-![MainMenu](/SpellSlingers/Images/Mainmenu_ToSelect.gif)    
+![Spellslingers Menu](/SpellSlingers/Images/SpellSlingers_Menu.png)    
 [Itch.io page](https://yrgo-game-creator.itch.io/spellslingers)   
 [Repository Link](https://github.com/jheden/Spellslingers)  
 
@@ -22,6 +22,15 @@ When we started the project, we divided the tasks among us, I wanted to learn Un
 
 The game was from the beginning suppose to be a dungeon rougelike co-op with friendly fire, so some scripts below has functionality for solo, co-op, and versus mode even if versus mode is the only mode in the game. We changed the game to only a versus game mode because we did not have time for the rest. 
 
+---  
+
+## - Main menu  
+![MainMenu](/SpellSlingers/Images/Mainmenu_ToSelect.gif)   
+<details>  
+<summary>Main menu script</summary>   
+   
+![Main Menu script](/SpellSlingers/Code/MainMenu_Script.png) 
+</details>  
 ---  
 
 ## - Character Select menu  
@@ -59,16 +68,17 @@ The left gif shows changing hat, the right gif shows changing teams:
 </details>  
 
 <details>  
-<summary>GameSettings script, this script has dictionaries with all the information that needs to be saved cross scenes)</summary>   
+<summary>GameSettings script, this script has dictionaries with all the information that needs to be saved cross scenes</summary>   
    
 ![Player Controller pause](/SpellSlingers/Code/Characterselect_Script.png) 
 </details>  
 
 <details>  
-<summary>PlayerSpawnSettings script, this script spawns in each players with all the infromation saved in the gamesettings script)</summary>  
+<summary>PlayerSpawnSettings script, this script spawns in each players with all the infromation saved in the gamesettings script</summary>  
   
 The biggest challenge was to keep information of each player to the same controller cross scenes, I managed to do this with Unity Engines's Input System, referencing to the inputdecive and 
-this line of code in the script below: var player = PlayerInput.Instantiate(GameSettings.instance.players[inputDevice], controlScheme: "Gamepad", pairWithDevice: inputDevice.device);
+this line of code in the script below: var player = PlayerInput.Instantiate(GameSettings.instance.players[inputDevice], controlScheme: "Gamepad", pairWithDevice: inputDevice.device);  
+
 ![Player Controller pause](/SpellSlingers/Code/Characterselect_Script.png) 
 </details>  
 
