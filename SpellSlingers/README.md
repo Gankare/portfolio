@@ -24,8 +24,10 @@ When we started the project, we divided the tasks among us, doing all the UI was
 ![MainMenu](/SpellSlingers/Images/Mainmenu_ToSelect.gif)    
 
 
-## - Character Select menu
+## - Character Select menu  
 ![SelectMenuEditor](/SpellSlingers/Images/VersusMenu_Editor.png)    
+![Character prefab](/SpellSlingers/Images/CharacterSelect_Prefab.png)  
+The left gif shows changing hat, the right gif shows changing teams:  
 
 <table>
   <tr>
@@ -35,14 +37,23 @@ When we started the project, we divided the tasks among us, doing all the UI was
 </table>
 
 ## - Saving information across scenes  
-
-
+![MapSelect](/SpellSlingers/Images/ReadyTo_MapSelect.gif)    
+![Select to ingame](/SpellSlingers/Images/ReadyTo_Ingame.gif)  
 
 ## - Pause & SpellMenu
-
-
+![Ingame to spellmenu](/SpellSlingers/Images/IngameTo_SpellMenu.gif)  
+![Spellmenu](/SpellSlingers/Images/SpellMenu.gif)  
 
 ## - ScoreScreen & Bookpiles   
+![Books](/SpellSlingers/Images/Books.png)   
+![Tounges](/SpellSlingers/Images/Tounges.png)   
+
+<table>
+  <tr>
+    <td><img src="/SpellSlingers/Images/IngameTo_ScoreMenu.gif" /></td>
+    <td><img src="/SpellSlingers/Images/IngameTo_ScoreMenu2.gif" /></td>
+  </tr>
+</table>
 
 ---  
 
