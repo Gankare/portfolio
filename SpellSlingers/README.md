@@ -124,16 +124,32 @@ This is what it looks like to browse through some spells in the spell menu:
 ---  
 
 ## - ScoreScreen & Bookpiles  
-For the score screen we decieded to have bookpiles 
+For the score screen, we decided to have book piles as pedestals meaning the more score a player has the higher the bookpile they will stand on in the score screen.  
+
+<details>  
+<summary>Scorescreen script, this script decides the winner, shows score and calls on the bookpile script</summary>   
+  
+![Scorescreen script](/SpellSlingers/Code/Scorescreen_Script.png) 
+</details>  
+
+This are the different books and tounges that the piles are randomly built with:  
 ![Books](/SpellSlingers/Images/Books.png)   
 ![Tounges](/SpellSlingers/Images/Tounges.png)   
 
 <details>  
-<summary></summary>   
+<summary>Bookcontroller script, this script contains all the properties for the bookpiles</summary>   
   
-![](/) 
+![Bookcontroller script](/SpellSlingers/Code/BookController_Script.png) 
 </details>  
 
+<details>  
+<summary>Bookpile script, this script takes books and tounges from the bookcontroller script and makes random piles with them </summary>   
+   
+There are three different sizes of books, and they go in both directions, this made calculating a correct offset from the last book and the placement of the player hard because two books of the same size but with different directions had different offsets.  
+
+I found no way of calculating this, so I manually set the offset of each book in each circumstance they may end up with, this is why this script is so long but it works:  
+![Bookpile script](/SpellSlingers/Code/Bookpile_Script.png) 
+</details>  
 
 <table>
   <tr>
