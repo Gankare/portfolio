@@ -75,7 +75,7 @@ The left gif shows changing hat, the right gif shows changing teams:
 </details>  
 
 <details>  
-<summary>PlayerSpawnSettings script, this script spawns in each players with all the infromation saved in the gamesettings script</summary>  
+<summary>PlayerSpawnSettings script, this script spawns in each player with all the infromation saved in the gamesettings script</summary>  
   
 The biggest challenge was to keep information of each player to the same controller cross scenes, I managed to do this with Unity Engines's Input System, referencing to the inputdecive and 
 this line of code in the script below: var player = PlayerInput.Instantiate(GameSettings.instance.players[inputDevice], controlScheme: "Gamepad", pairWithDevice: inputDevice.device);  
