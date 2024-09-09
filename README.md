@@ -1,5 +1,4 @@
 # Filip Salomonsson Portfolio
-(Portfolio not finished)  
   
 CV link: ![FilipSalomonsson_CV](/Assests/FilipSalomonsson_CV.pdf)  
 
