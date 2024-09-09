@@ -6,7 +6,7 @@
 
 ## *A brief game description*  
 
-**Spellslingers** is a pixel art, top-down, local multiplayer arena shooter, where you conjure and combine elements to cast powerful spells. With 126 different combination of spells, you play 2-4 players and unleach you inner wizard upon eachother.   
+**Spellslingers** is a pixel art, top-down, local multiplayer arena shooter, where you conjure and combine elements to cast powerful spells. With 126 different combination of spells, you play 2-4 players and unleash you inner wizard upon eachother.   
 
 ---  
 
