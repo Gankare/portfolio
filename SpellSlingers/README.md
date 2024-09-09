@@ -144,8 +144,7 @@ This are the different books and tounges that the piles are randomly built with:
 
 <details>  
 <summary>Bookpile script, this script takes books and tounges from the bookcontroller script and makes random piles with them </summary>   
-    
-     
+---  
 There are three different sizes of books, and they go in both directions, this made calculating a correct offset from the last book and the placement of the player hard because two books of the same size but with different directions had different offsets.  
 
 I found no way of calculating this, so I manually set the offset of each book in each circumstance they may end up with, this is why this script is so long but it works:  
