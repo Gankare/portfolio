@@ -94,7 +94,7 @@ This is what it looks like to go from in game through the pause menu to the spel
 ![Ingame to spellmenu](/SpellSlingers/Images/IngameTo_SpellMenu.gif) 
 
 <details>  
-<summary>Playercontroller script, Controlls for pausing the game and navigating the pausemenu)</summary>   
+<summary>Playercontroller code, Controlls for pausing the game and navigating the pausemenu)</summary>   
   
 The player who paused the game becomes the pausemaster and is the only one that can navigate the pause menu:   
 ![Player Controller pause](/SpellSlingers/Code/Playercontroller_Pause.png) 
