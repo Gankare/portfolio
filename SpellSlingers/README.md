@@ -153,7 +153,7 @@ I found no way of calculating this, so I manually set the offset of each book in
 ![Bookpile script](/SpellSlingers/Code/Bookpile_Script.png) 
 </details>   
 
-This is how the book piles look when there are two players, if there are more players the piles heights differ more 
+If there are more players the piles heights differ accordingly, this is how the book piles look when there are two players:
 <table>
   <tr>
     <td><img src="/SpellSlingers/Images/IngameTo_ScoreMenu.gif" /></td>
