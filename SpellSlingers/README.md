@@ -88,7 +88,7 @@ this line of code in the script below: var player = PlayerInput.Instantiate(Game
 ---  
 
 ## - Pause & Spell Menu
-I made a spell menu where the player can see all the 126 spells of the game, the menu plays a demo of the spell that's clicked on and show what buttons/elements to use to cast it.  
+I made a spell menu where the player can see all the 126 spells in the game, the menu plays a demo of the spell that's clicked on and shows what buttons/elements to use to cast it.  
 
 This is what it looks like to go from in game through the pause menu to the spell menu:
 ![Ingame to spellmenu](/SpellSlingers/Images/IngameTo_SpellMenu.gif) 
