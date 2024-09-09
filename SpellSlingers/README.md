@@ -18,9 +18,9 @@ Below is a summary of my code written to this game, keep in mind that this is a 
 
 # - UI 
 
-When we started the project, we divided the tasks among us, I wanted to learn Unity's new input system so doing the all UI became my task. 
+When we started the project, we divided the tasks among us, I wanted to learn Unity's new input system so doing all the UI became my task. 
 
-The game was from the beginning suppose to be a dungeon rougelike co-op with friendly fire, so some scripts below has functionality for solo, co-op, and versus mode even if versus mode is the only mode in the game. We changed the game to only a versus game mode because we did not have time for the rest. 
+The game was originally supposed to be a dungeon rougelike co-op with friendly fire, so some scripts below has functionality for solo, co-op, and versus mode altough the only mode in the finished game is versus due to lack of time.  
 
 ---  
 
