@@ -124,7 +124,7 @@ This is what it looks like to browse through some spells in the spell menu:
 ---  
 
 ## - ScoreScreen & Bookpiles  
-For the score screen, we decided to have book piles as pedestals meaning the more score a player has the higher the bookpile they will stand on in the score screen.  
+For the score screen, we decided to have book piles as pedestals meaning the more score a player has the higher the bookpile they will stand on.  
 
 <details>  
 <summary>Scorescreen script, this script decides the winner, shows score and calls on the bookpile script</summary>   
