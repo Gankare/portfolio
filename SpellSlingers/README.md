@@ -167,7 +167,7 @@ If there are more players the piles heights differ accordingly, this is how the 
 
 <details>  
 <summary>HoverButtonSound script, Adds sound the hover over buttons</summary>   
-with ISelectHandler and IDeselectHandler, The Onselect and OnDeselect founctions gets called with (BaseEventData eventData) if the player hovers the buttons.  
+With ISelectHandler and IDeselectHandler, The Onselect and OnDeselect founctions gets called with (BaseEventData eventData) if the player hovers the buttons.  
    
 ![Hoverbutton script](/SpellSlingers/Code/HoverbuttonSound_Script.png) 
 </details>  
