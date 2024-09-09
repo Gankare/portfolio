@@ -38,16 +38,16 @@ The game was from the beginning suppose to be a dungeon rougelike co-op with fri
 ![SelectMenuEditor](/SpellSlingers/Images/VersusMenu_Editor.png)     
 
 <details>  
-<summary>MenuCharacterSelect Script, lets players join the selection menu making sure they dont have the same team or hat color as the other players</summary>   
+<summary>MenuCharacterSelect Script, lets players join the selection menu making sure they don't have the same team or hat color as the other players</summary>   
    
-![Player Controller pause](/SpellSlingers/Code/MenuCharacterselect_Script.png) 
+![Menu Character select script](/SpellSlingers/Code/MenuCharacterselect_Script.png) 
 </details>  
 
 ![Character prefab](/SpellSlingers/Images/CharacterSelect_Prefab.png)   
 <details>  
 <summary>Character Select Script, Includes all the functionality for the select menu</summary>   
    
-![Player Controller pause](/SpellSlingers/Code/Characterselect_Script.png) 
+![Character select script](/SpellSlingers/Code/Characterselect_Script.png) 
 </details>  
 
 The left gif shows changing hat, the right gif shows changing teams:  
@@ -63,15 +63,15 @@ The left gif shows changing hat, the right gif shows changing teams:
 ## - Saving information across scenes  
 ![MapSelect](/SpellSlingers/Images/ReadyTo_MapSelect.gif)    
 <details>  
-<summary>In the bottom of the Character Select script, the players infromation to the gamesettings script about the players team, hat color, gamemode and controller id is saved when all the players readies up</summary>   
+<summary>Code from the bottom of the Character Select script, the players infromation is saved to the gamesettings script. The players team, hat color, gamemode and controller id is saved when all the players readies up</summary>   
    
-![Player Controller pause](/SpellSlingers/Code/Characterselect_Ready.png) 
+![Player Ready code](/SpellSlingers/Code/Characterselect_Ready.png) 
 </details>  
 
 <details>  
 <summary>GameSettings script, this script has dictionaries with all the information that needs to be saved cross scenes</summary>   
    
-![Player Controller pause](/SpellSlingers/Code/Characterselect_Script.png) 
+![Game settings](/SpellSlingers/Code/SaveInformaion_Script.png) 
 </details>  
 
 <details>  
@@ -80,7 +80,7 @@ The left gif shows changing hat, the right gif shows changing teams:
 The biggest challenge was to keep information of each player to the same controller cross scenes, I managed to do this with Unity Engines's Input System, referencing to the inputdecive and 
 this line of code in the script below: var player = PlayerInput.Instantiate(GameSettings.instance.players[inputDevice], controlScheme: "Gamepad", pairWithDevice: inputDevice.device);  
 
-![Player Controller pause](/SpellSlingers/Code/Characterselect_Script.png) 
+![Playerspawn script](/SpellSlingers/Code/PlayerSpawn_Script.png) 
 </details>  
 
 ![Select to ingame](/SpellSlingers/Images/ReadyTo_Ingame.gif)  
@@ -123,9 +123,17 @@ This is what it looks like to browse through some spells in the spell menu:
 
 ---  
 
-## - ScoreScreen & Bookpiles   
+## - ScoreScreen & Bookpiles  
+For the score screen we decieded to have bookpiles 
 ![Books](/SpellSlingers/Images/Books.png)   
 ![Tounges](/SpellSlingers/Images/Tounges.png)   
+
+<details>  
+<summary></summary>   
+  
+![](/) 
+</details>  
+
 
 <table>
   <tr>
@@ -135,3 +143,9 @@ This is what it looks like to browse through some spells in the spell menu:
 </table>
 
 ---  
+
+## - Additional UI scripts  
+
+
+---  
+
