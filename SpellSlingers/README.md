@@ -110,7 +110,7 @@ This is what it looks like to browse through some spells in the spell menu:
 ![Spellmenu](/SpellSlingers/Images/SpellMenu.gif)  
 
 <details>  
-<summary>Combolist script for the structure of all buttons in the spellmenu</summary>   
+<summary>ComboList script for the structure of all buttons in the spellmenu</summary>   
   
 ![Combolist Script](/SpellSlingers/Code/Combolist_Script.png) 
 </details>  
