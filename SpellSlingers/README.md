@@ -165,6 +165,18 @@ If there are more players the piles heights differ accordingly, this is how the 
 
 ## - Additional UI scripts  
 
+<details>  
+<summary>HoverButtonSound script, Adds sound the hover over buttons</summary>   
+with ISelectHandler and IDeselectHandler, The Onselect and OnDeselect founctions gets called with (BaseEventData eventData) if the player hovers the buttons.  
+   
+![Hoverbutton script](/SpellSlingers/Code/HoverbuttonSound_Script.png) 
+</details>  
+
+<details>  
+<summary>MenuMapSelect script, this script lets the players choose map after readying up in character select</summary>   
+   
+![Map select](/SpellSlingers/Code/MapSelect_Script.png) 
+</details>  
 
 ---  
 
