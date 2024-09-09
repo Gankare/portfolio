@@ -132,7 +132,7 @@ For the score screen, we decided to have book piles as pedestals meaning the mor
 ![Scorescreen script](/SpellSlingers/Code/Scorescreen_Script.png) 
 </details>  
 
-This are the different books and tounges that the piles are randomly built with:  
+This are the different books and tongues that the piles are randomly built with:  
 ![Books](/SpellSlingers/Images/Books.png)   
 ![Tounges](/SpellSlingers/Images/Tounges.png)   
 
@@ -143,7 +143,7 @@ This are the different books and tounges that the piles are randomly built with:
 </details>  
 
 <details>  
-<summary>Bookpile script, this script takes books and tounges from the bookcontroller script and makes random piles with them </summary>   
+<summary>Bookpile script, this script takes books and tongues from the bookcontroller script and makes random piles with them </summary>   
    
 ---  
 
@@ -166,14 +166,14 @@ If there are more players the piles heights differ accordingly, this is how the 
 ## - Additional UI scripts  
 
 <details>  
-<summary>HoverButtonSound script, Adds sound the hover over buttons</summary>   
-With ISelectHandler and IDeselectHandler, The Onselect and OnDeselect founctions gets called with (BaseEventData eventData) if the player hovers the buttons.  
+<summary>HoverButtonSound script, Adds sound when hovering over buttons</summary>   
+With ISelectHandler and IDeselectHandler, The Onselect and OnDeselect founctions gets called with (BaseEventData eventData) if the player hovers over the buttons.  
    
 ![Hoverbutton script](/SpellSlingers/Code/HoverbuttonSound_Script.png) 
 </details>  
 
 <details>  
-<summary>MenuMapSelect script, this script lets the players choose map after readying up in character select</summary>   
+<summary>MenuMapSelect script, this script lets the players choose map after readying up in the character select</summary>   
    
 ![Map select](/SpellSlingers/Code/MapSelect_Script.png) 
 </details>  
