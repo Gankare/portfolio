@@ -8,7 +8,8 @@ CV link: ![FilipSalomonsson_CV](/Assests/FilipSalomonsson_CV.pdf)
 Developed: *2024 April - 2024 Juni*  
 Engine: Unreal Engine  
 Genré: First Person, Single player, Parkour Speedrunner  
-Team: 4 Programmers and 3 Artists
+Team: 4 Programmers and 3 Artists   
+Role: Lead Programmer
 
 <table>
   <tr>
@@ -24,6 +25,7 @@ Developed: *2024 November - 2024 Januari*
 Engine: Unity  
 Genré: Pixel art, Top-down, Local multiplayer arena shooter, Controller game  
 Team: 3 Programmers and 3 Artists  
+Role: UI Programmer
 
 <table>
   <tr>
