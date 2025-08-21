@@ -4,6 +4,22 @@ CV link: ![FilipSalomonsson_CV](/Assests/FilipSalomonsson_CV.pdf)
 
 # Game Projects
 
+## [***Deep Pressure***](Deep Pressure) ← Click here for more info!
+Developed: *2024 Augusti - 2024 September*  
+Engine: Unity  
+Genré: VR, Single player, Submarine Simulator, Horror  
+Team: 4 Programmers  
+Role: Programmer, Map/Submarine Designer
+
+<table>
+  <tr>
+    <td><img src="Starlitseas/Images/Level7_Glide.gif" /></td>
+    <td><img src="Starlitseas/Images/TailJump.gif" /></td>
+  </tr>
+</table>
+
+---
+
 ## [***Starlitseas***](Starlitseas) ← Click here for more info!
 Developed: *2024 April - 2024 Juni*  
 Engine: Unreal Engine  
