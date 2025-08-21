@@ -13,8 +13,8 @@ Role: Programmer, Map/Submarine Designer
 
 <table>
   <tr>
-    <td><img src="Starlitseas/Images/Level7_Glide.gif" /></td>
-    <td><img src="Starlitseas/Images/TailJump.gif" /></td>
+    <td><img src="" /></td>
+    <td><img src="" /></td>
   </tr>
 </table>
 
