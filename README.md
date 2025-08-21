@@ -4,7 +4,7 @@ CV link: ![FilipSalomonsson_CV](/Assests/FilipSalomonsson_CV.pdf)
 
 # Game Projects
 
-## [***DeepPressure***](#deeppressure) ← Click here for more info!
+## [***Deep Pressure***](DeepPressure) ← Click here for more info!
 Developed: *2024 Augusti - 2024 September*  
 Engine: Unity  
 Genré: VR, Single player, Submarine Simulator, Horror  
