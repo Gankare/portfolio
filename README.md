@@ -7,7 +7,7 @@ CV link: ![FilipSalomonsson_CV](/Assests/FilipSalomonsson_CV.pdf)
 ## [***LightBound Together***](LightBound_Together) ← Click here for more info!
 Developed: *2024 September - 2024 November*  
 Engine: Unity  
-Genré: Co-op, Physics Multiplayer, Puzzle Adventure, Parkour 3D Platformer, Horror
+Genré: Co-op, Physics Multiplayer, Puzzle Adventure, Parkour 3D Platformer, Horror 
 Team: Solo 
 
 <table>
