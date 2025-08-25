@@ -4,8 +4,24 @@ CV link: ![FilipSalomonsson_CV](/Assests/FilipSalomonsson_CV.pdf)
 
 # Game Projects
 
+## [***Tamagotchi Simulator***](Tamagotchi_Sim) ← Click here for more info!
+Developed: *2025 January - 2025 February*  
+Engine: Unity  
+Genré: Mixed Reality (MR), Singelplayer, Pet, Simulation  
+Team: 1 programmers and 1 Artist  
+Role: Programmer
+
+<table>
+  <tr>
+    <td><img src="" /></td>
+    <td><img src="" /></td>
+  </tr>
+</table>
+
+---
+
 ## [***ScrapBattle***](ScrapBattle) ← Click here for more info!
-Developed: *2024 December - 2025 Januari*  
+Developed: *2024 December - 2025 January*  
 Engine: Unity  
 Genré: Vr, Singelplayer, Builder, Simulation  
 Team: 2 programmers and 3 Artists  
