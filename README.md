@@ -7,7 +7,7 @@ CV link: ![FilipSalomonsson_CV](/Assests/FilipSalomonsson_CV.pdf)
 ## [***VR Party***](VR_Party) ← Click here for more info!
 Developed: *2025 March - Current*  
 Engine: Unity  
-Genré: VR, Local Multiplayer, Party Game, Mini Games, Competitive
+Genré: VR, Local Multiplayer, Party Game, Mini Games, Competitive  
 Team: 4 programmers and 6 Artist  
 Role: Lead Programmer
 
@@ -23,7 +23,7 @@ Role: Lead Programmer
 ## [***VR Snap***](VR_Snap) ← Click here for more info!
 Developed: *2025 February - 2025 March*  
 Engine: Unity  
-Genré: VR, Simulation
+Genré: VR, Simulation  
 Team: Solo 
 
 <table>
