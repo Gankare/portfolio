@@ -5,7 +5,7 @@ CV link: ![FilipSalomonsson_CV](/Assests/FilipSalomonsson_CV.pdf)
 # Game Projects
 
 ## [***VR Party***](VR_Party) ← Click here for more info!
-Developed: *2025 March - Current*  
+Developed: *2025 March - June 2025*  
 Engine: Unity  
 Genré: VR, Local Multiplayer, Party Game, Mini Games, Competitive  
 Team: 4 programmers and 6 Artist  
@@ -119,7 +119,7 @@ Developed: *2024 November - 2024 Januari*
 Engine: Unity  
 Genré: PC, Pixel Art, Top-Down, Local Multiplayer Arena Shooter, Controller Game  
 Team: 3 Programmers and 3 Artists  
-Role: UI Programmer
+Role: UI, Menus Programmer
 
 <table>
   <tr>
