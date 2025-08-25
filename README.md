@@ -54,7 +54,7 @@ Role: Programmer
 ## [***ScrapBattle***](ScrapBattle) ← Click here for more info!
 Developed: *2024 December - 2025 January*  
 Engine: Unity  
-Genré: Vr, Singelplayer, Builder, Simulation  
+Genré: VR, Singelplayer, Builder, Simulation  
 Team: 2 programmers and 3 Artists  
 Role: Lead Programmer, LevelDesigner  
 
@@ -70,7 +70,7 @@ Role: Lead Programmer, LevelDesigner
 ## [***LightBound Together***](LightBound_Together) ← Click here for more info!
 Developed: *2024 September - 2024 November*  
 Engine: Unity  
-Genré: Co-op, Physics Multiplayer, Puzzle Adventure, Parkour 3D Platformer, Horror  
+Genré: PC, Co-op, Physics, Puzzle Adventure, Parkour 3D Platformer, Third Person, Horror  
 Team: Solo 
 
 <table>
@@ -85,7 +85,7 @@ Team: Solo
 ## [***Deep Pressure***](DeepPressure) ← Click here for more info!
 Developed: *2024 Augusti - 2024 September*  
 Engine: Unity  
-Genré: VR, Single player, Submarine Simulator, Horror  
+Genré: VR, Single Player, Submarine Simulator, Horror  
 Team: 4 Programmers  
 Role: Programmer, Enviroment and Submarine Designer
 
@@ -101,7 +101,7 @@ Role: Programmer, Enviroment and Submarine Designer
 ## [***Starlitseas***](Starlitseas) ← Click here for more info!
 Developed: *2024 April - 2024 Juni*  
 Engine: Unreal Engine  
-Genré: First Person, Single player, Parkour Speedrunner  
+Genré: PC, First Person, Single Player, Parkour Speedrunner  
 Team: 4 Programmers and 3 Artists   
 Role: Lead Programmer
 
@@ -117,7 +117,7 @@ Role: Lead Programmer
 ## [***Spellslingers***](SpellSlingers) ← Click here for more info!
 Developed: *2024 November - 2024 Januari*  
 Engine: Unity  
-Genré: Pixel art, Top-down, Local multiplayer arena shooter, Controller game  
+Genré: PC, Pixel Art, Top-Down, Local Multiplayer Arena Shooter, Controller Game  
 Team: 3 Programmers and 3 Artists  
 Role: UI Programmer
 
@@ -133,7 +133,7 @@ Role: UI Programmer
 ## [***Frostfall***](Frostfall) ← Click here for more info!  
 Developed: *2024 May - 2024 May*  (2 week project)    
 Engine: Unreal Engine  
-Genré: Low resolution PS1 graphics, First person, Solo, Horror game  
+Genré: PC, Low Resolution PS1 Graphics, First Person, Solo, Horror  
 Team: Solo   
 
 <table>
