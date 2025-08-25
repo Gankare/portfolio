@@ -4,6 +4,22 @@ CV link: ![FilipSalomonsson_CV](/Assests/FilipSalomonsson_CV.pdf)
 
 # Game Projects
 
+## [***ScrapBattle***](ScrapBattle) ← Click here for more info!
+Developed: *2024 December - 2025 Januari*  
+Engine: Unity  
+Genré: Vr, Singelplayer, Builder, Simulation  
+Team: 2 programmers and 3 Artists 
+Role: Lead Programmer, LevelDesigner
+
+<table>
+  <tr>
+    <td><img src="" /></td>
+    <td><img src="" /></td>
+  </tr>
+</table>
+
+---
+
 ## [***LightBound Together***](LightBound_Together) ← Click here for more info!
 Developed: *2024 September - 2024 November*  
 Engine: Unity  
@@ -18,6 +34,7 @@ Team: Solo
 </table>
 
 ---
+
 ## [***Deep Pressure***](DeepPressure) ← Click here for more info!
 Developed: *2024 Augusti - 2024 September*  
 Engine: Unity  
