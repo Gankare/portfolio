@@ -4,6 +4,20 @@ CV link: ![FilipSalomonsson_CV](/Assests/FilipSalomonsson_CV.pdf)
 
 # Game Projects
 
+## [***LightBound Together***](LightBound_Together) ← Click here for more info!
+Developed: *2024 September - 2024 November*  
+Engine: Unity  
+Genré: Co-op, Physics Multiplayer, Puzzle Adventure, Parkour 3D Platformer, Horror
+Team: Solo 
+
+<table>
+  <tr>
+    <td><img src="" /></td>
+    <td><img src="" /></td>
+  </tr>
+</table>
+
+---
 ## [***Deep Pressure***](DeepPressure) ← Click here for more info!
 Developed: *2024 Augusti - 2024 September*  
 Engine: Unity  
