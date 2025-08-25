@@ -8,8 +8,8 @@ CV link: ![FilipSalomonsson_CV](/Assests/FilipSalomonsson_CV.pdf)
 Developed: *2024 December - 2025 Januari*  
 Engine: Unity  
 Genré: Vr, Singelplayer, Builder, Simulation  
-Team: 2 programmers and 3 Artists 
-Role: Lead Programmer, LevelDesigner
+Team: 2 programmers and 3 Artists  
+Role: Lead Programmer, LevelDesigner  
 
 <table>
   <tr>
