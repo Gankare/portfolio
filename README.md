@@ -83,7 +83,7 @@ Team: Solo
 ---
 
 ## [***Deep Pressure***](DeepPressure) ← Click here for more info!
-Developed: *2024 Augusti - 2024 September*  
+Developed: *2024 August - 2024 September*  
 Engine: Unity  
 Genré: VR, Single Player, Submarine Simulator, Horror  
 Team: 4 Programmers  
@@ -99,7 +99,7 @@ Role: Programmer, Enviroment and Submarine Designer
 ---
 
 ## [***Starlitseas***](Starlitseas) ← Click here for more info!
-Developed: *2024 April - 2024 Juni*  
+Developed: *2024 April - 2024 June*  
 Engine: Unreal Engine  
 Genré: PC, First Person, Single Player, Parkour Speedrunner  
 Team: 4 Programmers and 3 Artists   
@@ -115,7 +115,7 @@ Role: Lead Programmer
 ---
 
 ## [***Spellslingers***](SpellSlingers) ← Click here for more info!
-Developed: *2024 November - 2024 Januari*  
+Developed: *2024 November - 2024 January*  
 Engine: Unity  
 Genré: PC, Pixel Art, Top-Down, Local Multiplayer Arena Shooter, Controller Game  
 Team: 3 Programmers and 3 Artists  
