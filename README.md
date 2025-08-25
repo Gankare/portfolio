@@ -4,6 +4,23 @@ CV link: ![FilipSalomonsson_CV](/Assests/FilipSalomonsson_CV.pdf)
 
 # Game Projects
 
+## [***VR Party***](VR_Party) ← Click here for more info!
+Developed: *2025 March - Current*  
+Engine: Unity  
+Genré: VR, Local Multiplayer, Party Game, Mini Games, Competitive
+Team: 4 programmers and 6 Artist  
+Role: Programmer
+
+<table>
+  <tr>
+    <td><img src="" /></td>
+    <td><img src="" /></td>
+  </tr>
+</table>
+
+---
+
+
 ## [***Tamagotchi Simulator***](Tamagotchi_Sim) ← Click here for more info!
 Developed: *2025 January - 2025 February*  
 Engine: Unity  
