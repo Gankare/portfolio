@@ -40,7 +40,7 @@ Developed: *2024 Augusti - 2024 September*
 Engine: Unity  
 Genré: VR, Single player, Submarine Simulator, Horror  
 Team: 4 Programmers  
-Role: Programmer, Map/Submarine Designer
+Role: Programmer, Enviroment and Submarine Designer
 
 <table>
   <tr>
