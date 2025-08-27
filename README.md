@@ -43,8 +43,8 @@ Role: Programmer
 
 <table>
   <tr>
-    <td><img src="Tamagotchi_Sim/Images/MR_Gif.gif=" width="450" height="250" />
-    <td><img src="Tamagotchi_Sim/Images/VRCatch_Gif.gif=" width="450" height="250" /> 
+    <img src="Tamagotchi_Sim/Images/MR_Gif.gif=" width="450" height="250" />
+    <img src="Tamagotchi_Sim/Images/VRCatch_Gif.gif=" width="450" height="250" /> 
   </tr>
 </table>
 
