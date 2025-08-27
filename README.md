@@ -28,7 +28,7 @@ Team: Solo
 
 <table>
   <tr>
-<img src="VR_Snap/Images/Camera_Gif.gif" width="450" height="250" />
+<img src="VR_Snap/Images/Camera_Gif.gif" width="475" height="275" />
   </tr>
 </table>
 
