@@ -28,7 +28,7 @@ Team: Solo
 
 <table>
   <tr>
-<img src="VR_Snap/Images/Camera_Gif.gif" width="450" height="250" />
+<img src="VR_Snap/Images/Camera_Gif.gif" width="425" height="225" />
   </tr>
 </table>
 
@@ -43,8 +43,8 @@ Role: Programmer
 
 <table>
   <tr>
-    <td><img src="Tamagotchi_Sim/Images/MR_Gif.gif" width="450" height="250" /></td>
-    <td><img src="Tamagotchi_Sim/Images/VRCatch_Gif.gif" width="450" height="250" /></td>
+    <td><img src="Tamagotchi_Sim/Images/MR_Gif.gif" width="425" height="225" /></td>
+    <td><img src="Tamagotchi_Sim/Images/VRCatch_Gif.gif" width="425" height="225" /></td>
   </tr>
 </table>
 
@@ -59,8 +59,8 @@ Role: Lead Programmer, LevelDesigner
 
 <table>
   <tr>
-<td><img src="ScrapBattle/Images/Building_Gif.gif" width="450" height="250" /></td>
-<td><img src="ScrapBattle/Images/Driving_Gif.gif" width="450" height="250" /></td>
+<td><img src="ScrapBattle/Images/Building_Gif.gif" width="425" height="225" /></td>
+<td><img src="ScrapBattle/Images/Driving_Gif.gif" width="425" height="225" /></td>
   </tr>
 </table>
 
@@ -90,8 +90,8 @@ Role: Programmer, Enviroment and Submarine Designer
 
 <table>
   <tr>
-    <td><img src="DeepPressure/Images/HighPressure_Gif.gif" width="450" height="250" /></td>
-    <td><img src="DeepPressure/Images/Tentacle_Gif.gif" width="450" height="250" /></td>
+    <td><img src="DeepPressure/Images/HighPressure_Gif.gif" width="425" height="225" /></td>
+    <td><img src="DeepPressure/Images/Tentacle_Gif.gif" width="425" height="225" /></td>
   </tr>
 </table>
 
