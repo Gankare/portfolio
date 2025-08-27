@@ -26,14 +26,14 @@ Then after using ProBuilder the final product looks like this:
 
 <table>
   <tr>
+    <td><img src="/DeepPressure/Images/SubFromOutside.png" /></td>
     <td><img src="/DeepPressure/Images/Room1.png" /></td>
-    <td><img src="/DeepPressure/Images/Room2.png" /></td>
   </tr>
 </table>
 
 <table>
   <tr>
-    <td><img src="/DeepPressure/Images/SubFromOutside.png" /></td>
+    <td><img src="/DeepPressure/Images/Room2.png" /></td>
     <td><img src="/DeepPressure/Images/Wires.png" /></td>
   </tr>
 </table>
