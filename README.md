@@ -43,8 +43,8 @@ Role: Programmer
 
 <table>
   <tr>
-    <td><img src="Tamagotchi_Sim/Images/MR_Gif.gif" width="450" height="250" /></td>
-    <td><img src="Tamagotchi_Sim/Images/VRCatch_Gif.gif" width="450" height="250" /></td>
+    <td><img src="Tamagotchi_Sim/Images/MR_Gif.gif" width="475" height="275" /></td>
+    <td><img src="Tamagotchi_Sim/Images/VRCatch_Gif.gif" width="475" height="275" /></td>
   </tr>
 </table>
 
@@ -59,8 +59,8 @@ Role: Lead Programmer, LevelDesigner
 
 <table>
   <tr>
-<td><img src="ScrapBattle/Images/Building_Gif.gif" width="450" height="250" /></td>
-<td><img src="ScrapBattle/Images/Driving_Gif.gif" width="450" height="250" /></td>
+<td><img src="ScrapBattle/Images/Building_Gif.gif" width="475" height="275" /></td>
+<td><img src="ScrapBattle/Images/Driving_Gif.gif" width="475" height="275" /></td>
   </tr>
 </table>
 
