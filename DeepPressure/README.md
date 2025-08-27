@@ -41,5 +41,9 @@ Then after using ProBuilder the final product looks like this:
 ---
 ## *Levers and Buttons*
 
-### *Highlights and Haptics*
+### *Haptics*
 To make the grabbable objects feel more interactive, I added vibration feedback to the VR controller. When grabbing an object or pulling a lever, the controller vibrates, and the intensity of the vibration increases with the speed of the pull. This effect makes it feel much more like you’re actually dragging a lever in the real world.
+
+Here are the Haptic scripts:
+
+### *Hightlight*
