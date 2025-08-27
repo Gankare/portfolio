@@ -90,8 +90,8 @@ Role: Programmer, Enviroment and Submarine Designer
 
 <table>
   <tr>
-    <td><img src="DeepPressure/Images/HighPressure_Gif.gif" width="460" height="260" /></td>
-    <td><img src="DeepPressure/Images/Tentacle_Gif.gif" width="460" height="260" /></td>
+    <td><img src="DeepPressure/Images/HighPressure_Gif.gif" width="470" height="270" /></td>
+    <td><img src="DeepPressure/Images/Tentacle_Gif.gif" width="470" height="270" /></td>
   </tr>
 </table>
 
