@@ -18,7 +18,6 @@ The first prototype looked like this:
   <tr>
     <td><img src="DeepPressure/Images/Building.png" /></td>
     <td><img src="DeepPressure/Images/FirstPrototype.png" /></td>
-    <td><img src="DeepPressure/Images/FirstPrototype2.png" /></td>
   </tr>
 </table>
 
