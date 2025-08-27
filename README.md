@@ -91,8 +91,8 @@ Role: Programmer, Enviroment and Submarine Designer
 
 <table>
   <tr>
-    <td><img src="" /></td>
-    <td><img src="" /></td>
+    <td><img src="DeepPressure/Images/Fishes_Gif.gif" /></td>
+    <td><img src="DeepPressure/Images/Tentacle_Gif.gif" /></td>
   </tr>
 </table>
 
