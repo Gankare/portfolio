@@ -75,8 +75,8 @@ Team: Solo
 
 <table>
   <tr>
-    <td><img src="" /></td>
-    <td><img src="" /></td>
+    <td><img src="LightBound_Together/Images/Destruction_Gif.gif" /></td>
+    <td><img src="LightBound_Together/Images/EndFire_Gif.gif" /></td>
   </tr>
 </table>
 
