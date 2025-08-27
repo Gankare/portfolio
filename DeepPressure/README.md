@@ -16,8 +16,9 @@ However, I ran into a problem: the barrel’s texture only looked good with a sp
 The first prototype looked like this: 
 <table>
   <tr>
-    <td><img src="DeepPressure/Images/Building.png" /></td>
-    <td><img src="DeepPressure/Images/FirstPrototype.png" /></td>
+    <td><img src="/DeepPressure/Images/Building.png" /></td>
+    <td><img src="/DeepPressure/Images/FirstPrototype.png" /></td>
+    <td><img src="/DeepPressure/Images/FirstPrototype2.png" /></td>
   </tr>
 </table>
 
