@@ -28,7 +28,7 @@ Team: Solo
 
 <table>
   <tr>
-<img src="VR_Snap/Images/Camera_Gif.gif" width="400" height="250" />
+<img src="VR_Snap/Images/Camera_Gif.gif" width="200" height="100" />
   </tr>
 </table>
 
@@ -43,8 +43,8 @@ Role: Programmer
 
 <table>
   <tr>
-    <td><img src="Tamagotchi_Sim/Images/MR_Gif.gif" /></td>
-    <td><img src="Tamagotchi_Sim/Images/VRCatch_Gif.gif" /></td>
+    <td><img src="Tamagotchi_Sim/Images/MR_Gif.gif=" width="200" height="100" />
+    <td><img src="Tamagotchi_Sim/Images/VRCatch_Gif.gif=" width="200" height="100" /> 
   </tr>
 </table>
 
