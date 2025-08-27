@@ -59,8 +59,8 @@ Role: Lead Programmer, LevelDesigner
 
 <table>
   <tr>
-    <td><img src="ScrapBattle/Images/Building_Gif.gif" /></td>
-    <td><img src="ScrapBattle/Images/Driving_Gif.gif" /></td>
+<td><img src="ScrapBattle/Images/Building_Gif.gif" width="450" height="250" /></td>
+<td><img src="ScrapBattle/Images/Driving_Gif.gif" width="450" height="250" /></td>
   </tr>
 </table>
 
@@ -90,8 +90,8 @@ Role: Programmer, Enviroment and Submarine Designer
 
 <table>
   <tr>
-    <td><img src="DeepPressure/Images/HighPressure_Gif.gif" /></td>
-    <td><img src="DeepPressure/Images/Tentacle_Gif.gif" /></td>
+    <td><img src="DeepPressure/Images/HighPressure_Gif.gif" width="450" height="250" /></td>
+    <td><img src="DeepPressure/Images/Tentacle_Gif.gif" width="450" height="250" /></td>
   </tr>
 </table>
 
