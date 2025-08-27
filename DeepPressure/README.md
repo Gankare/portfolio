@@ -7,6 +7,7 @@
 ---
 ## *My contributions to this project*
 Below is a summary of some of my visual scripts written to this game, keep in mind that this is a group effort and we co-developed a lot of features, but all the highlighted features below have been implemented by me.
+
 ---
 ## *Building the Submarine*
 I started building the submarine using a rusty barrel and other worn-out models like pipes, spotlights, and doors. The exterior didn’t look great, but since the player would only see the interior, that wasn’t a big concern.
@@ -21,4 +22,18 @@ The first prototype looked like this:
   </tr>
 </table>
 
-### - Start: 
+Then after using ProBuilder the final product looks like this: 
+
+<table>
+  <tr>
+    <td><img src="/DeepPressure/Images/Room1.png" /></td>
+    <td><img src="/DeepPressure/Images/Room2.png" /></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td><img src="/DeepPressure/Images/SubFromOutside.png" /></td>
+    <td><img src="/DeepPressure/Images/Wires.png" /></td>
+  </tr>
+</table>
