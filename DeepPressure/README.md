@@ -174,6 +174,8 @@ It looks like this:
 <table>
   <tr>
     <td><img src="/DeepPressure/Images/Corals.png" /></td>   
-    <td><img src="/DeepPressure/Images/SubLights.png" /></td>   
+    <td><img src="/DeepPressure/Images/SubLights.png" /></td>  
+    <td><img src="/DeepPressure/Images/Coral1.png" /></td>   
+    <td><img src="/DeepPressure/Images/Coral2.png" /></td>   
   </tr>
 </table>
