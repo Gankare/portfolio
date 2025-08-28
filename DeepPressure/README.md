@@ -135,8 +135,5 @@ This is what lowering the pressure from a critical stage looks like:
 
 ---  
 
--
-
---
 
 
