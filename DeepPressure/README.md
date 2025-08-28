@@ -150,7 +150,7 @@ This is what lowering the pressure from a critical stage looks like:
 Shaders in VR can be a bit tricky. Camera shaders that work on PC often don’t function properly in a VR build. Initially, I wanted to use a shader like this one I tried:
 <table>
   <tr>
-    <td><img src="//DeepPressure/Images/TryingShader.png" width="500" height="450" /></td>
+    <td><img src="/DeepPressure/Images/TryingShader.png" width="500" height="450" /></td>
   </tr>
 </table>
 
