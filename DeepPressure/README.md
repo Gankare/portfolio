@@ -180,6 +180,6 @@ It looks like this:
 <table>
   <tr>
     <td><img src="/DeepPressure/Images/Boat.png" /></td>   
-    <td><img src="/DeepPressure/Images/Coral.png" /></td>   
+    <td><img src="/DeepPressure/Images/Coral2.png" /></td>   
   </tr>
 </table>
