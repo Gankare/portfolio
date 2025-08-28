@@ -172,6 +172,7 @@ I added some grabbable objects like a lantern and bottles, the bottles does noth
 
 <details>  
 <summary>Grab Haptics Script</summary>   
+  
 ![Grab Haptics Script](/DeepPressure/Code/GrabHaptics_Script.png) 
 </details>  
 
