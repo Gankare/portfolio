@@ -41,9 +41,51 @@ Then after using ProBuilder the final product looks like this:
 ---
 ## *Levers and Buttons*
 
-### *Haptics*
-To make the grabbable objects feel more interactive, I added vibration feedback to the VR controller. When grabbing an object or pulling a lever, the controller vibrates, and the intensity of the vibration increases with the speed of the pull. This effect makes it feel much more like you’re actually dragging a lever in the real world.
-
-Here are the Haptic scripts:
-
 ### *Hightlight*
+I added highlights to the interactable objects in the submarine to make it clearer for the player which items can be used. Since the environment contains a lot of wires, buttons, and other non-interactable details, the highlights help reduce confusion and guide the player’s attention to what actually matters. I implemented this by casting a ray from each controller. If the ray hits an object with the Highlight script attached, that object lights up. The highlight system itself comes from an asset, which I integrated into the project.
+<details>  
+<summary>Hightlight Script</summary>   
+  
+![Button haptic script](/DeepPressure/Code/HoverHighlight_Script.png) 
+</details>  
+The highlight looks like this:
+
+![Highlight Gif](/DeepPressure/Images/HighLight_Gif.gif) 
+
+---  
+
+### *Haptics & Object Interaction*
+To make the grabbable objects feel more interactive, I added vibration feedback to the VR controller. When grabbing an object or pulling a lever, the controller vibrates, and the intensity of the vibration increases with the speed of the pull on the levers. This effect makes it feel much more like you’re actually dragging a lever in the real world.
+
+### *Button*
+The button visually presses down when pushed, giving it a clear physical response. Using UnityEvents, we can easily assign actions to the button directly in the editor. I added haptic feedback when the button is pressed to the controller pressing.
+<details>  
+<summary>Button script</summary>   
+
+![Button haptic script](/DeepPressure/Code/Button_Script.png) 
+</details>  
+
+---  
+
+### *Engine & Pressure Lever*
+To simplify hand interactions with the levers, I added the GetHand script to both controllers. This way, it’s easier to determine which hand is responsible for each interaction.   
+<details>  
+<summary>GetHand script</summary>   
+
+![GetHand script](/DeepPressure/Code/GetHand_Script.png) 
+</details>  
+
+I first created the lever script for the engine lever. Later, when I needed a pressure lever, I duplicated the original script and modified it to fit the new functionality. While both scripts are quite similar since they share the same lever mechanics, they work differently and therefore remain separate. The original script, currently named Lever, would be more accurately called EngineLever, as it specifically controls the engine lever, while the pressure lever script is responsible for lowering pressure, which in turn affects the gauge.
+
+<details>  
+<summary>Lever Script</summary>   
+  
+![Lever Script](/DeepPressure/Code/LeverHaptics_Script.png) 
+</details>  
+
+<details>  
+<summary>Pressure Scripts</summary>   
+  
+![Lever Script](/DeepPressure/Code/LeverHaptics_Script.png) 
+</details>  
+
