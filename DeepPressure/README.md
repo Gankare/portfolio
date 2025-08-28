@@ -134,6 +134,8 @@ This script handles the pressure lever’s behavior, including haptic feedback w
 ![Pressure Lever Script](/DeepPressure/Code/LeverHaptics_Script.png) 
 </details>  
 
+---  
+
 This script manages the pressure value, gradually increasing it when the lever is not being pulled. If the pressure rises too high, it triggers warning signals, can cause pipes to burst one by one, and eventually destroy the powerbox, ultimately leading to the submarine imploding if left uncontrolled. This creates a dynamic system.
 <details>  
 <summary>Pressure Script</summary>   
@@ -146,6 +148,8 @@ Here’s a visual of the pipes and electric box failing and being destroyed:
     <td><img src="/DeepPressure/Images/Gas_Gif.gif" width="500" height="350" /></td>
   </tr>
 </table>
+
+---  
 
 The Lower Pressure script quickly reduces the system’s pressure when the lever is pulled, simulating a rapid release.
 <details>  
