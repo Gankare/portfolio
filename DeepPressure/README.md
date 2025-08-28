@@ -168,7 +168,9 @@ This is what lowering the pressure from a critical stage looks like:
 ---  
 
 ## *Grab Haptics*
-I added some grabbable objects like a lantern and bottles, the bottles does nothing just some decoration, the lantern can be used to see better when the submarines engine is off. To make grab feel better i added haptics to grab function
+I added several grabbable objects, such as a lantern and bottles. The bottles are purely decorative, while the lantern can be used to improve visibility when the submarine’s engine is off. To enhance the tactile feel of grabbing, I added haptic feedback to the grab function.
+
+This script was implemented toward the end of the project. I based it on the lever haptics script and modified it to trigger only once per grab. While some variable names were not updated due to time constraints, the functionality works as intended. If the project had been longer, I would have gone back to clean up all the names for clarity.
 
 <details>  
 <summary>Grab Haptics Script</summary>   
