@@ -131,7 +131,7 @@ This script handles the pressure lever’s behavior, including haptic feedback w
 <details>  
 <summary>Pressure Lever Script</summary>   
   
-![Pressure Lever Script](/DeepPressure/Code/LeverHaptics_Script.png) 
+![Pressure Lever Script](/DeepPressure/Code/PressureLeverHaptic_Script.png) 
 </details>  
 
 ---  
