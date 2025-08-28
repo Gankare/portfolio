@@ -85,27 +85,49 @@ I created a script to force-release the controller’s grab on levers when they 
 ![PullDistance script](/DeepPressure/Code/PullDistance_Script.png) 
 </details>  
 
+
 Firstly I created the lever script for the engine lever. Later, when I needed a pressure lever, I duplicated the original script and modified it to fit the new functionality. While both scripts are quite similar since they share the same lever mechanics, they work differently and therefore remain separate. The original script, currently named Lever, would be more accurately called EngineLever, as it specifically controls the engine lever, while the pressure lever script is responsible for lowering pressure, which in turn affects the gauge.
 
+This script handles the engine lever’s behavior, including haptic feedback when the lever is pulled
 <details>  
 <summary>Lever Script</summary>   
   
 ![Lever Script](/DeepPressure/Code/LeverHaptics_Script.png) 
 </details>  
 
+This script handles the pressure lever’s behavior, including haptic feedback when the lever is pulled
 <details>  
 <summary>Pressure Lever Script</summary>   
   
 ![Pressure Lever Script](/DeepPressure/Code/LeverHaptics_Script.png) 
 </details>  
+
+This script controls the pressure value, gradually increasing it when the lever is not being pulled. If the pressure gets too high, it triggers warning signals, can cause pipes to burst, and eventually destroy the submarine if left uncontrolled, providing a realistic and dynamic system.
 <details>  
 <summary>Pressure Script</summary>   
   
 ![Pressure Script](/DeepPressure/Code/Pressure_Script.png) 
 </details>  
+This is what the pipes bursting looks like:
+<table>
+  <tr>
+    <td><img src="/DeepPressure/Images/Gas_Gif.gif" width="500" height="500" /></td>
+  </tr>
+</table>
+
+The Lower Pressure script quickly reduces the system’s pressure when the lever is pulled, simulating a rapid release.
 <details>  
 <summary>Lower Pressure Script</summary>   
   
 ![Lower Pressure Script](/DeepPressure/Code/LowerPressure_Script.png) 
 </details>  
+
+This is what lowering the pressure from a critical stage looks like:
+<table>
+  <tr>
+    <td><img src="/DeepPressure/Images/HighPressure_Gif.gif" width="500" height="500" /></td>
+  </tr>
+</table>
+
+
 
