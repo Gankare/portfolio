@@ -50,7 +50,7 @@ I added highlights to the interactable objects in the submarine to make it clear
 </details>  
 The highlight looks like this:
 
-<img src="DeepPressure/Images/HighLight_Gif.gif" style="width:380px; height:250px;" />
+<img src="DeepPressure/Images/HighLight_Gif.gif" width="380" height="250" />
 
 ---  
 
