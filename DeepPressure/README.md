@@ -167,26 +167,6 @@ This is what lowering the pressure from a critical stage looks like:
 
 ---  
 
-## *Grab Haptics*
-I added several grabbable objects, such as a lantern and bottles. The bottles are purely decorative, while the lantern can be used to improve visibility when the submarine’s engine is off. To enhance the tactile feel of grabbing, I added haptic feedback to the grab function.
-
-This script was implemented toward the end of the project. I based it on the lever haptics script and modified it to trigger only once per grab. While some variable names were not updated due to time constraints, the functionality works as intended. If the project had been longer, I would have gone back to clean up all the names for clarity.
-
-<details>  
-<summary>Grab Haptics Script</summary>   
-  
-![Grab Haptics Script](/DeepPressure/Code/GrabHaptics_Script.png) 
-</details>  
-
-<table>
-  <tr>
-    <td><img src="/DeepPressure/Images/Lantern.png" /></td>  
-    <td><img src="/DeepPressure/Images/Bottles.png" /></td>  
-  </tr>
-</table>
-
----  
-
 ## *Pixel shader*
 
 Shaders in VR can be a bit tricky. Camera shaders that work on PC often don’t function properly in a VR build. Initially, I wanted to use a shader like this one I tried:
@@ -202,6 +182,26 @@ It works like this, but I keep it at a high resolution so the pixelation doesn�
 <table>
   <tr>
     <td><img src="/DeepPressure/Images/PixelShader_Gif.gif" /></td>   
+  </tr>
+</table>
+
+---  
+
+## *Grab Haptics*
+I added several grabbable objects, such as a lantern and bottles. The bottles are purely decorative, while the lantern can be used to improve visibility when the submarine’s engine is off. To enhance the tactile feel of grabbing, I added haptic feedback to the grab function.
+
+This script was implemented toward the end of the project. I based it on the lever haptics script and modified it to trigger only once per grab. While some variable names were not updated due to time constraints, the functionality works as intended. If the project had been longer, I would have gone back to clean up all the names for clarity.
+
+<details>  
+<summary>Grab Haptics Script</summary>   
+  
+![Grab Haptics Script](/DeepPressure/Code/GrabHaptics_Script.png) 
+</details>  
+
+<table>
+  <tr>
+    <td><img src="/DeepPressure/Images/Lantern.png" /></td>  
+    <td><img src="/DeepPressure/Images/Bottles.png" /></td>  
   </tr>
 </table>
 
