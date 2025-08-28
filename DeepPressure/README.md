@@ -150,13 +150,13 @@ This is what lowering the pressure from a critical stage looks like:
 Shaders in VR can be a bit tricky. Camera shaders that work on PC often don’t function properly in a VR build. Initially, I wanted to use a shader like this one I tried:
 <table>
   <tr>
-    <td><img src="/DeepPressure/Images/TryingShader.png" /></td>   
+    <td><img src="//DeepPressure/Images/TryingShader.png" width="500" height="450" /></td>
   </tr>
 </table>
 
 To solve this, I found a pixel shader that can be applied to objects and placed a screen that follows the camera with this pixelated filter applied. This creates the effect of a pixelated shader on the entire view, making it look like the scene itself has a pixelated shader. 
 
-It looks like this:
+It works like this, but I keep it at a high resolution so the pixelation doesn’t look too blocky. The pixelated effect is visible in the other GIFs, giving the scene a subtle retro feel. I haven’t seen many VR games use this style, so this was also a test to see if pixelation would cause motion sickness. My conclusion: it doesn’t make you dizzy.
 <table>
   <tr>
     <td><img src="/DeepPressure/Images/PixelShader_Gif.gif" /></td>   
