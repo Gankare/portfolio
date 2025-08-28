@@ -15,8 +15,16 @@ Below is a summary of some of my visual scripts written to this game, keep in mi
 
 ---
 
-## *Expanding the building system*
+## *Expanding The Building System*
 
 ---
 
 ## *Level Design*
+
+---
+
+## *New Parts System*
+
+---
+
+## *Arena & Driving*
