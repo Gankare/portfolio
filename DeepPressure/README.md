@@ -163,6 +163,23 @@ This is what lowering the pressure from a critical stage looks like:
 
 ---  
 
+## *Grab Haptics*
+I added some grabbable objects like a lantern and bottles, the bottles does nothing just some decoration, the lantern can be used to see better when the submarines engine is off. To make grab feel better i added haptics to grab function
+
+<details>  
+<summary>Grab Haptics Script</summary>   
+![Grab Haptics Script](/DeepPressure/Code/GrabHaptics_Script.png) 
+</details>  
+
+<table>
+  <tr>
+    <td><img src="/DeepPressure/Images/Lantern.png" /></td>  
+    <td><img src="/DeepPressure/Images/Bottles.png" /></td>  
+  </tr>
+</table>
+
+---  
+
 ## *Pixel shader*
 
 Shaders in VR can be a bit tricky. Camera shaders that work on PC often don’t function properly in a VR build. Initially, I wanted to use a shader like this one I tried:
