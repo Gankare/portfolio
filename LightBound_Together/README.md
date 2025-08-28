@@ -22,7 +22,7 @@ All the features have been implemented by me.
 
 ---  
 
-##  *Networking & Menus*
+##  *Networking*
 
 ---  
 
@@ -34,7 +34,15 @@ All the features have been implemented by me.
 
 ---  
 
+##  *Menus*
+
+---  
+
 ##  *Lighting & Shadow Shader*
+
+---  
+
+##  *Camera*
 
 ---  
 
