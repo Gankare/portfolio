@@ -1,6 +1,6 @@
 # *LightBound Together*
 
-![Frostfall Jumpscare](/Frostfall/Images/Jumpscare.png)   
+![Frostfall Jumpscare](/LightBound_Together/Images/AI_Logo.png)   
 
 ## *A brief game description*  
 
