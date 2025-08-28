@@ -51,7 +51,7 @@ I added highlights to the interactable objects in the submarine to make it clear
 The highlight looks like this:
 <table>
   <tr>
-    <td><img src="/DeepPressure/Images/HighLight_Gif.gif" width="500" height="500" /></td>
+    <td><img src="/DeepPressure/Images/HighLight_Gif.gif" width="500" height="450" /></td>
   </tr>
 </table>
 
@@ -129,7 +129,7 @@ The Lower Pressure script quickly reduces the system’s pressure when the lever
 This is what lowering the pressure from a critical stage looks like:
 <table>
   <tr>
-    <td><img src="/DeepPressure/Images/HighPressure_Gif.gif" width="500" height="500" /></td>
+    <td><img src="/DeepPressure/Images/HighPressure_Gif.gif" width="500" height="450" /></td>
   </tr>
 </table>
 
