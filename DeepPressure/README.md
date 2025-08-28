@@ -44,7 +44,7 @@ Then after using ProBuilder the final product looks like this:
 
 The submarine has two rooms, and I wanted the player to easily move between them. When hovering over the door and pressing the trigger on the controller, the player teleports to the other side.
 <details>  
-<summary>Teleport Script</summary>   
+<summary>Door Interact Script</summary>   
   
 ![Door Teleport script](/DeepPressure/Code/DoorTeleport_Script.png) 
 </details>  
