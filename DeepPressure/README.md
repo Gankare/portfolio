@@ -111,7 +111,7 @@ This script controls the pressure value, gradually increasing it when the lever 
 This is what the pipes bursting looks like:
 <table>
   <tr>
-    <td><img src="/DeepPressure/Images/Gas_Gif.gif" width="450" height="250" /></td>
+    <td><img src="/DeepPressure/Images/Gas_Gif.gif" width="500" height="350" /></td>
   </tr>
 </table>
 
