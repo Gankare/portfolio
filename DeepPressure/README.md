@@ -96,6 +96,16 @@ This script handles the engine lever’s behavior, including haptic feedback whe
 ![Lever Script](/DeepPressure/Code/LeverHaptics_Script.png) 
 </details>  
 
+Shutting off the engine stops the submarine because it is damaged, and it also turns off the lights. This gives the player the ability to power down the submarine, take a breather, and perform tasks in other room. Additionally, a monster attacks the submarine randomly. The only way to defend against it is to turn off the sub when the monster is nearby; otherwise, the monster will destroy it.
+
+Here is what both turning off the engine and the monster destroying the submarine look like:
+<table>
+  <tr>
+    <td><img src="/DeepPressure/Images/LightsOff_Gif.gif" width="500" height="350" /></td>
+    <td><img src="/DeepPressure/Images/Tentacle_Gif.gif" width="500" height="350" /></td>
+  </tr>
+</table>
+
 ---  
 
 #### *Pressure Lever*
