@@ -49,8 +49,11 @@ I added highlights to the interactable objects in the submarine to make it clear
 ![Button haptic script](/DeepPressure/Code/HoverHighlight_Script.png) 
 </details>  
 The highlight looks like this:
-
-<img src="DeepPressure/Images/HighLight_Gif.gif" width="380" height="250" />
+<table>
+  <tr>
+    <td><img src="DeepPressure/Images/HighLight_Gif.gif" height="250" /></td>
+  </tr>
+</table>
 
 ---  
 
