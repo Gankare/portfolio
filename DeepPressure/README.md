@@ -85,7 +85,7 @@ I created a script to force-release the controller’s grab on levers when they 
 ![PullDistance script](/DeepPressure/Code/PullDistance_Script.png) 
 </details>  
 
-
+<hr style="width:50%; height:1px; border:none; background-color:#000;" />
 Firstly I created the lever script for the engine lever. Later, when I needed a pressure lever, I duplicated the original script and modified it to fit the new functionality. While both scripts are quite similar since they share the same lever mechanics, they work differently and therefore remain separate. The original script, currently named Lever, would be more accurately called EngineLever, as it specifically controls the engine lever, while the pressure lever script is responsible for lowering pressure, which in turn affects the gauge.
 
 This script handles the engine lever’s behavior, including haptic feedback when the lever is pulled
@@ -102,13 +102,13 @@ This script handles the pressure lever’s behavior, including haptic feedback w
 ![Pressure Lever Script](/DeepPressure/Code/LeverHaptics_Script.png) 
 </details>  
 
-This script controls the pressure value, gradually increasing it when the lever is not being pulled. If the pressure gets too high, it triggers warning signals, can cause pipes to burst, and eventually destroy the submarine if left uncontrolled, providing a realistic and dynamic system.
+This script manages the pressure value, gradually increasing it when the lever is not being pulled. If the pressure rises too high, it triggers warning signals, can cause pipes to burst one by one, and eventually destroy the powerbox, ultimately leading to the submarine imploding if left uncontrolled. This creates a dynamic system.
 <details>  
 <summary>Pressure Script</summary>   
   
 ![Pressure Script](/DeepPressure/Code/Pressure_Script.png) 
 </details>  
-This is what the pipes bursting looks like:
+Here’s a visual of the pipes and electric box failing and being destroyed:
 <table>
   <tr>
     <td><img src="/DeepPressure/Images/Gas_Gif.gif" width="500" height="350" /></td>
