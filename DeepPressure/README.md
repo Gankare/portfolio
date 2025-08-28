@@ -101,8 +101,8 @@ Shutting off the engine stops the submarine because it is damaged, and it also t
 Here is what both turning off the engine and the monster destroying the submarine look like:
 <table>
   <tr>
-    <td><img src="/DeepPressure/Images/LightsOff_Gif.gif" width="500" height="350" /></td>
-    <td><img src="/DeepPressure/Images/Tentacle_Gif.gif" width="500" height="350" /></td>
+    <td><img src="/DeepPressure/Images/LightsOff_Gif.gif" width="385" height="250" /></td>
+    <td><img src="/DeepPressure/Images/Tentacle_Gif.gif" width="385" height="250" /></td>
   </tr>
 </table>
 
