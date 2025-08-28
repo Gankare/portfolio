@@ -85,7 +85,8 @@ I created a script to force-release the controller’s grab on levers when they 
 ![PullDistance script](/DeepPressure/Code/PullDistance_Script.png) 
 </details>  
 
-<hr style="width:50%; height:0.5px; border:none; background-color:#000;" />
+---  
+
 Firstly I created the lever script for the engine lever. Later, when I needed a pressure lever, I duplicated the original script and modified it to fit the new functionality. While both scripts are quite similar since they share the same lever mechanics, they work differently and therefore remain separate. The original script, currently named Lever, would be more accurately called EngineLever, as it specifically controls the engine lever, while the pressure lever script is responsible for lowering pressure, which in turn affects the gauge.
 
 This script handles the engine lever’s behavior, including haptic feedback when the lever is pulled
@@ -94,6 +95,8 @@ This script handles the engine lever’s behavior, including haptic feedback whe
   
 ![Lever Script](/DeepPressure/Code/LeverHaptics_Script.png) 
 </details>  
+
+---  
 
 This script handles the pressure lever’s behavior, including haptic feedback when the lever is pulled
 <details>  
