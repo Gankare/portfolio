@@ -162,3 +162,18 @@ It works like this, but I keep it at a high resolution so the pixelation doesnâ€
     <td><img src="/DeepPressure/Images/PixelShader_Gif.gif" /></td>   
   </tr>
 </table>
+
+---  
+
+## *Enviroment*
+
+When the game was nearly complete, the map still felt barren. As a final touch, I added a variety of random corals and rocks scattered across the entire map to make it feel more alive.
+
+It looks like this:
+
+<table>
+  <tr>
+    <td><img src="/DeepPressure/Images/Corals.png" /></td>   
+    <td><img src="/DeepPressure/Images/SubLights.png" /></td>   
+  </tr>
+</table>
