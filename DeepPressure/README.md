@@ -1,5 +1,5 @@
 # Deep pressure  
-![Deep Pressure_Title](/DeepPressure/Images/Fishes_Gif.gif)  
+![Fishes](/DeepPressure/Images/Fishes_Gif.gif)  
 ## *A brief game description*
 
 **Deep Pressure** is a VR submarine simulator that traps you in a failing vessel deep beneath the sea. Navigate dark caves filled with creatures, mines, and jagged rocks while balancing fragile systems as crushing pressure threatens to implode the sub.
@@ -9,7 +9,7 @@
 Below is a summary of some of my visual scripts written to this game, keep in mind that this is a group effort and we co-developed a lot of features, but all the highlighted features below have been implemented by me.
 
 ---
-## *Building the Submarine*
+## *Building the submarine*
 I started building the submarine using a rusty barrel and other worn-out models like pipes, spotlights, and doors. The exterior didn’t look great, but since the player would only see the interior, that wasn’t a big concern.
 
 However, I ran into a problem: the barrel’s texture only looked good with a specific shader, which wasn’t compatible with VR. To solve this, I had to rethink my approach. I installed the ProBuilder plugin and rebuilt the submarine’s body from scratch, giving me full control over the shape and structure. Once the base was done, I added all the rusty details—doors, pipes, wires, and electrical components—to give the interior that worn, industrial look.
@@ -40,7 +40,7 @@ Then after using ProBuilder the final product looks like this:
 
 ---
 
-## *Door Interaction*
+## *Door interaction*
 
 The submarine has two rooms, and I wanted the player to easily move between them. When hovering over the door and pressing the trigger on the controller, the player teleports to the other side.
 <details>  
@@ -57,7 +57,7 @@ The teleport looks like this:
 
 ---
 
-## *Levers and Buttons*
+## *Levers and buttons*
 
 ### *Hightlight*
 I added highlights to the interactable objects in the submarine to make it clearer for the player which items can be used. Since the environment contains a lot of wires, buttons, and other non-interactable details, the highlights help reduce confusion and guide the player’s attention to what actually matters. I implemented this by casting a ray from each controller. If the ray hits an object with the Highlight script attached, that object lights up. The highlight system itself comes from an asset, which I integrated into the project.
@@ -75,7 +75,7 @@ The highlight looks like this:
 
 ---  
 
-### *Haptics & Object Interaction*
+### *Haptics & object interaction*
 To make the grabbable objects feel more interactive, I added vibration feedback to the VR controller. When grabbing an object or pulling a lever, the controller vibrates, and the intensity of the vibration increases with the speed of the pull on the levers. This effect makes it feel much more like you’re actually dragging a lever in the real world.
 
 ### *Button*
@@ -88,7 +88,7 @@ The button visually presses down when pushed, giving it a clear physical respons
 
 ---  
 
-### *Engine & Pressure Lever*
+### *Engine & pressure lever*
 To simplify hand interactions with the levers, I added the GetHand script to both controllers. This way, it’s easier to determine which hand is responsible for each interaction.   
 <details>  
 <summary>GetHand script</summary>   
@@ -104,7 +104,7 @@ I created a script to force-release the controller’s grab on levers when they 
 </details>  
 
 ---  
-#### *Engine Lever*
+#### *Engine lever*
 Firstly I created the lever script for the engine lever. Later, when I needed a pressure lever, I duplicated the original script and modified it to fit the new functionality. While both scripts are quite similar since they share the same lever mechanics, they work differently and therefore remain separate. The original script, currently named Lever, would be more accurately called EngineLever, as it specifically controls the engine lever, while the pressure lever script is responsible for lowering pressure, which in turn affects the gauge.
 
 This script handles the engine lever’s behavior, including haptic feedback when the lever is pulled
@@ -126,7 +126,7 @@ Here is what both turning off the engine and the monster destroying the submarin
 
 ---  
 
-#### *Pressure Lever*
+#### *Pressure lever*
 This script handles the pressure lever’s behavior, including haptic feedback when the lever is pulled
 <details>  
 <summary>Pressure Lever Script</summary>   
@@ -187,7 +187,7 @@ It works like this, but I keep it at a high resolution so the pixelation doesn�
 
 ---  
 
-## *Grab Haptics*
+## *Grab haptics*
 I added several grabbable objects, such as a lantern and bottles. The bottles are purely decorative, while the lantern can be used to improve visibility when the submarine’s engine is off. To enhance the tactile feel of grabbing, I added haptic feedback to the grab function.
 
 This script was implemented toward the end of the project. I based it on the lever haptics script and modified it to trigger only once per grab. While some variable names were not updated due to time constraints, the functionality works as intended. If the project had been longer, I would have gone back to clean up all the names for clarity.
