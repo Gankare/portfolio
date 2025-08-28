@@ -61,7 +61,7 @@ The highlight looks like this:
 To make the grabbable objects feel more interactive, I added vibration feedback to the VR controller. When grabbing an object or pulling a lever, the controller vibrates, and the intensity of the vibration increases with the speed of the pull on the levers. This effect makes it feel much more like you’re actually dragging a lever in the real world.
 
 ### *Button*
-The button visually presses down when pushed, giving it a clear physical response. Using UnityEvents, we can easily assign actions to the button directly in the editor. I added haptic feedback when the button is pressed to the controller pressing.
+The button visually presses down when pushed, giving it a clear physical response. Using UnityEvents, we could easily assign actions to the button directly in the editor. I added haptic feedback when the button is pressed to the controller pressing.
 <details>  
 <summary>Button script</summary>   
 
@@ -78,7 +78,14 @@ To simplify hand interactions with the levers, I added the GetHand script to bot
 ![GetHand script](/DeepPressure/Code/GetHand_Script.png) 
 </details>  
 
-I first created the lever script for the engine lever. Later, when I needed a pressure lever, I duplicated the original script and modified it to fit the new functionality. While both scripts are quite similar since they share the same lever mechanics, they work differently and therefore remain separate. The original script, currently named Lever, would be more accurately called EngineLever, as it specifically controls the engine lever, while the pressure lever script is responsible for lowering pressure, which in turn affects the gauge.
+I created a script to force-release the controller’s grab on levers when they are pulled too far away. This prevents players from controlling a lever from unrealistic distances, like from another room.
+<details>  
+<summary>PullDistance Script</summary>   
+
+![PullDistance script](/DeepPressure/Code/PullDistance_Script.png) 
+</details>  
+
+Firstly I created the lever script for the engine lever. Later, when I needed a pressure lever, I duplicated the original script and modified it to fit the new functionality. While both scripts are quite similar since they share the same lever mechanics, they work differently and therefore remain separate. The original script, currently named Lever, would be more accurately called EngineLever, as it specifically controls the engine lever, while the pressure lever script is responsible for lowering pressure, which in turn affects the gauge.
 
 <details>  
 <summary>Lever Script</summary>   
@@ -87,8 +94,18 @@ I first created the lever script for the engine lever. Later, when I needed a pr
 </details>  
 
 <details>  
-<summary>Pressure Scripts</summary>   
+<summary>Pressure Lever Script</summary>   
   
-![Lever Script](/DeepPressure/Code/LeverHaptics_Script.png) 
+![Pressure Lever Script](/DeepPressure/Code/LeverHaptics_Script.png) 
+</details>  
+<details>  
+<summary>Pressure Script</summary>   
+  
+![Pressure Script](/DeepPressure/Code/Pressure_Script.png) 
+</details>  
+<details>  
+<summary>Lower Pressure Script</summary>   
+  
+![Lower Pressure Script](/DeepPressure/Code/LowerPressure_Script.png) 
 </details>  
 
