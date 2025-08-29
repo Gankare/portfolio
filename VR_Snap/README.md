@@ -1,6 +1,9 @@
 # *VR Snap*
-
-![VR Snap Gif](/VR_Snap/Images/Camera_Gif.gif)   
+<table>
+  <tr>
+    <td><img src="/VR_Snap/Images/Camera_Gif.gif" width="500" height="450" /></td>
+  </tr>
+</table> 
 
 ## *Game description*  
 
