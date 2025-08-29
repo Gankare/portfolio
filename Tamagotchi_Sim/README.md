@@ -1,5 +1,9 @@
 # Tama Sim
-![MR Room](/Tamagotchi_Sim/Images/MRTama.png)  
+<table>
+  <tr>
+    <td><img src="/Tamagotchi_Sim/Images/MRTama.png" width="500" height="450" /></td>
+  </tr>
+</table> 
 ## *A brief game description*
 
 **Tama Sim** is a VR simulator I developed together with a graphic design student as an experiment in mixed reality (MR). The game is inspired by Tamagotchi, reimagined in VR. Players care for a virtual pet by feeding it, playing with it, and cleaning up after it.
