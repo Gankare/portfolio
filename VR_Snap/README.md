@@ -4,7 +4,7 @@
 
 ## *Game description*  
 
-**VR Snap** is a VR photoshot simulator
+**VR Snap** is a VR photography simulator.
 
 ---
 
