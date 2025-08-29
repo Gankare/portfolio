@@ -27,6 +27,12 @@ I’ve always been interested in making a “creature snap” style game, where 
 
 ##  *Player*
 
+At first, I wanted to create a virtual body that mimicked real-life movements with locomotion. I experimented with different plugins and 3D models, trying to make the legs move naturally with the body instead of staying still while only the upper body moved. Using Body Tracking Joint Set, I managed to get the legs to move forward when the upper body reached a certain distance away from the leg joints. However, the movement didn’t match my real legs and looked awkward.
+
+During this process, I also realized that the 3D model was larger than my actual body. To fix this, I made it a priority to ensure the avatar would always scale to the player’s real-world size. I tested a component called Retargeting Layer from the Meta Movement plugin, which allowed me to dynamically scale the rigged 3D model to the player’s height in real time.
+
+If I remember correctly, the script included a listener that checked for changes in height and recalculated the model’s scale accordingly, both at the start and whenever significant differences were detected.
+
 ---  
 
 ##  *Camera*
