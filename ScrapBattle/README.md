@@ -1,8 +1,3 @@
----
-layout: default
-title: Home
----
-
 # ScrapBattle  
 ![ScrapBattle_Title](/ScrapBattle/Images/ScrapYard.png)  
 ## *A brief game description*
