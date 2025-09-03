@@ -146,8 +146,30 @@ This is the picture i was trying to replicate:
 ---
 
 ## *Crane*
+The crane’s purpose was to deliver parts to the player. If a part was thrown away, the crane would return it. We never developed the game far enough to include robot fights, but the idea was that the crane would also deliver all new parts to the player after each battle.
 
+Since we didn’t have a proper model yet, I built a temporary crane by reshaping simple cubes and animating it to deliver parts.
 
+Here are the scripts for bringing back parts that have been thrown away:
+<details>  
+<summary>Crane drop script</summary>   
+  
+![CraneDrop script](/ScrapBattle/Code/CraneDrop_Script.png) 
+</details>  
+
+<details>  
+<summary>Part respawn script</summary>   
+  
+![PartRespawn script](/ScrapBattle/Code/PartRespawn_Script.png) 
+</details>  
+
+<details>  
+<summary>Part uut of map script</summary>   
+  
+![PartOutOfMap script](/ScrapBattle/Code/PartOutOfMap_Script.png) 
+</details>  
+
+And here’s how it looks in action, delivering the parts:
 <table>
   <tr>
     <td><img src="/ScrapBattle/Images/DropParts_Gif.gif" width="500" height="450" /></td>
