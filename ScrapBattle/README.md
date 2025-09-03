@@ -76,6 +76,30 @@ Here are the scripts for the ScriptableObjects:
 
 ---
 
+## *Visual stats text*
+To show stats to the player, I created a text display that follows the camera and appears when you hover over a part with the VR controller.
+
+<details>  
+<summary>Hover show script</summary>   
+  
+![Hover show script](/ScrapBattle/Code/ShowStatText_Script.png) 
+</details>  
+
+<details>  
+<summary>Text script</summary>   
+  
+![Text script](/ScrapBattle/Code/StatToText_Script.png) 
+</details>  
+
+This is how it looks ingame:
+<table>
+  <tr>
+    <td><img src="/DeepPressure/Images/DoorTeleport_Gif.gif" width="500" height="450" /></td>
+  </tr>
+</table>
+
+---
+
 ## *Expanding The Building System*
 
 i mostly worked on making the building system, making the parts fit well together with snapzones 
