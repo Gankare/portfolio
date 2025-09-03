@@ -69,6 +69,13 @@ This is what it looks like while walking around:
 
 ##  *Polaroid camera*
 
+You can pick up the camera with one hand, but it takes both hands to activate it and take pictures. I also added a snap zone on the player’s side so you can holster the camera and walk around without holding it.
+
+The model itself isn’t meant to be a Polaroid — it’s a modern camera — but I made Polaroid-style pictures come out of it. I think it looks funny, but also pretty cool.
+
+Here’s how it works: if the player is holding the camera with two hands and presses the trigger, a picture spawns and animates outward from the center of the camera. If you take another picture, the previous one is detached from the camera and gravity is applied so it falls away. I also added a sound effect and a quick flash of light when a picture is taken, though the flash is hard to notice in the GIFs.
+
+All the scripts are below, along with a GIF showing the camera functionality:
 <details>  
 <summary>Polaroid script</summary>   
   
