@@ -33,6 +33,18 @@ During this process, I also realized that the 3D model was larger than my actual
 
 If I remember correctly, the script included a listener that checked for changes in height and recalculated the model’s scale accordingly, both at the start and whenever significant differences were detected.
 
+Real time scaling looks like this, from sitting to standing:
+<table>
+  <tr>
+    <td><img src="/VR_Snap/Images/Scale_Gif.gif" width="500" height="450" /></td>
+  </tr>
+</table> 
+###  *Movement*
+
+###  *Camera*
+
 ---  
 
-##  *Camera*
+##  *Polaroid camera*
+
+
