@@ -41,8 +41,6 @@ The Real time scaling looks like this, from sitting to standing:
   </tr>
 </table> 
 
----  
-
 ###  *Locomotion*
 I was using the Meta Movement plugin so that the player’s 3D model would mimic their real-world movements. This worked fine, except when moving with the joystick. In that case, the player’s body would just stand still while only the camera moved.
 
@@ -71,4 +69,33 @@ This is what it looks like while walking around:
 
 ##  *Polaroid camera*
 
+<details>  
+<summary>Polaroid script</summary>   
+  
+![Polaroid Script](/VR_Snap/Code/Polaroid_Script.png) 
+</details>  
+
+<details>  
+<summary>Photo script</summary>   
+  
+![Photo Script](/VR_Snap/Code/Photo_Script.png) 
+</details>  
+
+<details>  
+<summary>Physics script</summary>   
+  
+![Physics Script](/VR_Snap/Code/Physics_Script.png) 
+</details>  
+
+<details>  
+<summary>Sound script</summary>   
+  
+![Sound Script](/VR_Snap/Code/Sound_Script.png) 
+</details>  
+
+<table>
+  <tr>
+    <td><img src="/VR_Snap/Images/PolaroidPicture_Gif.gif" width="500" height="450" /></td>
+  </tr>
+</table> 
 
