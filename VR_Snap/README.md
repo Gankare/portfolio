@@ -49,14 +49,14 @@ I couldn’t simply place the player model directly under the camera, because th
 To fix this, I wrote a simple script that updates the player model’s position to match the camera’s position every frame (in the Update function).
 
 <details>  
-<summary>Rig To Camera Script</summary>   
+<summary>Model rig to camera script</summary>   
   
-![RigToCamera script](/VR_Snap/Code/ModelFollow_Script.png) 
+![RigToPlayer Script](/VR_Snap/Code/ModelFollow_Script.png) 
 </details>  
 
 Since the legs don’t animate when moving with the joystick, I decided to change the body’s texture to a hologram effect. That way it makes more sense visually, since it looks like you’re floating around instead of walking.
 
-To help reduce motion sickness, I also added a tunneling effect using vignetting in post-processing, which fades in while you’re moving. For a test, I think it turned out pretty well.
+To help reduce motion sickness, I added a tunneling effect using vignetting in post-processing. It fades in while you’re moving, and for a test, I think it turned out pretty well. Just keep in mind that the vignette looks stronger in the GIF than it actually does inside the headset.
 
 This is what it looks like while walking around:
 <table>
