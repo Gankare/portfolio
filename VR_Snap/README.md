@@ -42,7 +42,23 @@ The Real time scaling looks like this, from sitting to standing:
 </table> 
 
 ###  *Locomotion*
+I was using the Meta Movement plugin so that the player’s 3D model would mimic their real-world movements. This worked fine, except when moving with the joystick. In that case, the player’s body would just stand still while only the camera moved.
 
+I couldn’t simply place the player model directly under the camera, because then when the camera rotated, the body would rotate twice as much and you’d end up seeing your own body from inside.
+
+To fix this, I wrote a simple script that updates the player model’s position to match the camera’s position every frame (in the Update function).
+
+<details>  
+<summary>Rig To Camera Script</summary>   
+  
+![RigToCamera script](/VR_Snap/Code/ModelFollow_Script.png) 
+</details>  
+
+<table>
+  <tr>
+    <td><img src="/VR_Snap/Images/LocoMotion_Gif.gif" width="500" height="450" /></td>
+  </tr>
+</table> 
 
 ---  
 
