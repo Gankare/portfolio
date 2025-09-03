@@ -123,14 +123,14 @@ To bring the environment to life, I added cars, rats, and a temporary scrap cran
 It looks like this:
 <table>
   <tr>
-    <td><img src="/ScrapBattle/Images/Environment1.png.png" width="500" height="450" /></td>
+    <td><img src="/ScrapBattle/Images/Environment1.png" width="500" height="450" /></td>
     <td><img src="/ScrapBattle/Images/Environment2.png" width="500" height="450" /></td>
   </tr>
 </table>
 
 <table>
   <tr>
-    <td><img src="ScrapBattle/Images/Environment3.png" width="500" height="450" /></td>
+    <td><img src="/ScrapBattle/Images/Environment3.png" width="500" height="450" /></td>
     <td><img src="/ScrapBattle/Images/Environment4.png" width="500" height="450" /></td>
   </tr>
 </table>
