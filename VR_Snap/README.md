@@ -41,6 +41,8 @@ The Real time scaling looks like this, from sitting to standing:
   </tr>
 </table> 
 
+---  
+
 ###  *Locomotion*
 I was using the Meta Movement plugin so that the player’s 3D model would mimic their real-world movements. This worked fine, except when moving with the joystick. In that case, the player’s body would just stand still while only the camera moved.
 
