@@ -27,7 +27,7 @@ There are four different part types:
 
 Core – the essential starting block that every robot must have. It’s the foundation you build on.
 
-Body Parts – extensions that let you expand your robot’s structure.
+Body Parts – extensions that let you expand your robot’s structure, no added stats.
 
 Wheels – every robot needs four wheels to function as a base.
 
