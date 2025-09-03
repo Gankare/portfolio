@@ -2,7 +2,9 @@
 ![ScrapBattle_Title](/ScrapBattle/Images/ScrapYard.png)  
 ## *A brief game description*
 
-**Scrapbattle** is a VR 
+**Scrapbattle** was meant to be a VR robot fighting game where you build your own robot in a scrapyard and then battle other robots to earn new and better parts. The idea was inspired by the TV series Robot Wars.
+
+We didn’t get that far in development though, so for now it’s more of a “build-a-robot simulator.” Still, the core concept was there, and the building system laid the groundwork for what could have become full robot battles.
 
 ---
 
@@ -46,6 +48,30 @@ Here are the scripts for the ScriptableObjects:
 <summary>Part script</summary>   
   
 ![Part script](/ScrapBattle/Code/Part_Script.png) 
+</details>  
+
+<details>  
+<summary>Core Part script</summary>   
+  
+![CorePart script](/ScrapBattle/Code/CorePart_Script.png) 
+</details>  
+
+<details>  
+<summary>Body Part script</summary>   
+  
+![BodyPart script](/ScrapBattle/Code/BodyPart_Script.png) 
+</details>  
+
+<details>  
+<summary>Wheel Part script</summary>   
+  
+![WheelPart script](/ScrapBattle/Code/WheelPart_Script.png) 
+</details>  
+
+<details>  
+<summary>Weapon Part script</summary>   
+  
+![WeaponPart script](/ScrapBattle/Code/WeaponPart_Script.png) 
 </details>  
 
 ---
