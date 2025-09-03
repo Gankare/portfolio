@@ -1,5 +1,8 @@
 title: Filip Salomonsson
-logo: /Assests/Filip_ProfilePicture.png
+logo: /Assets/Filip_ProfilePicture.png
 #description: text below image
 show_downloads: true
-theme: jekyll-theme-hacker
+plugins:
+  - jekyll-remote-theme
+
+remote_theme: yourname/haskyll
