@@ -73,7 +73,11 @@ You can pick up the camera with one hand, but it takes both hands to activate it
 
 The model itself isn’t meant to be a Polaroid — it’s a modern camera — but I made Polaroid-style pictures come out of it. I think it looks funny, but also pretty cool.
 
-Here’s how it works: if the player is holding the camera with two hands and presses the trigger, a picture spawns and animates outward from the center of the camera. If you take another picture, the previous one is detached from the camera and gravity is applied so it falls away. I also added a sound effect and a quick flash of light when a picture is taken, though the flash is hard to notice in the GIFs.
+Here’s how it works: if the player is holding the camera with two hands and presses the trigger, a picture spawns and animates outward from the center of the camera. If you take another picture, the previous one is detached from the camera and gravity is applied so it falls away.
+
+The Polaroid photo itself isn’t just a random texture — the camera model actually has its own in-game camera. When you take a shot, it captures that camera’s view, turns it into a texture, and applies it to a 3D object representing the photograph. This makes each picture a real snapshot of what the in-game camera sees.
+
+I also added a sound effect and a quick flash of light when a picture is taken, although the flash is a bit hard to notice in the game’s bright environment.
 
 All the scripts are below, along with a GIF showing the camera functionality:
 <details>  
