@@ -17,7 +17,7 @@ I built a dynamic, easy-to-use system where every robot part has its own stats. 
 It can look like this in the inspector:
 <table>
   <tr>
-    <td><img src="/ScrapBattle/Images/Core_Inspector.png" /></td>
+    <td><img src="/ScrapBattle/Images/Core_Inspector.png" width="500" height="600" /></td>
   </tr>
 </table>
 
