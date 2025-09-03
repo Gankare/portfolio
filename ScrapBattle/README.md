@@ -12,7 +12,9 @@ Below is a summary of some of my visual scripts written to this game, keep in mi
 ---
 
 ## *Stat System*
-I built a dynamic, easy-to-use system where every robot part has its own stats. Each part is defined as a ScriptableObject, which determines the model, description, and stats for that specific piece.
+I built a dynamic, easy-to-use system where every robot part has its own stats. Each prefab part has the Part script, which determines the Part Type with Part Data, description and stats for that specific piece.
+
+It can look like this in the inspector:
 
 There are four different part types:
 
@@ -30,9 +32,15 @@ Unfortunately, we didn’t get far enough for the system to be fully playable, b
 
 Here are the scripts for the ScriptableObjects: 
 <details>  
-<summary>Hightlight Script</summary>   
+<summary>PartData scriptableobject</summary>   
   
-![Button haptic script](/DeepPressure/Code/HoverHighlight_Script.png) 
+![PartData scriptableobject](/ScrapBattle/Code/PartData_ScriptableObjectScript.png) 
+</details>  
+
+<details>  
+<summary>Part script</summary>   
+  
+![Part script](/ScrapBattle/Code/Part_Script.png) 
 </details>  
 
 ---
