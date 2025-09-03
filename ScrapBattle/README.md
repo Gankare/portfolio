@@ -14,7 +14,7 @@ Below is a summary of some of my visual scripts written to this game, keep in mi
 ---
 
 ## *Why this demo was made*
-This little project was mainly for practicing VR game development. We did a couple of projects like this while working at VR World. Not many people at this internship were motivated to work, so I ended up doing most of this and the other projects myself.
+This little project was mainly for practicing VR game development. We did a couple of projects like this while working at VR World. Not many people at this internship were motivated to work, so I ended up doing most of the work on this and the other projects myself.
 
 ---
 
@@ -109,7 +109,12 @@ This is how it looks ingame:
 
 ## *Expanding The Building System*
 
-i mostly worked on making the building system, making the parts fit well together with snapzones 
+We already had a working system for assembling parts, but it wasn’t optimized for the components we had. I spent most of my time improving the building system. Some parts can only be placed in specific locations, as shown in the picture below. I focused on making the parts fit together seamlessly using snap zones and creating prefabs for all components with the correct stats.
+<table>
+  <tr>
+    <td><img src="/ScrapBattle/Images/Core_Stats.png" width="500" height="450" /></td>
+  </tr>
+</table>
 
 ---
 
@@ -176,8 +181,8 @@ And here’s how it looks in action, delivering the parts:
   </tr>
 </table>
 
-### *New Parts System*
-
 ---
 
 ## *Arena & Driving*
+
+### *Copy of the built robot*
