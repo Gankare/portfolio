@@ -137,6 +137,12 @@ It looks like this:
 
 This is the picture i was trying to replicate: 
 
+<table>
+  <tr>
+    <td><img src="/ScrapBattle/Images/Inspiration Environment.jpg" width="500" height="450" /></td>
+  </tr>
+</table>
+
 ---
 
 ## *Crane*
