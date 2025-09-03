@@ -13,6 +13,12 @@ Below is a summary of some of my visual scripts written to this game, keep in mi
 
 ---
 
+## *Why this demo was made*
+This little project was mainly for practicing VR game development. We did a couple of projects like this while working at VR World. Not many people at this internship were motivated to work, so I ended up doing most of this and the other projects myself.
+
+---
+
+
 ## *Stat System*
 I built a dynamic, easy-to-use system where every robot part has its own stats. Each prefab part has the Part script, which determines the Part Type with Part Data, description and stats for that specific piece.
 
@@ -105,11 +111,37 @@ This is how it looks ingame:
 
 i mostly worked on making the building system, making the parts fit well together with snapzones 
 
+---
+
 ## *Level Design*
+I designed a scrapyard environment using the limited assets provided by the artists (such as a scrap pile) and supplemented it with a few downloaded models, like cars.
+
+I began by creating and shaping the terrain, applying a worn, dirty texture to set the atmosphere. To populate the scene, I placed scrap piles of varying sizes. While the assets were limited and a bit repetitive, I worked around this by adding large scrap mounds in the distance and using fog to create depth and disguise repetition.
+
+To bring the environment to life, I added cars, rats, and a temporary scrap crane I built out of simple shapes while waiting for the artists to deliver a proper model. I also integrated a bird system that makes the scene feel much more dynamic — birds fly around and occasionally land on the scrap piles or the crane, adding movement and realism.
+
+It looks like this:
+<table>
+  <tr>
+    <td><img src="/ScrapBattle/Images/ScrapYard.png" width="500" height="450" /></td>
+    <td><img src="/ScrapBattle/Images/Wheel_Stats.png" width="500" height="450" /></td>
+  </tr>
+</table>
+
+This is the picture i was trying to replicate: 
 
 ---
 
-## *New Parts System*
+## *Crane*
+
+
+<table>
+  <tr>
+    <td><img src="/ScrapBattle/Images/DropParts_Gif.gif" width="500" height="450" /></td>
+  </tr>
+</table>
+
+### *New Parts System*
 
 ---
 
