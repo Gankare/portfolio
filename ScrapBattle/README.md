@@ -15,6 +15,11 @@ Below is a summary of some of my visual scripts written to this game, keep in mi
 I built a dynamic, easy-to-use system where every robot part has its own stats. Each prefab part has the Part script, which determines the Part Type with Part Data, description and stats for that specific piece.
 
 It can look like this in the inspector:
+<table>
+  <tr>
+    <td><img src="/ScrapBattle/Images/Core_Inspector.png" width="500" height="450" /></td>
+  </tr>
+</table>
 
 There are four different part types:
 
