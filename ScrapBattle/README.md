@@ -130,7 +130,7 @@ It looks like this:
 
 <table>
   <tr>
-    <td><img src="/ScrapBattle/Images/Enviroment3.png" width="500" height="450" /></td>
+    <td><img src="ScrapBattle/Images/Environment3.png" width="500" height="450" /></td>
     <td><img src="/ScrapBattle/Images/Enviroment4.png" width="500" height="450" /></td>
   </tr>
 </table>
