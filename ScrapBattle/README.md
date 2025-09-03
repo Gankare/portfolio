@@ -112,7 +112,7 @@ This is how it looks ingame:
 We already had a working system for assembling parts, but it wasn’t optimized for the components we had. I spent most of my time improving the building system. Some parts can only be placed in specific locations, as shown in the picture below. I focused on making the parts fit together seamlessly using snap zones and creating prefabs for all components with the correct stats.
 <table>
   <tr>
-    <td><img src="/ScrapBattle/Images/Core_Stats.png" width="500" height="450" /></td>
+    <td><img src="/ScrapBattle/Images/Connections.png" width="500" height="450" /></td>
   </tr>
 </table>
 
