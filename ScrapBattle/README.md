@@ -94,7 +94,8 @@ To show stats to the player, I created a text display that follows the camera an
 This is how it looks ingame:
 <table>
   <tr>
-    <td><img src="/DeepPressure/Images/DoorTeleport_Gif.gif" width="500" height="450" /></td>
+    <td><img src="/ScrapBattle/Images/Core_Stats.png" width="500" height="450" /></td>
+    <td><img src="/ScrapBattle/Images/Wheel_Stats.png" width="500" height="450" /></td>
   </tr>
 </table>
 
