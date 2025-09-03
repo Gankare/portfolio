@@ -164,7 +164,7 @@ Here are the scripts for bringing back parts that have been thrown away:
 </details>  
 
 <details>  
-<summary>Part uut of map script</summary>   
+<summary>Part out of map script</summary>   
   
 ![PartOutOfMap script](/ScrapBattle/Code/PartOutOfMap_Script.png) 
 </details>  
