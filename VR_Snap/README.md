@@ -54,6 +54,11 @@ To fix this, I wrote a simple script that updates the player model’s position 
 ![RigToCamera script](/VR_Snap/Code/ModelFollow_Script.png) 
 </details>  
 
+Since the legs don’t animate when moving with the joystick, I decided to change the body’s texture to a hologram effect. That way it makes more sense visually, since it looks like you’re floating around instead of walking.
+
+To help reduce motion sickness, I also added a tunneling effect using vignetting in post-processing, which fades in while you’re moving. For a test, I think it turned out pretty well.
+
+This is what it looks like while walking around:
 <table>
   <tr>
     <td><img src="/VR_Snap/Images/LocoMotion_Gif.gif" width="500" height="450" /></td>
