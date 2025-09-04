@@ -303,7 +303,43 @@ Here is an image containing all the prefabs I created for the Tamagotchi simulat
 ---
 
 ## *Pet AI*
+I implemented the PetAI script to give the pet autonomous behavior, making it feel alive and responsive in the virtual environment. The AI is built around a simple state machine with states like Idle, Wandering, Eating, Sleeping, Fetching, and Returning.
+
+Key points of how it works:
+
+State Machine: The pet switches between different states based on timers, hunger, or player interaction. For example, it wanders when idle, moves to food when hungry, and goes to sleep periodically.
+
+Navigation: I used Unity’s NavMeshAgent to move the pet around the environment, with random wandering positions and stuck detection to prevent it from getting trapped.
+
+Fetch Mechanics: When the player throws a ball, the pet switches to Fetching, moves toward the ball, picks it up using a small offset, and then returns it to the player. During this, it disables physics on the ball to avoid glitches and re-enables it when returned.
+
+Animations & Effects: Animations like walking and happy triggers are tied to states, and a particle system plays when the pet successfully interacts or completes an action like returning the ball.
+
+Integration with Other Systems: It interacts with my other gameplay systems, such as the play system (PetPlayManager) and food system, so that its actions are meaningful and influence the game state.
+
+Overall, this script makes the pet feel like a dynamic character, reacting both to the environment and player input, while keeping the AI behavior simple and predictable for VR interactions.
+
+<details>  
+<summary>PetAI script</summary>   
+  
+![PetAI script](/Tamagotchi_Sim/Code/PetAI_Script.png) 
+</details>  
 
 ---
 
 ## *Fur shader*
+The pet models I got from the artist were untextured and had no eyes, which made them look a bit plain in VR. To improve their appearance, I reused a fur shader from a previous project and applied it to the models. I also created simple eyes using spheres with a reflective smooth metal material. Together, this gave the pets a soft, furry look and made them feel much more alive and visually appealing in the mixed reality environment.
+
+Before:
+<table>
+  <tr>
+    <td><img src="/Tamagotchi_Sim/Images/NoFur.png" width="500" height="450" /></td>
+  </tr>
+</table> 
+
+After: 
+<table>
+  <tr>
+    <td><img src="/Tamagotchi_Sim/Images/Fur.png" width="500" height="450" /></td>
+  </tr>
+</table> 
