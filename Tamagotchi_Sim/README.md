@@ -22,7 +22,13 @@ Below is a summary of some of my visual scripts written to this game, keep in mi
 ---
 
 ## *Offline*
-I created a time and evolution system for a virtual pet. The script tracks how long the pet has been alive, even when the game is closed, and updates its growth and evolution stages based on real-world time.
+I created a time and evolution system for a virtual pet. The ElapsedTime script tracks how long the pet has been alive, even when the game is closed, and updates its growth and evolution stages based on real-world time.
+
+<details>  
+<summary>ElapsedTime script</summary>   
+  
+![ElapsedTime script](/Tamagotchi_Sim/Code/ElapsedTime_Script.png) 
+</details>  
 
 Here’s what the system does:
 
@@ -42,11 +48,6 @@ Reset system – Provides a full reset of the pet’s stats, timers, and colors 
 
 This script essentially makes the pet feel alive outside of play sessions, evolving and growing in real time, just like a digital Tamagotchi.
 
-<details>  
-<summary>ElapsedTime script</summary>   
-  
-![ElapsedTime script](/Tamagotchi_Sim/Code/ElapsedTime_Script.png) 
-</details>  
 
 ---
 
