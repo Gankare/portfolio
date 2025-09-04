@@ -207,7 +207,7 @@ This script was implemented toward the end of the project. I based it on the lev
 
 ---  
 
-## *Enviroment*
+## *Environment*
 
 When the game was nearly complete, the map still felt barren. As a final touch, I added a variety of random corals and rocks scattered across the entire map to make it feel more alive.
 
