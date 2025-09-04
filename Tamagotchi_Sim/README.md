@@ -161,6 +161,7 @@ This is how the ingame UI menu looks:
 ---
 
 The game offers you a fresh start with a new pet, either after your pet has fully grown and a day has passed, or when it has starved to death.
+
 This is how the new pet menus look: 
 
 <table>
@@ -173,6 +174,15 @@ This is how the new pet menus look:
 ---
 
 ## *Feeding and eating*
+I implemented a food and hunger system to manage the pet’s wellbeing both online and offline. The system is split across three scripts:
+
+#### *PetHungerManager*
+
+Tracks the pet’s hunger, food consumption, and survival.
+
+Calculates how much food the pet should have eaten while the player was away and updates hunger status accordingly.
+
+Handles thresholds for hunger and death, triggering the death UI if the pet starves.
 
 <details>  
 <summary>HungerManager script</summary>   
@@ -180,17 +190,49 @@ This is how the new pet menus look:
 ![HungerManager script](/Tamagotchi_Sim/Code/HungerManager_Script.png) 
 </details>  
 
+---
+
+#### *SpawnFood*
+
+Handles spawning and tracking food in the game world.
+
+Ensures the food bowl never exceeds a maximum number of pieces.
+
+Supports spawning food both at the start of the game and when the player adds more food during gameplay.
+
+Manages saving and loading the current food count using PlayerPrefs so the pet’s food state persists between sessions.
+
 <details>  
 <summary>SpawnFood script</summary>   
   
 ![SpawnFood script](/Tamagotchi_Sim/Code/SpawnFood_Script.png) 
 </details>  
 
+---
+
+#### *EatFood*
+
+Detects when the pet collides with food and triggers the eating process.
+
+Plays a sound effect and updates the last time the pet ate.
+
+Implements a short cooldown to prevent eating the same food repeatedly too quickly.
+
 <details>  
 <summary>EatFood script</summary>   
   
 ![EatFood script](/Tamagotchi_Sim/Code/EatFood_Script.png) 
 </details>  
+
+I designed it this way so that the pet behaves realistically, eating over time and reacting to the player’s actions, while keeping offline behavior in mind. This made the pet feel alive and required the player to actively feed it to grow and survive.
+
+At the start of this GIF, you can see how food spawns in the bowl: 
+
+<table>
+  <tr>
+    <td><img src="/Tamagotchi_Sim/Images/MR_Gif.gif" width="500" height="450" /></td>
+  </tr>
+</table> 
 
 ---
 
