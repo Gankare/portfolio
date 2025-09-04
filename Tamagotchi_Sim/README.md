@@ -265,6 +265,18 @@ Here are the scripts used for playing with the pet:
 
 ## *Pooping and cleaning up*
 
+<details>  
+<summary>GeneratePoop script</summary>   
+  
+![GeneratePoop script](/Tamagotchi_Sim/Code/GeneratePoop_Script.png) 
+</details>  
+
+<details>  
+<summary>AddNewPoop script</summary>   
+  
+![AddNewPoop script](/Tamagotchi_Sim/Code/AddNewPoop_Script.png) 
+</details>  
+
 ---
 
 ## *Pet AI*
