@@ -1,4 +1,4 @@
-# Tama Sim
+# VR Tamagotchi simulator
 <table>
   <tr>
     <td><img src="/Tamagotchi_Sim/Images/MRTama.png" width="500" height="450" /></td>
