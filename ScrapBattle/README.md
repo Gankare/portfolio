@@ -209,13 +209,13 @@ With about a day left in the project, we still didn’t have any driving gamepla
 
 I wrote a RobotController script that uses Unity’s Input System to read joystick input and apply it to the robot’s Rigidbody. The script handles acceleration, deceleration, and smooth velocity changes with Lerp, so the robot doesn’t start and stop abruptly. It also aligns movement to the camera’s forward and right directions, letting the player steer relative to their view. To keep the robot stable, I constrained its Rigidbody rotations and adjusted the center of mass.
 
-On top of that, I made a WheellMovement script for visuals. It checks the robot’s velocity and, if it’s moving, plays particle effects and simple wheel animations. When the robot stops, the effects and animations stop too, giving the movement a more lively and reactive feel. One issue I ran into was that the wheels on one side were rotated the wrong way, causing the animations and particles to play in the opposite direction. Unfortunately, I didn’t have time to fix this before the project deadline.
-
 <details>  
 <summary>Robot controller script</summary>   
   
 ![RobotController script](/ScrapBattle/Code/RobotController_Script.png) 
 </details>  
+
+On top of that, I made a WheellMovement script for visuals. It checks the robot’s velocity and, if it’s moving, plays particle effects and simple wheel animations. When the robot stops, the effects and animations stop too, giving the movement a more lively and reactive feel. One issue I ran into was that the wheels on one side were rotated the wrong way, causing the animations and particles to play in the opposite direction. Unfortunately, I didn’t have time to fix this before the project deadline.
 
 <details>  
 <summary>Wheel Spinning Animation script</summary>   
