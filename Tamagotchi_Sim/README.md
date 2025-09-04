@@ -333,7 +333,7 @@ The pet models I got from the artist were untextured and had no eyes, which made
 Before:
 <table>
   <tr>
-    <td><img src="/Tamagotchi_Sim/Images/NoFur.png" width="500" height="450" /></td>
+    <td><img src="/Tamagotchi_Sim/Images/Original_Models.png" width="500" height="450" /></td>
   </tr>
 </table> 
 
