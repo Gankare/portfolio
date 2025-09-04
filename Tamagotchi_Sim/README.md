@@ -236,11 +236,38 @@ At the start of this GIF, you can see how food spawns in the bowl:
 
 ---
 
+## *Playing and petting*
+In the GIF above, you can see the two main ways to interact with the TamaPet: petting it and playing catch.
+
+The petting and playing scripts are similar to the food system in that they track interactions and manage the pet’s state over time, including offline behavior. Unlike food, these scripts don’t consume a resource. Instead, they update whether the pet has been played with and trigger animations, particle effects, and physics-based interactions. Petting makes the pet react happily, while playing catch uses the ball’s physics so the pet can fetch it, giving immediate visual and interactive feedback that makes the pet feel alive.
+
+Here are the scripts used for playing with the pet:
+
+<details>  
+<summary>PlayManager script</summary>   
+  
+![PlayManager script](/Tamagotchi_Sim/Code/PlayManager_Script.png) 
+</details>  
+
+<details>  
+<summary>PetPet script</summary>   
+  
+![PetPet script](/Tamagotchi_Sim/Code/PetPet_Script.png) 
+</details>  
+
+<details>  
+<summary>BallPhysics script</summary>   
+  
+![BallPhysics script](/Tamagotchi_Sim/Code/ThrowBall_Script.png) 
+</details>  
+
+---
+
 ## *Pooping and cleaning up*
 
 ---
 
-## *Playing and petting*
+## *Pet AI*
 
 ---
 
