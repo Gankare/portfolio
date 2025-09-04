@@ -292,7 +292,7 @@ In this GIF you can see how the player can spawn a broom and clean up the pet’
   </tr>
 </table> 
 
-Here you can see a image of all the prefabs that i made for the tamaghuchi simulator: 
+Here is an image containing all the prefabs I created for the Tamagotchi simulator:
 
 <table>
   <tr>
