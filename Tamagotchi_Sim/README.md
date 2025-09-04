@@ -264,18 +264,41 @@ Here are the scripts used for playing with the pet:
 ---
 
 ## *Pooping and cleaning up*
+The poop system manages the pet’s waste, adding another layer of care beyond hunger and play. The GeneratePoop script keeps track of how many poops exist, handles offline spawning based on the last time the pet pooped, and limits the total number of poops in the room. It also provides a function to clean up poops, updating the saved data.
 
 <details>  
 <summary>GeneratePoop script</summary>   
   
 ![GeneratePoop script](/Tamagotchi_Sim/Code/GeneratePoop_Script.png) 
-</details>  
+</details> 
 
+---
+
+The AddNewPoop script handles the timed spawning of new poops while the game is running, placing them behind the pet at a set interval. Together, these scripts make the pet feel more alive by creating ongoing responsibilities for the player, like feeding and cleaning, without being tied to direct player actions like eating or playing.
+ 
 <details>  
 <summary>AddNewPoop script</summary>   
   
 ![AddNewPoop script](/Tamagotchi_Sim/Code/AddNewPoop_Script.png) 
 </details>  
+
+---
+
+In this GIF you can see how the player can spawn a broom and clean up the pet’s waste:
+
+<table>
+  <tr>
+    <td><img src="/Tamagotchi_Sim/Images/VRCatch_Gif.gif" width="500" height="450" /></td>
+  </tr>
+</table> 
+
+Here you can see a image of all the prefabs that i made for the tamaghuchi simulator: 
+
+<table>
+  <tr>
+    <td><img src="/Tamagotchi_Sim/Images/Prefabs.png" width="500" height="450" /></td>
+  </tr>
+</table> 
 
 ---
 
