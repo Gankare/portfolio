@@ -185,4 +185,22 @@ And here’s how it looks in action, delivering the parts:
 
 ## *Arena & Driving*
 
+<details>  
+<summary>Robot controller script</summary>   
+  
+![RobotController script](/ScrapBattle/Code/RobotController_Script.png) 
+</details>  
+
+<details>  
+<summary>RobotManager script</summary>   
+  
+![RobotManager script](/ScrapBattle/Code/RobotManager_Script.png) 
+</details>  
+
+<details>  
+<summary>Save part data script</summary>   
+  
+![SavePartData script](/ScrapBattle/Code/SavePartData_Script.png) 
+</details> 
+
 ### *Copy of the built robot*
