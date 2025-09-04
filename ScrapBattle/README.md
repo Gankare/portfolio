@@ -183,7 +183,33 @@ And here’s how it looks in action, delivering the parts:
 
 ---
 
-## *Arena & Driving*
+## *Saving the build*
+I set up a two-phase building and deployment system for the robots. Each part had two prefabs: one used during the building phase, and one “real” version used when deploying the robot. On every buildable part, I added a script called SavePartData, which stores the part’s local position, rotation, and a reference to its real prefab.
+
+When the robot is deployed, the RobotManager script goes through all the parts I placed, calculates their offsets, and instantiates the real prefabs under a single parent object. This makes the robot act as one complete machine, while each part is still its own GameObject. I also added logic for requirements, like making sure the robot has at least four wheels before it can be deployed.
+
+The result was a system where you can build robots freely in the editor-like building phase, and then instantly switch into gameplay mode with a functional, unified robot that you can drive around in the arena.
+
+<details>  
+<summary>Save part data script</summary>   
+  
+![SavePartData script](/ScrapBattle/Code/SavePartData_Script.png) 
+</details> 
+  
+<details>  
+<summary>RobotManager script</summary>   
+  
+![RobotManager script](/ScrapBattle/Code/RobotManager_Script.png) 
+</details>  
+
+---
+
+## *Arena & driving*
+With about a day left in the project, we still didn’t have any driving gameplay, so I put together a small pit arena and quickly prototyped a movement system to let the player control their robot.
+
+I wrote a RobotController script that uses Unity’s Input System to read joystick input and apply it to the robot’s Rigidbody. The script handles acceleration, deceleration, and smooth velocity changes with Lerp, so the robot doesn’t start and stop abruptly. It also aligns movement to the camera’s forward and right directions, letting the player steer relative to their view. To keep the robot stable, I constrained its Rigidbody rotations and adjusted the center of mass.
+
+On top of that, I made a WheellMovement script for visuals. It checks the robot’s velocity and, if it’s moving, plays particle effects and simple wheel animations. When the robot stops, the effects and animations stop too, giving the movement a more lively and reactive feel. One issue I ran into was that the wheels on one side were rotated the wrong way, causing the animations and particles to play in the opposite direction. Unfortunately, I didn’t have time to fix this before the project deadline.
 
 <details>  
 <summary>Robot controller script</summary>   
@@ -192,15 +218,15 @@ And here’s how it looks in action, delivering the parts:
 </details>  
 
 <details>  
-<summary>RobotManager script</summary>   
+<summary>Wheel Spinning Animation script</summary>   
   
-![RobotManager script](/ScrapBattle/Code/RobotManager_Script.png) 
+![Wheel script](/ScrapBattle/Code/WheelAnimation_Script.png) 
 </details>  
 
-<details>  
-<summary>Save part data script</summary>   
-  
-![SavePartData script](/ScrapBattle/Code/SavePartData_Script.png) 
-</details> 
+The system worked as a basic prototype, but not exactly as I had envisioned. My goal was to restrict the robot to only move forward with more natural, non-instant turning, but I ran out of time to refine those mechanics. Here is how it looks driving the robot:
 
-### *Copy of the built robot*
+<table>
+  <tr>
+    <td><img src="/ScrapBattle/Images/Driving_Gif.gif" width="500" height="450" /></td>
+  </tr>
+</table>
