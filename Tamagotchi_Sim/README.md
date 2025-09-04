@@ -18,6 +18,42 @@ Below is a summary of some of my visual scripts written to this game, keep in mi
 ---
 
 ## *Scanning the room for mixed reality(MR)*
+To build a mixed reality experience for Oculus, I used Meta’s MR Utility Kit plugin and learned how to integrate it into Unity.
+
+The workflow works like this:
+
+First, the player scans their real-world room, which is visualized like this:
+<table>
+  <tr>
+    <td><img src="/Tamagotchi_Sim/Images/RoomScan_Gif.gif" width="500" height="450" /></td>
+  </tr>
+</table> 
+
+Once the scan is complete, the plugin provides access to effect mesh scripts for the floor, ceiling, and other surfaces.
+
+These scripts generate mesh colliders in Unity that match the player’s real environment.
+
+The meshes can be given temporary materials (like colors) for testing, and then made invisible once everything is working correctly.
+
+This effectively creates an MR room inside Unity, allowing digital objects to interact with the player’s physical space.
+<table>
+  <tr>
+    <td><img src="/Tamagotchi_Sim/Images/MRUK.png" width="500" height="450" /></td>
+    <td><img src="/Tamagotchi_Sim/Images/EffectMesh.png" width="500" height="450" /></td>
+  </tr>
+</table> 
+
+Once the colliders are generated, I added a NavMesh Surface so that the AI pet could navigate and walk around the player’s real room.
+
+Finally, I used another script included in Meta’s MR Utility Kit called “Find Spawn Positions.” This script checks the scanned meshes and spawns prefabs at valid locations. For example, in the picture below, the system is spawning the pet’s offline poop on surfaces like the floor, table, couch, or bed.
+
+<table>
+  <tr>
+    <td><img src="/Tamagotchi_Sim/Images/Navmeshsurface.png" width="500" height="450" /></td>
+    <td><img src="/Tamagotchi_Sim/Images/FindSpawnPositions.png" width="500" height="450" /></td>
+  </tr>
+</table> 
+
 
 ---
 
