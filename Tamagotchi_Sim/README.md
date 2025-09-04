@@ -57,7 +57,7 @@ Finally, I used another script included in Meta’s MR Utility Kit called “Fin
 
 ---
 
-## *Offline*
+## *Online & offline*
 I created a time and evolution system for a virtual pet. The ElapsedTime script is the largest script I wrote and is responsible for handling all the pet’s offline behavior. It tracks how long the pet has been alive, even when the game is closed, and updates its growth and evolution stages based on real-world time.
 
 <details>  
@@ -86,7 +86,7 @@ This script essentially makes the pet feel alive outside of play sessions, evolv
 
 ---
 
-## *Online*
+## *UI*
 
 ---
 
