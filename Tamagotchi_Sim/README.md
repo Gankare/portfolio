@@ -87,6 +87,51 @@ This script essentially makes the pet feel alive outside of play sessions, evolv
 ---
 
 ## *UI*
+I designed and implemented the UI system to support all the core gameplay states. The UI itself is kept simple, since my main goal was to make the gameplay work smoothly in VR — and the system fully supports that. It’s split into three scripts:
+
+UIManager
+
+Central hub for UI-related gameplay interactions.
+
+Spawns interactive objects near the player (food, a broom for cleaning, a ball for playing).
+
+Manages special game states such as pet death and acquiring a new pet, showing the correct canvases and disabling the VR menu when needed.
+
+Formats and displays how long the pet lived before death.
+
+<details>  
+<summary>UI manager script</summary>   
+  
+![UIManager script](/Tamagotchi_Sim/Code/UIManager_Script.png) 
+</details>  
+
+VRMenuToggle
+
+Controls how the in-game menu is opened in VR.
+
+Supports two input methods for accessibility: pressing the Start button on the left controller, or performing a pinch gesture with the left hand.
+
+Includes a cooldown to prevent accidental double activations.
+
+Keeps track of whether the menu is currently active and whether it can be opened at all (e.g., disabled during death/new pet states).
+
+<details>  
+<summary>Menu toggle script</summary>   
+  
+![MenuToggle script](/Tamagotchi_Sim/Code/MenuToggle_Script.png) 
+</details>  
+
+DisplayAliveTime
+
+Lightweight helper script for displaying the pet’s total “time alive” using TextMeshPro.
+
+Connects directly with the pet’s growth system so the timer updates in real-time as the pet lives and evolves.
+
+<details>  
+<summary>Display alive time script</summary>   
+  
+![DisplayAliveTime script](/Tamagotchi_Sim/Code/DisplayAliveTime_Script.png) 
+</details>  
 
 ---
 
