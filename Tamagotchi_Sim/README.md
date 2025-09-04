@@ -99,9 +99,9 @@ it looks like this:
 ---
 
 ## *Ingame UI*
-I designed and implemented the ingame UI system to support all the core gameplay states. The UI itself is kept simple, since my main goal was to make the gameplay work smoothly in VR — and the system fully supports that. It’s split into three scripts:
+I designed and implemented the ingame UI system to support all the core gameplay states. The UI itself is kept simple, since my main goal was to make the gameplay work smoothly in VR — and the system fully supports that. It’s split into three scripts:  
 
-
+  
 #### *UIManager*
 
 Central hub for UI-related gameplay interactions.
@@ -116,9 +116,9 @@ Formats and displays how long the pet lived before death.
 <summary>UIManager script</summary>   
   
 ![UIManager script](/Tamagotchi_Sim/Code/UIManager_Script.png) 
-</details>  
+</details>    
 
-
+  
 #### *VRMenuToggle*
 
 Controls how the in-game menu is opened in VR.
@@ -133,9 +133,9 @@ Keeps track of whether the menu is currently active and whether it can be opened
 <summary>VRMenuToggle script</summary>   
   
 ![VRMenuToggle script](/Tamagotchi_Sim/Code/MenuToggle_Script.png) 
-</details>  
+</details>    
 
-
+  
 #### *DisplayAliveTime*
 
 Lightweight helper script for displaying the pet’s total “time alive” using TextMeshPro.
@@ -148,7 +148,7 @@ Connects directly with the pet’s growth system so the timer updates in real-ti
 ![DisplayAliveTime script](/Tamagotchi_Sim/Code/DisplayAliveTime_Script.png) 
 </details>  
 
-
+  
 This is how it looks like using the ingame UI menu: 
 
 <table>
