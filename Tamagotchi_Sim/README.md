@@ -101,7 +101,6 @@ it looks like this:
 ## *Ingame UI*
 I designed and implemented the ingame UI system to support all the core gameplay states. The UI itself is kept simple, since my main goal was to make the gameplay work smoothly in VR — and the system fully supports that. It’s split into three scripts:  
 
-  
 #### *UIManager*
 
 Central hub for UI-related gameplay interactions.
@@ -118,7 +117,8 @@ Formats and displays how long the pet lived before death.
 ![UIManager script](/Tamagotchi_Sim/Code/UIManager_Script.png) 
 </details>    
 
-  
+---
+
 #### *VRMenuToggle*
 
 Controls how the in-game menu is opened in VR.
@@ -135,7 +135,8 @@ Keeps track of whether the menu is currently active and whether it can be opened
 ![VRMenuToggle script](/Tamagotchi_Sim/Code/MenuToggle_Script.png) 
 </details>    
 
-  
+---
+
 #### *DisplayAliveTime*
 
 Lightweight helper script for displaying the pet’s total “time alive” using TextMeshPro.
@@ -148,19 +149,48 @@ Connects directly with the pet’s growth system so the timer updates in real-ti
 ![DisplayAliveTime script](/Tamagotchi_Sim/Code/DisplayAliveTime_Script.png) 
 </details>  
 
-  
-This is how it looks like using the ingame UI menu: 
+
+This is how the ingame UI menu looks: 
 
 <table>
   <tr>
-    <td><img src="/Tamagotchi_Sim/Images/MR_Gif.gif" width="500" height="450" /></td>
-    <td><img src="/Tamagotchi_Sim/Images/VRCatch_Gif.gif" width="500" height="450" /></td>
+    <td><img src="/Tamagotchi_Sim/Images/Ingame_Menu.png" width="500" height="450" /></td>
+  </tr>
+</table> 
+
+---
+
+The game offers you a fresh start with a new pet, either after your pet has fully grown and a day has passed, or when it has starved to death.
+This is how the new pet menus look: 
+
+<table>
+  <tr>
+    <td><img src="/Tamagotchi_Sim/Images/NewPet_Menu.png" width="500" height="450" /></td>
+    <td><img src="/Tamagotchi_Sim/Images/Starved_Menu.png" width="500" height="450" /></td>
   </tr>
 </table> 
 
 ---
 
 ## *Feeding and eating*
+
+<details>  
+<summary>HungerManager script</summary>   
+  
+![HungerManager script](/Tamagotchi_Sim/Code/HungerManager_Script.png) 
+</details>  
+
+<details>  
+<summary>SpawnFood script</summary>   
+  
+![SpawnFood script](/Tamagotchi_Sim/Code/SpawnFood_Script.png) 
+</details>  
+
+<details>  
+<summary>EatFood script</summary>   
+  
+![EatFood script](/Tamagotchi_Sim/Code/EatFood_Script.png) 
+</details>  
 
 ---
 
