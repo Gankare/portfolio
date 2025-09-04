@@ -29,9 +29,9 @@ First, the player scans their real-world room, which is visualized like this:
   </tr>
 </table> 
 
-Once the scan is complete, the plugin provides access to effect mesh scripts for the floor, ceiling, and other surfaces.
+Once the scan is complete, the plugin provides access to the effect mesh script used for the floor, ceiling, and other surfaces.
 
-These scripts generate mesh colliders in Unity that match the player’s real environment.
+This script generates mesh colliders in Unity that match the player’s real environment.
 
 The meshes can be given temporary materials (like colors) for testing, and then made invisible once everything is working correctly.
 
