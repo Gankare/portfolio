@@ -39,8 +39,8 @@ Unity Relay: Relay works together with NGO by solving the issue of direct peer-t
 
 <table>
   <tr>
-    <td><img src="/LightBound_Together/Images/MultiplayerTools_Asset.png" width="500" height="600" /></td>
     <td><img src="/LightBound_Together/Images/SmoothSync_Asset.png" width="500" height="600" /></td>
+    <td><img src="/LightBound_Together/Images/MultiplayerTools_Asset.png" width="500" height="600" /></td>
   </tr>
 </table>
 
