@@ -111,6 +111,17 @@ Finally, I wrote a GameManager that ties everything together. It makes sure only
 
 ---  
 
+##  *Menu UI*
+
+<table>
+  <tr>
+    <td><img src="/LightBound_Together/Images/MainMenuUI.png" width="500" height="600" /></td>
+    <td><img src="/LightBound_Together/Images/Lobby3DUI.png" width="500" height="600" /></td>
+  </tr>
+</table>
+
+---
+
 ##  *Player*
 
 ---  
