@@ -65,6 +65,8 @@ For the menus, I made a script called LobbyCheck. This script decides whether th
 ![LobbyCheck Scrip](/LightBound_Together/Code/LobbyCheck_Script.png) 
 </details>  
 
+---  
+
 #### *LevelCheck*  
 I also wrote a script called LevelCheck which keeps track of which levels are unlocked using PlayerPrefs. It updates the menu buttons so players can only enter levels they’ve completed, and it requires at least two players to be connected before levels become interactable. It also syncs the menus when new clients join so everyone sees the same thing.
 
@@ -73,6 +75,8 @@ I also wrote a script called LevelCheck which keeps track of which levels are un
   
 ![LevelCheck Scrip](/LightBound_Together/Code/LevelCheck_Script.png) 
 </details>  
+
+---  
 
 #### *RelayManager*  
 To actually get players connected, I made a RelayManager. This script handles hosting and joining games through Unity Relay. When hosting, it creates a Relay allocation and generates a join code that clients can use to connect. It also sets up Unity Transport (UTP) so Netcode for GameObjects can communicate properly through Relay. On top of that, I added feedback in the UI, like showing status text and the join code, so the process feels clear to the player.
@@ -83,6 +87,8 @@ To actually get players connected, I made a RelayManager. This script handles ho
 ![RelayManager Scrip](/LightBound_Together/Code/RelayManager_Script.png) 
 </details>  
 
+---  
+
 #### *RelaySceneManager*  
 For changing scenes, I created a RelaySceneManager. This makes sure only the host can load new levels and includes methods for starting the Tutorial, Level 1, and Level 2. It also handles quitting and leaving the game by shutting down Relay and sending players back to the menu when needed.
 
@@ -91,6 +97,8 @@ For changing scenes, I created a RelaySceneManager. This makes sure only the hos
   
 ![RelaySceneManager Scrip](/LightBound_Together/Code/RelaySceneManager_Script.png) 
 </details>  
+
+---  
 
 #### *GameManager*  
 Finally, I wrote a GameManager that ties everything together. It makes sure only two players can connect at once (one host and one client), and it updates the player count when someone joins or leaves. It also makes sure the host’s join code and level button states are shared with all clients. On top of that, it handles saving progress across the multiplayer session, like when the tutorial or a level is completed.
