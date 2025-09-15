@@ -33,9 +33,14 @@ For the multiplayer system in my Unity project, I chose to use Netcode for GameO
   </tr>
 </table>
 
-Netcode for GameObjects: I picked NGO because it is Unity’s first-party networking solution designed to work directly with GameObjects, which made it a natural fit for my project. It handles core multiplayer features like spawning, ownership, and synchronization of objects across clients. Since my game is built with a GameObject workflow rather than DOTS/ECS, NGO provided a straightforward and well-integrated way to add multiplayer functionality.
+#### *Netcode for GameObjects: *  
+I picked NGO because it is Unity’s first-party networking solution designed to work directly with GameObjects, which made it a natural fit for my project. It handles core multiplayer features like spawning, ownership, and synchronization of objects across clients. Since my game is built with a GameObject workflow rather than DOTS/ECS, NGO provided a straightforward and well-integrated way to add multiplayer functionality.
 
-Unity Relay: Relay works together with NGO by solving the issue of direct peer-to-peer connections. Normally, players behind NAT or firewalls cannot host or join easily. Relay lets clients connect to a Unity-hosted server endpoint that forwards traffic between players. This way, I didn’t need to set up or pay for dedicated servers, but players could still connect to each other reliably. Relay doesn’t simulate or run game logic itself – it only routes the traffic – which means it pairs perfectly with NGO’s networking layer.
+#### *Unity Relay: *  
+Relay works together with NGO by solving the issue of direct peer-to-peer connections. Normally, players behind NAT or firewalls cannot host or join easily. Relay lets clients connect to a Unity-hosted server endpoint that forwards traffic between players. This way, I didn’t need to set up or pay for dedicated servers, but players could still connect to each other reliably. Relay doesn’t simulate or run game logic itself – it only routes the traffic – which means it pairs perfectly with NGO’s networking layer.
+
+#### *Smooth Sync: *  
+To improve the player experience, I added Smooth Sync, which interpolates and predicts the movement of networked objects. NGO provides the base synchronization, but Smooth Sync makes the motion appear much smoother and responsive by reducing visible latency and jitter. This was important in my project since player movement and interactions needed to feel natural.
 
 <table>
   <tr>
@@ -43,8 +48,6 @@ Unity Relay: Relay works together with NGO by solving the issue of direct peer-t
     <td><img src="/LightBound_Together/Images/MultiplayerTools_Asset.png" width="500" height="600" /></td>
   </tr>
 </table>
-
-Smooth Sync: To improve the player experience, I added Smooth Sync, which interpolates and predicts the movement of networked objects. NGO provides the base synchronization, but Smooth Sync makes the motion appear much smoother and responsive by reducing visible latency and jitter. This was important in my project since player movement and interactions needed to feel natural.
 
 Together, NGO handles the multiplayer logic, Relay ensures players can always connect, and Smooth Sync makes everything feel fluid. No extra plugins are strictly required beyond these, though Unity also offers Lobby (for matchmaking) and Vivox (for voice chat) if you want to expand functionality further.
 
