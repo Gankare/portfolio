@@ -112,13 +112,32 @@ Finally, I wrote a GameManager that ties everything together. It makes sure only
 ---  
 
 ##  *Menu UI*
+I made a very simple UI where the player can either host a game or connect as a client to a friend who is hosting.
 
+Here’s how it looks:
 <table>
   <tr>
     <td><img src="/LightBound_Together/Images/MainMenuUI.png" width="500" height="600" /></td>
     <td><img src="/LightBound_Together/Images/Lobby3DUI.png" width="500" height="600" /></td>
   </tr>
 </table>
+
+<details>  
+<summary>Cursor script</summary>   
+  
+![Cursor script](/LightBound_Together/Code/LockCursor_Script.png) 
+</details>  
+
+
+
+
+
+
+<details>  
+<summary>Copy to Clipboard script</summary>   
+  
+![Copy to clipboard script](/LightBound_Together/Code/CopyToClipboard_Script.png) 
+</details>  
 
 ---
 
