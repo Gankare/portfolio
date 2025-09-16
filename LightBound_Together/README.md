@@ -165,6 +165,10 @@ Here’s how the pause menu and controls looks like:
 
 ##  *Player*
 
+After spending more than half the project building menus, fixing the lobby, and making sure the multiplayer connections worked, I realized I also had to create a ragdoll-based player. Since this was my first time making a real online multiplayer game and the project was only 8 weeks long, I didn’t have enough time to build a physics-based multiplayer character completely from scratch.
+
+Instead, I bought an already working ragdoll player package that was designed for singleplayer and then reworked it to function in multiplayer. This meant rewriting the way the physics were handled so that actions were sent to the server and synchronized across clients. When I first downloaded the package, only the owner of the player could see the ragdoll movement, but after my changes both players could see and interact with the physics correctly.
+
 ---  
 
 ##  *Camera*
