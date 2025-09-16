@@ -112,16 +112,23 @@ Finally, I wrote a GameManager that ties everything together. It makes sure only
 ---  
 
 ##  *Menu UI*
-I made a very simple UI where the player can either host a game or connect as a client to a friend who is hosting.
+I made a very simple UI where the player can either host a game or connect as a client to a friend who is hosting by using a join code that the hosting player sees in their lobby.
 
-Here’s how it looks:
+Here’s how the relay menu looks:
 <table>
   <tr>
     <td><img src="/LightBound_Together/Images/MainMenuUI.png" width="500" height="600" /></td>
+  </tr>
+</table>
+
+This is how the hosting player sees the join code along with the 3D level selection menu. From here, the host can share the code with a friend and then start the levels once everyone is connected. 
+<table>
+  <tr>
     <td><img src="/LightBound_Together/Images/Lobby3DUI.png" width="500" height="600" /></td>
   </tr>
 </table>
 
+To use the 3D menu I put a box collider that checks when the player is near the menu, where the grass stops in the picture above. This script unlocks the mouse and stops the camera from following the mouse while inside the collider, so the player can interact with the menu. When the player leaves the collider, the mouse is locked again and the camera goes back to following, making the transition between gameplay and menu smooth and automatic.
 <details>  
 <summary>Cursor script</summary>   
   
@@ -129,10 +136,7 @@ Here’s how it looks:
 </details>  
 
 
-
-
-
-
+To make it easier for the host to share the join code, I added a script that copies the randomized code directly to the clipboard when the player clicks on the code sign.
 <details>  
 <summary>Copy to Clipboard script</summary>   
   
