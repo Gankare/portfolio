@@ -167,19 +167,23 @@ Here’s how the pause menu and controls looks like:
 
 ---  
 
-##  *Physics & interactions*
-
----  
-
-##  *Lighting & shadow shader*
-
----  
-
 ##  *Camera*
 
 ---  
 
+##  *shadow shader*
+
+---  
+
+##  *Physics & interactions*
+
+---  
+
 ##  *Level design*
+
+---  
+
+##  *Environment & Lightning*
 
 ---  
 
