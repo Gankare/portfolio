@@ -167,11 +167,38 @@ Here’s how the pause menu and controls looks like:
 
 After spending more than half the project building menus, fixing the lobby, and making sure the multiplayer connections worked, I realized I also had to create a ragdoll-based player. Since this was my first time making a real online multiplayer game and the project was only 8 weeks long, I didn’t have enough time to build a physics-based multiplayer character completely from scratch.
 
-Instead, I bought an already working ragdoll player package that was designed for singleplayer and then reworked it to function in multiplayer. This meant rewriting the way the physics were handled so that actions were sent to the server and synchronized across clients. When I first downloaded the package, only the owner of the player could see the ragdoll movement, but after my changes both players could see and interact with the physics correctly.
+Instead, I bought an already working ragdoll player package (Image below) that was designed for singleplayer and then reworked it to function in multiplayer. This meant rewriting the way the physics were handled so that actions were sent to the server and synchronized across clients. When I first downloaded the package, only the local player could see the ragdoll movement, but after my changes both players could see and interact with the physics correctly.
+
+<table>
+  <tr>
+    <td><img src="/LightBound_Together/Images/PhysicsPacakage.png" width="500" height="600" /></td>
+  </tr>
+</table>
 
 ---  
 
 ##  *Camera*
+For the camera system, I used Unity’s Cinemachine package. I went with the FreeLook option and spent time tweaking the settings until I got the movement and feel I wanted. 
+<table>
+  <tr>
+    <td><img src="/LightBound_Together/Images/Camera_Asset.png" width="500" height="600" /></td>
+  </tr>
+</table>
+
+Since the package didn’t include zoom by default, I also added my own zoom functionality to give players more control over the view.
+<details>  
+<summary>Camera zoom script</summary>   
+  
+![CameraZoom script](/LightBound_Together/Code/CameraZoom_Script.png) 
+</details>  
+
+I added the camera directly to the player prefab. To make sure only the local player keeps the camera (so multiple players don’t spawn multiple cameras in multiplayer), I wrote a small script that removes the camera for all non-local players and sets up the Cinemachine FreeLook camera to follow and look at the correct transform.
+<details>  
+<summary>Local player camera script</summary>   
+  
+![LocalPlayerCamera script](/LightBound_Together/Code/LocalCamera_Script.png) 
+</details>  
+
 
 ---  
 
