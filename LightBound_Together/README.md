@@ -202,19 +202,19 @@ I added the camera directly to the player prefab. To make sure only the local pl
 
 ---  
 
-##  *shadow shader*
-
----  
-
 ##  *Physics & interactions*
 
 ---  
 
-##  *Level design*
+##  *Environment & Lightning*
 
 ---  
 
-##  *Environment & Lightning*
+##  *shadow shader*
+
+---  
+
+##  *Level design*
 
 ---  
 
