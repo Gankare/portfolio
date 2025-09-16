@@ -112,6 +112,8 @@ Finally, I wrote a GameManager that ties everything together. It makes sure only
 ---  
 
 ##  *Menu UI*
+
+####  *Main menu*
 I made a very simple UI where the player can either host a game or connect as a client to a friend who is hosting by using a join code that the hosting player sees in their lobby.
 
 Here’s how the relay menu looks:
@@ -121,6 +123,9 @@ Here’s how the relay menu looks:
   </tr>
 </table>
 
+---  
+
+####  *Lobby menu*
 This is how the hosting player sees the join code along with the 3D level selection menu. From here, the host can share the code with a friend and then start the levels once everyone is connected. 
 <table>
   <tr>
@@ -142,6 +147,19 @@ To make it easier for the host to share the join code, I added a script that cop
   
 ![Copy to clipboard script](/LightBound_Together/Code/CopyToClipboard_Script.png) 
 </details>  
+
+---  
+
+####  *Pause menu*
+I also made a simple pause menu with the essentials: leaving the game or lobby, checking the controls, adjusting settings like volume and camera speed, and a restart option in case the level bugs out.
+
+Here’s how the pause menu and controls looks like:
+<table>
+  <tr>
+    <td><img src="/LightBound_Together/Images/PauseMenuUI.png" width="500" height="600" /></td>
+    <td><img src="/LightBound_Together/Images/ControlsUI.png" width="500" height="600" /></td>
+  </tr>
+</table>
 
 ---
 
