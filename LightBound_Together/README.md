@@ -151,7 +151,14 @@ To make it easier for the host to share the join code, I added a script that cop
 ---  
 
 ####  *Pause menu*
-I also made a simple pause menu with the essentials: leaving the game or lobby, checking the controls, adjusting settings like volume and camera speed, and a restart option in case the level bugs out.
+I also made a simple pause menu with the essentials: leaving the game or lobby, checking the controls, restart option in case the level bugs out and the option to go to settings where you can adjust things like volume, camera speed and a toggle for fullscreen.
+
+This is the script for the adjustable settings in the settings menu:
+<details>  
+<summary>SettingsManager script</summary>   
+  
+![SettingsManager script](/LightBound_Together/Code/SettingsManager_Script.png) 
+</details>  
 
 Here’s how the pause menu and controls looks like:
 <table>
