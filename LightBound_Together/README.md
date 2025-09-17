@@ -216,7 +216,7 @@ I know this isn’t the most performance-friendly approach, but I solved that by
 Lightsorces in level: 
 <table>
   <tr>
-    <td><img src="/LightBound_Together/Images/LightSorcesInLevel.png" width="500" height="600" /></td> 
+    <td><img src="/LightBound_Together/Images/LightSorcesInLevel.png" width="385" height="250" /></td> 
     <td><img src="/LightBound_Together/Images/FireflyLight_Gif.gif" width="385" height="250" /></td>
   </tr>
 </table>
@@ -232,8 +232,8 @@ Point lights on gameobjects:
 Volumetric directional lights for sky and moon:
 <table>
   <tr>
-    <td><img src="/LightBound_Together/Images/SkyLight_Gif.gif" width="385" height="250" /></td>
     <td><img src="/LightBound_Together/Images/VolumetricSkyLight_Gif.gif" width="385" height="250" /></td>
+    <td><img src="/LightBound_Together/Images/SkyLight_Gif.gif" width="385" height="250" /></td>
   </tr>
 </table>
 
