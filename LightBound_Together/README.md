@@ -213,6 +213,28 @@ I added the camera directly to the player prefab. To make sure only the local pl
 ---  
 
 ##  *shadow shader*
+What makes my game stand out from other co-op physics-based puzzle games is the light and darkness system. Instead of just solving puzzles, players also have to manage their survival — stepping outside the light causes the darkness to slowly consume them.
+
+I made a DarknessController script that constantly checks if the player is close enough to a light source (i did this by adding colliders to every light sorce that fits the area of the light). If they are, the screen stays clear and safe. If they move away, a custom post-processing effect (the DarknessOverlay) begins to shrink the player’s “safe radius,” adding shadows, pulsing, and distortion that make the screen feel like it’s closing in. Stay in the darkness too long, and the screen fully closes, the player hears whispers, and they’re eventually killed and respawned at a spawn point.
+<details>  
+<summary>DarknessController script</summary>   
+  
+![DarknessController script](/LightBound_Together/Code/DarknessController_Script.png) 
+</details>  
+
+The DarknessOverlay itself is a custom post-processing volume I wrote. It handles all the visual parts of the effect (shrinking radius, opacity, wobble, pulse, and noise) to make the darkness feel alive and unsettling. The script is linked to a shader that applies these effects in real-time as the player moves in and out of the light.
+<details>  
+<summary>DarknessOverlay script</summary>   
+  
+![DarknessOverlay script](/LightBound_Together/Code/DarknessOverlay_Script.png) 
+</details>  
+
+The visual effect of the shadows creeping in looks like this:
+<table>
+  <tr>
+    <td><img src="/" width="500" height="600" /></td>
+  </tr>
+</table>
 
 ---  
 
