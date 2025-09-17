@@ -199,11 +199,6 @@ I added the camera directly to the player prefab. To make sure only the local pl
 ![LocalPlayerCamera script](/LightBound_Together/Code/LocalCamera_Script.png) 
 </details>  
 
-
----  
-
-##  *Physics & interactions*
-
 ---  
 
 ##  *Environment & Lightning*
@@ -218,7 +213,7 @@ I added the camera directly to the player prefab. To make sure only the local pl
 
 ---  
 
-##  *Gameplay*
+##  *Gameplay, physics & interactions*
 
 ---  
 
