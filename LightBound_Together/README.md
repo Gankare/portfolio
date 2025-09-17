@@ -232,7 +232,7 @@ The DarknessOverlay itself is a custom post-processing volume I wrote. It handle
 The visual effect of the shadows creeping in looks like this:
 <table>
   <tr>
-    <td><img src="/" width="500" height="600" /></td>
+    <td><img src="/LightBound_Together/Images/Shadow_Gif.gif" width="500" height="600" /></td>
   </tr>
 </table>
 
