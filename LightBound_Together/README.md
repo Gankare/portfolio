@@ -208,7 +208,34 @@ I added the camera directly to the player prefab. To make sure only the local pl
 
 ---  
 
-##  *Environment & Lightning*
+##  *Lightning*
+Because Lightbound Together revolves around light and shadows, I decided to use Unity’s HDRP since it gives me the highest quality lighting, fog, and overall atmosphere. To achieve the look I wanted, I used a lot of light sources in my levels. For example, a single lantern uses six different lights to spread the glow evenly.
+
+I know this isn’t the most performance-friendly approach, but I solved that by using a script that only renders what the camera actually sees, so the game doesn’t lag. If the lanterns had transparent materials, I could’ve achieved the same result with just one light in the center, but this setup gave me the best balance of visuals and functionality for now.
+
+Lightsorces in level: 
+<table>
+  <tr>
+    <td><img src="/LightBound_Together/Images/LightSorcesInLevel.png" width="500" height="600" /></td> 
+    <td><img src="/LightBound_Together/Images/FireflyLight_Gif.gif" width="500" height="600" /></td>
+  </tr>
+</table>
+
+Point lights on gameobjects:
+<table>
+  <tr>
+    <td><img src="/LightBound_Together/Images/LanternLight_Gif.gif" width="500" height="600" /></td>
+    <td><img src="/LightBound_Together/Images/RespawnRockLight_Gif.gif" width="500" height="600" /></td> 
+  </tr>
+</table>
+
+Volumetric directional lights for sky and moon:
+<table>
+  <tr>
+    <td><img src="/LightBound_Together/Images/SkyLight_Gif.gif" width="500" height="600" /></td>
+    <td><img src="/LightBound_Together/Images/VolumetricSkyLight_Gif.gif" width="500" height="600" /></td>
+  </tr>
+</table>
 
 ---  
 
