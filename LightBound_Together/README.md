@@ -217,23 +217,23 @@ Lightsorces in level:
 <table>
   <tr>
     <td><img src="/LightBound_Together/Images/LightSorcesInLevel.png" width="500" height="600" /></td> 
-    <td><img src="/LightBound_Together/Images/FireflyLight_Gif.gif" width="500" height="600" /></td>
+    <td><img src="/LightBound_Together/Images/FireflyLight_Gif.gif" width="385" height="250" /></td>
   </tr>
 </table>
 
 Point lights on gameobjects:
 <table>
   <tr>
-    <td><img src="/LightBound_Together/Images/LanternLight_Gif.gif" width="500" height="600" /></td>
-    <td><img src="/LightBound_Together/Images/RespawnRockLight_Gif.gif" width="500" height="600" /></td> 
+    <td><img src="/LightBound_Together/Images/LanternLight_Gif.gif" width="385" height="250" /></td>
+    <td><img src="/LightBound_Together/Images/RespawnRockLight_Gif.gif" width="385" height="250" /></td> 
   </tr>
 </table>
 
 Volumetric directional lights for sky and moon:
 <table>
   <tr>
-    <td><img src="/LightBound_Together/Images/SkyLight_Gif.gif" width="500" height="600" /></td>
-    <td><img src="/LightBound_Together/Images/VolumetricSkyLight_Gif.gif" width="500" height="600" /></td>
+    <td><img src="/LightBound_Together/Images/SkyLight_Gif.gif" width="385" height="250" /></td>
+    <td><img src="/LightBound_Together/Images/VolumetricSkyLight_Gif.gif" width="385" height="250" /></td>
   </tr>
 </table>
 
