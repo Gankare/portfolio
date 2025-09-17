@@ -218,6 +218,10 @@ I added the camera directly to the player prefab. To make sure only the local pl
 
 ---  
 
+##  *Gameplay*
+
+---  
+
 ##  *Bugs and fixes*
 
 ---  
