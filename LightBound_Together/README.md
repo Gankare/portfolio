@@ -151,7 +151,7 @@ To make it easier for the host to share the join code, I added a script that cop
 ---  
 
 ####  *Pause menu*
-I also made a simple pause menu with the essentials: leaving the game or lobby, checking the controls, restart option in case the level bugs out and the option to go to settings where you can adjust things like volume, camera speed and a toggle for fullscreen.
+I also made a simple pause menu with the essentials: leaving the game or lobby, checking the controls, restart option in case the level bugs out and the option to go to settings where you can adjust the volume, camera speed and a toggle for fullscreen.
 
 This is the script for the adjustable settings in the settings menu:
 <details>  
