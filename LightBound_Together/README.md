@@ -266,6 +266,27 @@ The visual effect of the shadows creeping in looks like this:
 ---  
 
 ##  *Level design*
+Since I only had 8 weeks for the whole project, I only had time to create one tutorial level to introduce the mechanics and one main level as a proper challenge. My focus was more on building the multiplayer systems, menus, and unique gameplay mechanics rather than producing a large number of levels.
+
+####  *Tutorial*
+In the tutorial i introduce all the mechanis by having a easy challagen like jumping over logs and picking up pumpkins. I made a floating texts that tell the player what to do, the text also fades in and out depending on how close the player is to it. 
+
+Fade in for text script:
+
+<table>
+  <tr>
+    <td><img src="/LightBound_Together/Images/Tutorial_Gif.gif" width="400" height="250" /></td>
+    <td><img src="/LightBound_Together/Images/TurorialComplete_Gif.gif" width="400" height="250" /></td>
+  </tr>
+</table>
+
+####  *Level 1*
+<table>
+  <tr>
+    <td><img src="/LightBound_Together/Images/Shadow_Gif.gif" width="400" height="250" /></td>
+    <td><img src="/LightBound_Together/Images/Shadow_Gif.gif" width="400" height="250" /></td>
+  </tr>
+</table>
 
 ---  
 
