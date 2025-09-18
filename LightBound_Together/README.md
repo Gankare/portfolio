@@ -284,6 +284,8 @@ In the tutorial I introduce the basic mechanics through simple challenges like j
   </tr>
 </table>
 
+---  
+
 ####  *Level 1*
 <table>
   <tr>
@@ -294,7 +296,7 @@ In the tutorial I introduce the basic mechanics through simple challenges like j
 
 In Level 1 I added a few simple obstacles to test physics interactions across the network. Since this is a multiplayer game, I used ServerRPC calls to make sure all the physics-based events triggered by one player (like pushing or activating something) were correctly synchronized so the other player could see the same result. This let me test how reliable physics replication was in a real gameplay scenario.
 
-Obstacles in Level 1
+####  *Obstacles in Level 1*
 The first obstacle I added was two cauldrons that the players must fill with pumpkins in order to open a gate. This introduces teamwork and object handling since both players need to collect and carry pumpkins to progress.
 <table>
   <tr>
@@ -302,8 +304,12 @@ The first obstacle I added was two cauldrons that the players must fill with pum
   </tr>
 </table>
 
+---  
+
 Bridge Puzzle
-The second obstacle is a cooperative bridge puzzle. One player has to carry a wooden plank and place it to build a bridge, while the other player holds a light to prevent both from being consumed by the darkness. When the bridge is finished, it leads to a pressure plate. By standing on it, one player raises another bridge, allowing their partner to jump across the water and progress further into the level.
+The second obstacle is a cooperative bridge puzzle. One player has to carry a wooden plank and place it to build a bridge, while the other player holds a light to prevent both from being consumed by the darkness. When the bridge is finished, it leads to a pressure plate. By standing on it, one player raises another spinning bridge, allowing their partner to jump across the water and progress further into the level.
+
+Images of the plank bridge, pressure plate and the spinning bridge:
 <table>
   <tr>
     <td><img src="/LightBound_Together/Images/Bridge.png" width="450" height="250" /></td>
@@ -314,6 +320,29 @@ The second obstacle is a cooperative bridge puzzle. One player has to carry a wo
   <tr>
     <td><img src="/LightBound_Together/Images/SpinnerUp.png" width="450" height="250" /></td>
     <td><img src="/LightBound_Together/Images/SpinnerUp2.png" width="450" height="250" /></td>
+  </tr>
+</table>
+
+---
+
+Breakable Wall
+The next challenge is a destructible wall that can only be broken by applying enough force. I added this mechanic because many physics-based co-op games feature some form of breakable barrier, and I wanted to see if I could implement it myself. The wall reacts to strong impacts and eventually collapses, allowing the players to move forward.
+
+Destructible wall & grabbable weapons to destroy the wall:
+<table>
+  <tr>
+    <td><img src="/LightBound_Together/Images/Wall_Gif.gif" width="450" height="250" /></td>
+    <td><img src="/LightBound_Together/Images/Destruction_Gif.gif" width="450" height="250" /></td>
+  </tr>
+</table>
+
+---  
+
+The final challenge of the level is a cooperative parkour section. One player must step on pressure plates that temporarily push stones out of the wall, creating platforms for the other player to climb. Each stone remains extended for only one second after the pressure plate is released. At the top, the climbing player can grab a lantern, which is then used to burn away the shadows blocking the cave entrance.
+<table>
+  <tr>
+    <td><img src="/LightBound_Together/Images/PressurePlate_Gif.gif" width="450" height="250" /></td>
+    <td><img src="/LightBound_Together/Images/EndFire_Gif.gif" width="450" height="250" /></td>
   </tr>
 </table>
 
