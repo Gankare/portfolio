@@ -2,6 +2,19 @@
 
 ![LightBound Logo](/LightBound_Together/Images/AI_Logo.png)   
 
+<table>
+  <tr>
+    <td><img src="/LightBound_Together/Images/Enviroment1.png" width="500" height="600" /></td>
+    <td><img src="/LightBound_Together/Images/Inviroment2.png" width="500" height="600" /></td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td><img src="/LightBound_Together/Images/OtherSideOfWall.png" width="500" height="600" /></td>
+    <td><img src="/LightBound_Together/Images/EndPuzzle.png" width="500" height="600" /></td>
+  </tr>
+</table>
+
 ## *Game description*  
 
 **LightBound Together** is a physics-based Co-op multiplayer demo inspired by Human: Fall Flat, designed for 2–4 players. Like its inspiration, it features quirky physics where players can grab, throw, and carry objects to solve puzzles and navigate parkour-style challenges.
