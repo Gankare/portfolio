@@ -18,7 +18,7 @@ All the features have been implemented by me.
 
 ---  
 
-##  *Why i made this game*
+##  *Why I made this game*
 
 I created this demo as my final thesis project at a vocational game development school. I thought the concept was fun and unique, and it gave me the opportunity to explore an idea I was genuinely excited about. At the same time, I wanted to challenge myself by learning more about multiplayer development, since it adds an extra layer of complexity and teamwork to game design.
 
@@ -53,7 +53,7 @@ Together, NGO handles the multiplayer logic, Relay ensures players can always co
 
 ---  
 
-##  *Menus, Hosting and Joning*
+##  *Menus, Hosting and Joining*
 To support multiplayer with Netcode for GameObjects and Unity Relay, I built a system that handles everything from starting a lobby to unlocking levels.
 
 #### *LobbyCheck*  
@@ -363,10 +363,35 @@ The final challenge of the level is a cooperative parkour section. One player mu
 
 ---  
 
-##  *Gameplay, physics & interactions*
+##  *Gameplay, physics & interactions, bugs & fixes*
+
+####  *Gameobject Ownership*
+
+I had a lot of trouble getting grab interactions to work the way I wanted. In Unity NGO, only the owner of a NetworkObject is allowed to send updates about it. By default, the host owns all objects, which means clients can’t directly interact with them unless they take ownership. To fix this, I made it so that the grab script transfers ownership of an object to the player who picks it up.
+
+I also made every object technically grabbable — even things like trees and rocks — so players could still “hold” onto them even if they weren’t movable. The big problem, though, is that ownership is exclusive: only one player can own an object at a time. If two players try to grab the same thing, the system breaks completely.
+
+My quick solution, given the limited time, was to lock a grabbed object so no other player could grab it at the same time. This worked, but it removed the possibility of puzzles where players need to move objects together, which was something I originally wanted to explore. If I had more time, I’d redo the system so the server kept full authority over grab interactions instead of relying on clients transferring ownership individually.
+
+Here are all the prefabs of the grabbable objects in the game, including both static and movable gameobjects:
+<table>
+  <tr>
+    <td><img src="/LightBound_Together/Images/GrabbablePrefabs.png" width="450" height="250" /></td>
+  </tr>
+</table>
 
 ---  
 
-##  *Bugs and fixes*
+####  *Player IDs*
+
+To keep track of which players are connected to the Relay and what each player does, I made a small script called PlayerIdentifier. It ensures that every player has a unique ID in the game. When the game starts, the script grabs the OwnerClientId from the player’s NetworkObject and saves it as localId. Since I’m using Netcode, the host also listens for new clients joining, and when that happens, the script updates the IDs across all clients using a ClientRpc.
+
+<details>  
+<summary>Player identifier script</summary>   
+  
+![PlayerIdentifier script](/LightBound_Together/Code/PlayerIdentifier_Script.png) 
+</details>  
 
 ---  
+
+####  *...*
