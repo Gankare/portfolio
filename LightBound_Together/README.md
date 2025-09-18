@@ -287,13 +287,6 @@ In the tutorial I introduce the basic mechanics through simple challenges like j
 ---  
 
 ####  *Level 1*
-<table>
-  <tr>
-    <td><img src="/LightBound_Together/Images/PumpkinSpinner_Gif.gif" width="450" height="250" /></td>
-    <td><img src="/LightBound_Together/Images/Wall_Gif.gif" width="450" height="250" /></td>
-  </tr>
-</table>
-
 In Level 1 I added a few simple obstacles to test physics interactions across the network. Since this is a multiplayer game, I used ServerRPC calls to make sure all the physics-based events triggered by one player (like pushing or activating something) were correctly synchronized so the other player could see the same result. This let me test how reliable physics replication was in a real gameplay scenario.
 
 ####  *Obstacles in Level 1*
@@ -320,6 +313,17 @@ Images of the plank bridge, pressure plate and the spinning bridge:
   <tr>
     <td><img src="/LightBound_Together/Images/SpinnerUp.png" width="450" height="250" /></td>
     <td><img src="/LightBound_Together/Images/SpinnerUp2.png" width="450" height="250" /></td>
+  </tr>
+</table>
+
+---
+
+Scarecrows & Water Stone Parkour
+After crossing the spinning bridge, players encounter spinning scarecrows that knock them back if touched. Beyond them lies a sequence of stones forming a parkour path across the water. This section is made more intense by the absence of nearby light sources—forcing players to either move quickly between the scarecrows and across the stones before the darkness consumes them, or coordinate carefully by bringing a lantern along to stay safe.
+<table>
+  <tr>
+    <td><img src="/LightBound_Together/Images/PumpkinSpinner_Gif.gif" width="450" height="250" /></td>
+    <td><img src="/LightBound_Together/Images/WaterStones.png" width="450" height="250" /></td>
   </tr>
 </table>
 
