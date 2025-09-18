@@ -394,4 +394,31 @@ To keep track of which players are connected to the Relay and what each player d
 
 ---  
 
-####  *...*
+####  *Respawning, Synced spawnpoints & checkpoints*
+
+I made a SpawnManager script to handle where players appear in the game and to keep that spawn point consistent across all clients. It’s a singleton, so there’s only ever one SpawnManager in the scene, and it persists between scene loads.
+
+When the game starts, the script sets the initial spawn position and rotation based on the SpawnManager’s transform and immediately syncs that to all clients using a ClientRpc. If the local player already exists, it tells them to respawn at that point.
+
+When a player reaches a checkpoint (the blue stones), the script updates the spawn position on the server using a ServerRpc, which then propagates the new position to all clients via a ClientRpc, making it everyone’s new spawn point.
+
+Script for setting spawn point:
+<details>  
+<summary>Spawn manager script</summary>   
+  
+![SpawnManager script](/LightBound_Together/Code/SpawnManager_Script.png) 
+</details>  
+
+Script for spawning player at spawn point:
+<details>  
+<summary>Spawn player script</summary>   
+  
+![SpawnPlayer script](/LightBound_Together/Code/SpawnPlayer_Script.png) 
+</details>  
+
+This means that only one player needs to reach the next checkpoint, and the others can follow or even jump off the map to proceed. To notify all players that a new checkpoint has been reached, I added an animated rotating arrow in the top-left corner of the screen. It looks like this:
+<table>
+  <tr>
+    <td><img src="/LightBound_Together/Images/Respawn_Gif.gif" width="450" height="250" /></td>
+  </tr>
+</table>
