@@ -283,8 +283,8 @@ Fade in for text script:
 ####  *Level 1*
 <table>
   <tr>
-    <td><img src="/LightBound_Together/Images/Shadow_Gif.gif" width="400" height="250" /></td>
-    <td><img src="/LightBound_Together/Images/Shadow_Gif.gif" width="400" height="250" /></td>
+    <td><img src="/LightBound_Together/Images/PumpkinSpinner_Gif.gif" width="400" height="250" /></td>
+    <td><img src="/LightBound_Together/Images/Wall_Gif.gif" width="400" height="250" /></td>
   </tr>
 </table>
 
