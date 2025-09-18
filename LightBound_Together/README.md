@@ -269,9 +269,13 @@ The visual effect of the shadows creeping in looks like this:
 Since I only had 8 weeks for the whole project, I only had time to create one tutorial level to introduce the mechanics and one main level as a proper challenge. My focus was more on building the multiplayer systems, menus, and unique gameplay mechanics rather than producing a large number of levels.
 
 ####  *Tutorial*
-In the tutorial i introduce all the mechanis by having a easy challagen like jumping over logs and picking up pumpkins. I made a floating texts that tell the player what to do, the text also fades in and out depending on how close the player is to it. 
+In the tutorial I introduce the basic mechanics through simple challenges like jumping over logs and picking up pumpkins. To guide the player, I added floating text instructions in the world. These messages fade in when the player gets close and fade out when they move away, so they don’t clutter the screen.
 
-Fade in for text script:
+<details>  
+<summary>Text render range script</summary>   
+  
+![TextRenderRange script](/LightBound_Together/Code/TextRenderRange_Script.png) 
+</details>  
 
 <table>
   <tr>
@@ -285,6 +289,31 @@ Fade in for text script:
   <tr>
     <td><img src="/LightBound_Together/Images/PumpkinSpinner_Gif.gif" width="450" height="250" /></td>
     <td><img src="/LightBound_Together/Images/Wall_Gif.gif" width="450" height="250" /></td>
+  </tr>
+</table>
+
+In Level 1 I added a few simple obstacles to test physics interactions across the network. Since this is a multiplayer game, I used ServerRPC calls to make sure all the physics-based events triggered by one player (like pushing or activating something) were correctly synchronized so the other player could see the same result. This let me test how reliable physics replication was in a real gameplay scenario.
+
+Obstacles in Level 1
+The first obstacle I added was two cauldrons that the players must fill with pumpkins in order to open a gate. This introduces teamwork and object handling since both players need to collect and carry pumpkins to progress.
+<table>
+  <tr>
+    <td><img src="/LightBound_Together/Images/PumpkinGate.png" width="450" height="250" /></td>
+  </tr>
+</table>
+
+Bridge Puzzle
+The second obstacle is a cooperative bridge puzzle. One player has to carry a wooden plank and place it to build a bridge, while the other player holds a light to prevent both from being consumed by the darkness. When the bridge is finished, it leads to a pressure plate. By standing on it, one player raises another bridge, allowing their partner to jump across the water and progress further into the level.
+<table>
+  <tr>
+    <td><img src="/LightBound_Together/Images/Bridge.png" width="450" height="250" /></td>
+    <td><img src="/LightBound_Together/Images/SpinnerDown.png" width="450" height="250" /></td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td><img src="/LightBound_Together/Images/SpinnerUp.png" width="450" height="250" /></td>
+    <td><img src="/LightBound_Together/Images/SpinnerUp2.png" width="450" height="250" /></td>
   </tr>
 </table>
 
