@@ -300,6 +300,7 @@ The first obstacle I added was two cauldrons that the players must fill with pum
 ---  
 
 Bridge Puzzle
+
 The second obstacle is a cooperative bridge puzzle. One player has to carry a wooden plank and place it to build a bridge, while the other player holds a light to prevent both from being consumed by the darkness. When the bridge is finished, it leads to a pressure plate. By standing on it, one player raises another spinning bridge, allowing their partner to jump across the water and progress further into the level.
 
 Images of the plank bridge, pressure plate and the spinning bridge:
@@ -319,6 +320,7 @@ Images of the plank bridge, pressure plate and the spinning bridge:
 ---
 
 Scarecrows & Water Stone Parkour
+
 After crossing the spinning bridge, players encounter spinning scarecrows that knock them back if touched. Beyond them lies a sequence of stones forming a parkour path across the water. This section is made more intense by the absence of nearby light sources—forcing players to either move quickly between the scarecrows and across the stones before the darkness consumes them, or coordinate carefully by bringing a lantern along to stay safe.
 <table>
   <tr>
@@ -330,6 +332,7 @@ After crossing the spinning bridge, players encounter spinning scarecrows that k
 ---
 
 Breakable Wall
+
 The next challenge is a destructible wall that can only be broken by applying enough force. I added this mechanic because many physics-based co-op games feature some form of breakable barrier, and I wanted to see if I could implement it myself. The wall reacts to strong impacts and eventually collapses, allowing the players to move forward.
 
 Destructible wall & grabbable weapons to destroy the wall:
