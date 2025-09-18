@@ -382,6 +382,17 @@ Here are all the prefabs of the grabbable objects in the game, including both st
 
 ---  
 
+####  *Draging other player*
+The way I implemented ownership for grabbing objects also caused an issue with ragdoll physics when dragging another player. Because the ragdoll system is driven by the client that owns the player character, when another player grabs you, they gain ownership over your character object. This means your ragdoll physics stops working and you can’t move, which isn’t how I wanted it to function. Ideally, I wanted it to behave more like Human: Fall Flat, where players can grab each other without breaking movement or physics. This was the best solution I could implement with the time I had, and this is how it looks:
+
+<table>
+  <tr>
+    <td><img src="/LightBound_Together/Images/Grab_Gif.gif" width="450" height="250" /></td>
+  </tr>
+</table>
+
+---
+
 ####  *Player IDs*
 
 To keep track of which players are connected to the Relay and what each player does, I made a small script called PlayerIdentifier. It ensures that every player has a unique ID in the game. When the game starts, the script grabs the OwnerClientId from the player’s NetworkObject and saves it as localId. Since I’m using Netcode, the host also listens for new clients joining, and when that happens, the script updates the IDs across all clients using a ClientRpc.
@@ -420,3 +431,22 @@ This means that only one player needs to reach the next checkpoint, and the othe
     <td><img src="/LightBound_Together/Images/Respawn_Gif.gif" width="450" height="250" /></td>
   </tr>
 </table>
+
+---  
+
+####  *Respawning of objects*
+I ran into some issues with respawning objects when they were thrown into hazards like water. In singleplayer, it’s simple: you just reset the object’s position and set its velocity to zero. But in multiplayer with Netcode, ownership complicates things. When an object is thrown, it needs to release ownership, and rapidly changing ownership while the object is moving caused physics glitches and made objects behave unpredictably.
+
+To solve this, I made it so that objects lose ownership only when they hit "Death" which in this case is the water. Before respawning, the object is made kinematic to stop all movement, then its position and rotation are reset to the original spawn point. Finally, physics is re-enabled so the object behaves normally again.
+
+The script also handles tracking whether an object is being held (held) and whether it should respawn at all (isStatic). All critical actions—like resetting ownership and respawning—are handled on the server using ServerRpcs, while the client is kept in sync using ClientRpcs. This ensures that object respawns are consistent across all players and prevents physics glitches during multiplayer interactions.
+
+<details>  
+<summary>Object respawn script</summary>   
+  
+![ObjectRespawn script](/LightBound_Together/Code/ObjectRespawn_Script.png) 
+</details> 
+
+---  
+
+####  *Respawning of objects*
