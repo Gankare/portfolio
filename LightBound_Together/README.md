@@ -190,6 +190,14 @@ Instead, I bought an already working ragdoll player package (Image below) that w
   </tr>
 </table>
 
+I added footstep sounds to the players to make movement feel more immersive. The script checks when a player’s foot collides with the ground and, if the player is moving, plays one of two random footstep audio clips. To make it multiplayer-friendly, the local player sends a ServerRpc when a step is detected, which then calls a ClientRpc so all clients hear the sound. It also respects sprinting by reducing the delay between steps when the player is running.
+
+<details>  
+<summary>Footstep sound script</summary>   
+  
+![FootSteepSond script](/LightBound_Together/Code/FootSteepSond_Script.png) 
+</details> 
+
 ---  
 
 ##  *Camera*
@@ -299,6 +307,19 @@ In Level 1 I added a few simple obstacles to test physics interactions across th
 
 ####  *Obstacles in Level 1*
 The first obstacle I added was two cauldrons that the players must fill with pumpkins in order to open a gate. This introduces teamwork and object handling since both players need to collect and carry pumpkins to progress.
+
+<details>  
+<summary>Cauldron script</summary>   
+  
+![BoxTrigger script](/LightBound_Together/Code/BoxTrigger_Script.png) 
+</details>  
+
+<details>  
+<summary>Gate script</summary>   
+  
+![Gate script](/LightBound_Together/Code/Gate_Script.png) 
+</details>  
+
 <table>
   <tr>
     <td><img src="/LightBound_Together/Images/PumpkinGate.png" width="450" height="250" /></td>
@@ -325,6 +346,21 @@ Images of the plank bridge, pressure plate and the spinning bridge:
   </tr>
 </table>
 
+I created a system for rotating platforms and for players to move naturally with them. The RotatingPlatform script makes the platform rotate smoothly around its axis using Rigidbody physics. It’s kinematic so it doesn’t react to other forces but still moves accurately each physics frame.
+
+The AttachToPlatform script ensures that when a player stands on the platform, they move along with it. It calculates the platform’s rotational velocity and applies it to the player, so the movement feels natural and the player doesn’t slide off. Once the player leaves the platform, the effect stops. Together, these scripts make rotating platforms feel dynamic and interactive in multiplayer physics-based levels.
+
+<details>  
+<summary>Rotating platform script</summary>   
+  
+![RotatingPlatform script](/LightBound_Together/Code/RotatingPlatform_Script.png) 
+</details> 
+
+<details>  
+<summary>Attach player to platform script</summary>   
+  
+![AttachToPlatform script](/LightBound_Together/Code/AttachToPlatform_Script.png) 
+</details> 
 ---
 
 Scarecrows & Water Stone Parkour
@@ -449,4 +485,16 @@ The script also handles tracking whether an object is being held (held) and whet
 
 ---  
 
-####  *Respawning of objects*
+####  *Object render distance*
+
+I made the ObjectVisibility script to control which networked objects each player can see in the game. The idea is that players only see objects that are close enough to them, which helps with performance and can also be used for gameplay effects like proximity-based interactions.
+
+The script keeps a list of networked objects and the host checks every frame whether each object is within a set renderRange for each client. If it is, the object is shown; if not, it’s hidden. I used NetworkShow and NetworkHide to update visibility over the network so all players see the correct state.
+
+When the scene changes, the script clears the list of objects and starts fresh, ensuring that visibility is always correct for the current level. By letting the host control all visibility decisions, I made sure everything stays synchronized across clients.
+
+<details>  
+<summary>Object render script</summary>   
+  
+![ObjectVisability script](/LightBound_Together/Code/ObjectVisability_Script.png) 
+</details> 
