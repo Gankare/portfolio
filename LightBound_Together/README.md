@@ -392,6 +392,13 @@ Destructible wall & grabbable weapons to destroy the wall:
 
 The final challenge of the level is a cooperative parkour section. One player must step on pressure plates that temporarily push stones out of the wall, creating platforms for the other player to climb. Each stone remains extended for only one second after the pressure plate is released. At the top, the climbing player can grab a lantern, which is then used to burn away the shadows blocking the cave entrance.
 
+<table>
+  <tr>
+    <td><img src="/LightBound_Together/Images/PressurePlate_Gif.gif" width="450" height="250" /></td>
+    <td><img src="/LightBound_Together/Images/EndFire_Gif.gif" width="450" height="250" /></td>
+  </tr>
+</table>
+
 I made the PressurePlateScript to handle interactive pressure plates that players can trigger by placing objects on them. When a grabbable object enters the plate’s collider, the plate registers it and plays an animation. For example, in one puzzle, rocks slide out from a wall to create steps, and in another, a rotating platform bridge rises from the water so the other player can cross.
 
 The plate also plays animations and sounds when activated or deactivated, and it ensures only one object can trigger it at a time. This keeps the puzzle interactions consistent and predictable for the players.
@@ -407,13 +414,6 @@ The plate also plays animations and sounds when activated or deactivated, and it
   
 ![LevelComplete script](/LightBound_Together/Code/LevelComplete_Script.png) 
 </details> 
-
-<table>
-  <tr>
-    <td><img src="/LightBound_Together/Images/PressurePlate_Gif.gif" width="450" height="250" /></td>
-    <td><img src="/LightBound_Together/Images/EndFire_Gif.gif" width="450" height="250" /></td>
-  </tr>
-</table>
 
 ---  
 
