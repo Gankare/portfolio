@@ -17,7 +17,7 @@ All the features have been implemented by me.
 
 ---  
 
-##  *Why i made this game*
+##  *Why I made this game*
 
 During my internship at VR World, we had a Christmas break where we were free to create whatever we wanted. I took the opportunity to dive deeper into VR by experimenting with a character model that mirrors the player’s body.
 
