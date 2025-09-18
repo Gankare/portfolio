@@ -402,16 +402,14 @@ When the game starts, the script sets the initial spawn position and rotation ba
 
 When a player reaches a checkpoint (the blue stones), the script updates the spawn position on the server using a ServerRpc, which then propagates the new position to all clients via a ClientRpc, making it everyone’s new spawn point.
 
-Script for setting spawn point:
 <details>  
-<summary>Spawn manager script</summary>   
+<summary>Script for setting spawn point</summary>   
   
 ![SpawnManager script](/LightBound_Together/Code/SpawnManager_Script.png) 
 </details>  
 
-Script for spawning player at spawn point:
 <details>  
-<summary>Spawn player script</summary>   
+<summary>Script for spawning player at spawn point</summary>   
   
 ![SpawnPlayer script](/LightBound_Together/Code/SpawnPlayer_Script.png) 
 </details>  
