@@ -1,7 +1,7 @@
 # *VR Party*
 <table>
   <tr>
-    <td><img src="/VR_Snap/Images/Camera_Gif.gif" width="500" height="450" /></td>
+    <td><img src="/" width="500" height="450" /></td>
   </tr>
 </table> 
 [VR Party Demo Trailer](https://www.youtube.com/watch?v=arceBJsaVkI)   
