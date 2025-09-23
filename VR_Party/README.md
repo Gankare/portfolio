@@ -8,7 +8,11 @@
 
 ## *Game description*  
 
-**VR Party** is a .
+**VR Party** Is a local multiplayer VR game designed to bring fast-paced fun and competition into one headset. Players take turns completing a series of one-minute minigames, each aiming to rack up the highest score before passing the headset to the next challenger.
+
+The game features a variety of minigames ranging from familiar challenges like basketball and slingshot target shooting to more unique ones such as piloting a zeppelin through rings. Each minigame can be played with different difficulties and game modes, keeping the experience fresh and adaptable to any group.
+
+Since only one person plays at a time, there’s no player limit—making VR-Party perfect for groups of any size. The simple format, combined with quick rounds and escalating tension, makes every session a mix of lighthearted fun and serious competition to see who comes out on top.
 
 ---
 
