@@ -27,22 +27,47 @@ The following section showcases the minigames I designed and programmed on my ow
 ---
 
 ### *Basketball minigame*
+#### *Normal mode*
+
+---
+
+#### *Challenge Mode*
 
 ---
 
 ### *Color match minigame*
+#### *Normal mode*
+
+---
+
+#### *Challenge Mode*
 
 ---
 
 ### *Slingshot minigame*
+#### *Normal mode*
+
+---
+
+#### *Challenge Mode*
 
 ---
 
 ### *Egg-knife minigame*
+#### *Normal mode*
+
+---
+
+#### *Challenge Mode*
 
 ---
 
 ### *Sort minigame*
+#### *Normal mode*
+
+---
+
+#### *Challenge Mode*
 
 ---
 
