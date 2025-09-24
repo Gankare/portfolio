@@ -43,8 +43,8 @@ Below is a summary of some of my visual scripts written to this game, keep in mi
 </table>
 <table>
   <tr>
-    <td><img src="/VR_Party/Images/Menu/MenuSettings_Gif.gif" width="800 height="200" /></td>
-    <td><img src="/VR_Party/Images/Menu/MenuAddPlayer_Gif.gif" width="800 height="200" /></td>
+    <td><img src="/VR_Party/Images/Menu/MenuSettings_Gif.gif" width="100 height="100" /></td>
+    <td><img src="/VR_Party/Images/Menu/MenuAddPlayer_Gif.gif" width="100 height="100" /></td>
   </tr>
 </table>
 
