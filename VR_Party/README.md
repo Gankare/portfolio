@@ -40,7 +40,7 @@ The guns are grabbable objects with a fixed hand pose, so when picked up they’
 
 To make sure the guns stay in place, I wrote a script that checks if a gun moves too far from the arcade machine, this is done with a distance check script. If the gun goes past the limit, it force releases from the player’s hand as you can see in the Gif below. 
 
-The red circles is how far you can pull a gun without it getting dropped:
+The red gizmo circles is how far you can pull a gun without it getting dropped:
 <table>
   <tr>
     <td><img src="/VR_Party/Images/Menu/MenuPistolRange.png" width="385" height="350" /></td>
