@@ -41,12 +41,13 @@ Below is a summary of some of my visual scripts written to this game, keep in mi
     <td><img src="/VR_Party/Images/Menu/MenuPistolRange_Gif.gif" /></td>
   </tr>
 </table>
+
 <table>
   <tr>
-    <td><img src="/VR_Party/Images/Menu/MenuSettings_Gif.gif" width="100 height="100" /></td>
-    <td><img src="/VR_Party/Images/Menu/MenuAddPlayer_Gif.gif" width="100 height="100" /></td>
+    <td><img src="/VR_Party/Images/Menu/MenuSettings_Gif.gif" width="500" height="450" /></td>
+    <td><img src="/VR_Party/Images/Menu/MenuAddPlayer_Gif.gif" width="500" height="450" /></td>
   </tr>
-</table>
+</table> 
 
 ---
 
