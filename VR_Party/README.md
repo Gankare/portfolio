@@ -1,7 +1,7 @@
 # *VR Party*
 <table>
   <tr>
-    <td><img src="/VR_Party/Images/Menu/MenuClose.png" width="500" height="450" /></td>
+    <td><img src="/VR_Party/Images/Menu/MenuClose.png" /></td>
   </tr>
 </table> 
 [VR Party Demo Trailer](https://www.youtube.com/watch?v=arceBJsaVkI)   
