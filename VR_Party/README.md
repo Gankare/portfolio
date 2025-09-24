@@ -181,6 +181,79 @@ The following section showcases the minigames I designed and programmed on my ow
 
 ## *Cel Shader(maps & minigames)*
 
+#### *Jump castle map*
+<table>
+  <tr>
+    <td><img src="/VR_Party/Images/MapSelect/CastleMapOld.png" /></td>
+    <td><img src="/VR_Party/Images/MapSelect/CastleMap.png" /></td>
+  </tr>
+  <table>
+    
+<table>
+  <tr>
+    <td><img src="/VR_Party/Images/MapSelect/CastleSettings.png" /></td>
+  </tr>
+</table>
+
+#### *Lake forest map*
+<table>
+  <tr>
+    <td><img src="/VR_Party/Images/MapSelect/ForestMapModels.png" /></td>
+    <td><img src="/VR_Party/Images/MapSelect/ForestSettings.png" /></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td><img src="/VR_Party/Images/MapSelect/ForestMapOld.png" /></td>
+    <td><img src="/VR_Party/Images/MapSelect/ForestLakeMap.png" /></td>
+  </tr>
+</table>
+
+#### *Mesa normal & water map*
+<table>
+  <tr>
+    <td><img src="/VR_Party/Images/MapSelect/DesertMapOld.png" /></td>
+    <td><img src="/VR_Party/Images/MapSelect/DesertMapModels.png" /></td>
+  </tr>
+  <table>
+    
+<table>
+  <tr>
+    <td><img src="/VR_Party/Images/MapSelect/DesertMap.png" /></td> 
+    <td><img src="/VR_Party/Images/MapSelect/WaterMap.png" /></td>
+  </tr>
+</table>
+
+#### *Room map*
+<table>
+  <tr>
+    <td><img src="/VR_Party/Images/MapSelect/RoomMapOld.png" /></td>
+    <td><img src="/VR_Party/Images/MapSelect/RoomMap.png" /></td>
+  </tr>
+  <table>
+
+  #### *Moon map*
+<table>
+  <tr>
+    <td><img src="/VR_Party/Images/MapSelect/MoonMapOld.png" /></td>
+    <td><img src="/VR_Party/Images/MapSelect/MoonMapModels.png" /></td>
+  </tr>
+  <table>
+
+  <table>
+  <tr>
+    <td><img src="/VR_Party/Images/MapSelect/MoonMap1.png" /></td>
+    <td><img src="/VR_Party/Images/MapSelect/MoonMap2.png" /></td>
+  </tr>
+  <table>
+
+  <table>
+  <tr>
+    <td><img src="/VR_Party/Images/MapSelect/MoonMap3.png" /></td>
+  </tr>
+  <table>
+    
 ---
 
 ## *Map selector*
