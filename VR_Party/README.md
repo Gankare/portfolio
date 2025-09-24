@@ -31,20 +31,20 @@ Below is a summary of some of my visual scripts written to this game, keep in mi
 
 <table>
   <tr>
-    <td><img src="/VR_Party/Images/Menu/OldArcadeMachine.png" width="500" height="450" /></td>
-    <td><img src="/VR_Party/Images/Menu/MenuClose.png" width="500" height="450" /></td>
+    <td><img src="/VR_Party/Images/Menu/OldArcadeMachine.png" /></td>
+    <td><img src="/VR_Party/Images/Menu/MenuClose.png" /></td>
   </tr>
 </table>
 <table>
   <tr>
-    <td><img src="/VR_Party/Images/Menu/MenuPistolRange.png" width="500" height="450" /></td>
-    <td><img src="/VR_Party/Images/Menu/MenuPistols_Gif.gif" width="500" height="450" /></td>
+    <td><img src="/VR_Party/Images/Menu/MenuPistolRange.png" /></td>
+    <td><img src="/VR_Party/Images/Menu/MenuPistols_Gif.gif" /></td>
   </tr>
 </table>
 <table>
   <tr>
-    <td><img src="/VR_Party/Images/Menu/MenuSettings_Gif.gif" width="500" height="450" /></td>
-    <td><img src="/VR_Party/Images/Menu/AddPlayer_Gif.gif" width="500" height="450" /></td>
+    <td><img src="/VR_Party/Images/Menu/MenuSettings_Gif.gif" /></td>
+    <td><img src="/VR_Party/Images/Menu/AddPlayer_Gif.gif" /></td>
   </tr>
 </table>
 
