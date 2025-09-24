@@ -13,7 +13,7 @@ Role: Lead Programmer
 
 <table>
   <tr>
-    <td><img src="VR_Party/VR_Party/Images/SlingShot/SlingShotNormal_Gif.gif" width="385" height="250" /></td>
+    <td><img src="VR_Party/Images/SlingShot/SlingShotNormal_Gif.gif" width="385" height="250" /></td>
     <td><img src="VR_Party/Images/EggKnife/EggKnifeChallenge2_Gif.gif" width="385" height="250" /></td>
   </tr>
 </table>
