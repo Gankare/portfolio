@@ -37,8 +37,8 @@ Below is a summary of some of my visual scripts written to this game, keep in mi
 </table>
 <table>
   <tr>
-    <td><img src="/VR_Party/Images/Menu/MenuPistolRange.png" width="800 height="500" /></td>
-    <td><img src="/VR_Party/Images/Menu/MenuPistolRange_Gif.gif" /></td>
+    <td><img src="/VR_Party/Images/Menu/MenuPistolRange.png" /></td>
+     <td><img src="/VR_Party/Images/Menu/MenuPistolRange_Gif.gif" width="385" height="450" /></td>
   </tr>
 </table>
 
