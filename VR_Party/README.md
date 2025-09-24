@@ -31,21 +31,21 @@ Below is a summary of some of my visual scripts written to this game, keep in mi
 
 <table>
   <tr>
-    <td><img src="/VR_Party/Images/Menu/OldArcadeMachine.png" /></td>
-    <td><img src="/VR_Party/Images/Menu/MenuClose.png" /></td>
+    <td><img src="/VR_Party/Images/Menu/OldArcadeMachine.png" width="385" height="350" /></td>
+    <td><img src="/VR_Party/Images/Menu/MenuClose.png" width="385" height="350" /></td>
   </tr>
 </table>
 <table>
   <tr>
-    <td><img src="/VR_Party/Images/Menu/MenuPistolRange.png" /></td>
-     <td><img src="/VR_Party/Images/Menu/MenuPistolRange_Gif.gif" width="480" height="350" /></td>
+    <td><img src="/VR_Party/Images/Menu/MenuPistolRange.png" width="385" height="350" /></td>
+     <td><img src="/VR_Party/Images/Menu/MenuPistolRange_Gif.gif" width="385" height="350" /></td>
   </tr>
 </table>
 
 <table>
   <tr>
-    <td><img src="/VR_Party/Images/Menu/MenuSettings_Gif.gif" width="475" height="350" /></td>
-    <td><img src="/VR_Party/Images/Menu/MenuAddPlayer_Gif.gif" width="475" height="350" /></td>
+    <td><img src="/VR_Party/Images/Menu/MenuSettings_Gif.gif" width="385" height="350" /></td>
+    <td><img src="/VR_Party/Images/Menu/MenuAddPlayer_Gif.gif" width="385" height="350" /></td>
   </tr>
 </table> 
 
