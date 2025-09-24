@@ -1,7 +1,7 @@
 # *VR Party*
 <table>
   <tr>
-    <td><img src="/" width="500" height="450" /></td>
+    <td><img src="/VR_Party/Images/Menu/MenuClose.png" width="500" height="450" /></td>
   </tr>
 </table> 
 [VR Party Demo Trailer](https://www.youtube.com/watch?v=arceBJsaVkI)   
@@ -22,6 +22,12 @@ Below is a summary of some of my visual scripts written to this game, keep in mi
 ---
 
 ## *Main menu*
+
+<details>  
+<summary>Menu example script</summary>   
+  
+![Menu Script](/) 
+</details>  
 
 ---
 
