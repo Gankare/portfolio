@@ -21,20 +21,24 @@ Below is a summary of some of my visual scripts written to this game, keep in mi
 
 ---
 
-## *Main menu*
+## *Arcade Machine Menu System*
+For the menu in VR Party, I used the arcade machine I got from our artists, players interact using two guns attached to the machine. The guns work as raycasters, so when you grab one and aim it at the canvas placed on the arcade screen it shoots out a linerenderer that looks like a beam from the guns point. A Graphic Raycaster on the canvas detects clicks when the guns are fired.
 
-<details>  
-<summary>Menu example script</summary>   
-  
-![Menu Script](/) 
-</details>  
-
+Picture of the model i got and what i made from it:
 <table>
   <tr>
     <td><img src="/VR_Party/Images/Menu/OldArcadeMachine.png" width="385" height="350" /></td>
     <td><img src="/VR_Party/Images/Menu/MenuClose.png" width="385" height="350" /></td>
   </tr>
 </table>
+
+---
+
+#### *Guns and Interaction*
+
+The guns are grabbable objects with a fixed hand pose, so when picked up they’re always held the right way. They’re connected to the arcade machine with joints acting like wires, so the player can move them around but never pull them completely away.
+
+To make sure the guns stay in place, I wrote a script that checks if a gun moves too far from the arcade machine, this is done with a distance check script. If the gun goes past the limit, it force releases from the player’s hand.
 
 <table>
   <tr>
@@ -43,12 +47,45 @@ Below is a summary of some of my visual scripts written to this game, keep in mi
   </tr>
 </table>
 
+---
+
+#### *Player System*
+Players enter their names on the arcade screen using a custom virtual keyboard I made. Names are displayed in a player list, and duplicate names are not allowed.
+
+Supports any number of players.
+
+Player names and total count are saved using PlayerPrefs, keeping the setup persistent between sessions.
+
+#### *Game Modes*
+Once a minimum of two players is added, a game can start. The PartyManager script handles game initialization:
+UI locks after mode selection to prevent further changes.
+A fade animation plays using a black canvas transition.
+The PartyManager checks if Challenge Mode is active and triggers the corresponding SceneDirector function to load the level.
+
+Available modes on the arcade machine:
+Party Mode 
+Tournament Mode 
+Practice Mode 
+Challenge Modes – harder versions of the main modes.
+
+#### *Settings*
+
+The menu also includes a settings screen where players can adjust music and ambient audio with sliders. The sliders connect to Unity’s AudioMixer, so changes happen instantly. Settings are also stored with PlayerPrefs, and there’s an option to reset everything to default values.
+
 <table>
   <tr>
     <td><img src="/VR_Party/Images/Menu/MenuSettings_Gif.gif" width="385" height="350" /></td>
     <td><img src="/VR_Party/Images/Menu/MenuAddPlayer_Gif.gif" width="385" height="350" /></td>
   </tr>
 </table> 
+
+---
+
+<details>  
+<summary>Menu example script</summary>   
+  
+![Menu Script](/) 
+</details>  
 
 ---
 
