@@ -44,8 +44,8 @@ Below is a summary of some of my visual scripts written to this game, keep in mi
 
 <table>
   <tr>
-    <td><img src="/VR_Party/Images/Menu/MenuSettings_Gif.gif" width="500" height="450" /></td>
-    <td><img src="/VR_Party/Images/Menu/MenuAddPlayer_Gif.gif" width="500" height="450" /></td>
+    <td><img src="/VR_Party/Images/Menu/MenuSettings_Gif.gif" width="350" height="450" /></td>
+    <td><img src="/VR_Party/Images/Menu/MenuAddPlayer_Gif.gif" width="350" height="450" /></td>
   </tr>
 </table> 
 
