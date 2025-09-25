@@ -399,6 +399,7 @@ At this stage of the project, I was balancing several responsibilities: updating
 The challenge with using a spoon model was achieving accurate collision so the egg would sit naturally inside the spoon. This required a non-convex Mesh Collider, but the One Grab Physics Joint Transformer component—which we applied to all grabbable objects to ensure realistic physics and prevent clipping—does not support non-convex colliders. To overcome this limitation, I redesigned the gameplay: instead of a spoon, the player uses two knives like chopsticks to move the eggs into the basket. This solution maintained the fun and skill-based challenge while avoiding the collider restriction.
 
 Vissual reason why i did not use a spoon: 
+
 This displays the error if using non convex mesh collider and the spoon collider if using the a convex collider:
 <table>
   <tr>
@@ -410,6 +411,30 @@ This displays the error if using non convex mesh collider and the spoon collider
     <td><img src="/VR_Party/Images/EggKnife/SpoonCollider.png" width="800" height="500" /></td>
   </tr>
 </table>
+
+<details>  
+<summary>EggKnife minigame script</summary>   
+  
+![EggKnifeMinigame Script](/VR_Party/Code/EggKnife/EggKnifeMinigame_Script.png) 
+</details> 
+
+#### *EggAddScore script*
+Handles scoring when an egg enters the basket. It awards points, triggers a particle effect for feedback, and calls the ReturnEgg script to reset the egg.
+
+<details>  
+<summary>EggAddScore script</summary>   
+  
+![EggAddScore Script](/VR_Party/Code/EggKnife/EggAddScore_Script.png) 
+</details> 
+
+#### *ReturnEgg script*
+Resets the egg to its starting position when it collides with either the basket or the ground. It also restores its physics state so the egg can be reused smoothly.
+
+<details>  
+<summary>ReturnEgg script</summary>   
+  
+![ReturnEgg Script](/VR_Party/Code/EggKnife/ReturnEgg_Script.png) 
+</details> 
 
 <table>
   <tr>
