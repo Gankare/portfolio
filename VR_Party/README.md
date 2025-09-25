@@ -43,7 +43,7 @@ The guns are grabbable objects with a fixed hand pose, ensuring they are always 
 
 <table>
   <tr>
-    <td><img src="/VR_Party/Images/Menu/WireBuilder.png" width="385" height="350" /></td>
+    <td><img src="/VR_Party/Images/Menu/WireBuilder.png" width="600" height="450" /></td>
   </tr>
 </table>
 
