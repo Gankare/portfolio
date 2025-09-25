@@ -282,6 +282,93 @@ To make the ColorMatch minigame more challenging, I reduced the color similarity
 
 ### *Slingshot minigame*
 #### *Normal mode*
+<details>  
+<summary>SlingShot minigame script</summary>   
+  
+![SlingShotMiniGame Script](/VR_Party/Code/SlingShot/SlingShotMiniGame_Script.png) 
+</details> 
+
+This minigame was the most challenging to develop. Creating a satisfying and intuitive slingshot that feels good to use was not easy, but I can confidently say that I successfully achieved it.
+I developed a modular system of scripts to handle ammo snapping, aiming, shooting, scoring, and respawning, making the gameplay smooth and immersive.
+
+#### *Ammo handling*
+The AutoSnapAmmo and ToggleSlingSnap scripts manage snapping the ammo to the slingshot, allowing players to transition seamlessly from loading to shooting without needing to release their grab. These scripts enable or disable the snap interactable and grab logic depending on whether ammo is available. 
+
+Ammo is loaded using a Snap Zone on the slingshot, and each ammo object must have a Snap Interactor component for this system to work. This setup ensures smooth interactions, letting the player pick up ammo, snap it to the slingshot, and shoot without interruption.
+
+<details>  
+<summary>AutoSnapAmmo script</summary>   
+  
+![AutoSnapAmmo Script](/VR_Party/Code/SlingShot/AutoSnapAmmo_Script.png) 
+</details> 
+
+<details>  
+<summary>ToggleSlingSnap script</summary>   
+  
+![ToggleSlingSnap Script](/VR_Party/Code/SlingShot/ToggleSlingSnap_Script.png) 
+</details> 
+
+The ReturnAmmo script ensures ammo return to their original position after hitting the ground or a can, ready for reuse.
+
+<details>  
+<summary>ReturnAmmo script</summary>   
+  
+![ReturnAmmo Script](/VR_Party/Code/SlingShot/ReturnAmmo_Script.png) 
+</details> 
+
+---
+
+#### *Shooting and aiming*
+The AimSlingShoot script calculates the slingshot’s pull amount based on how far the player stretches the rubber band, which is implemented using a LineRenderer. The player aims by dragging a grabbable collider constrained to a set positions shown in the image below, allowing movement only backwards, up, and down. The pull distance determines the launch force of the projectile.
+
+<table>
+  <tr>
+    <td><img src="/VR_Party/Images/SlingShot/AimConstraints.png" width="700" height="550" /></td>
+  </tr>
+</table>
+
+When the pull exceeds a defined threshold, the projectile is launched with a force proportional to the pull distance. If the pull does not exceed the threshold, the slingshot automatically returns to its starting position while keeping the ammo loaded, allowing the player to try again without needing to reload.
+
+<details>  
+<summary>AimSlingShoot script</summary>   
+  
+![AimSlingShoot Script](/VR_Party/Code/SlingShot/AimSlingShoot_Script.png) 
+</details> 
+
+The ReturnAim script handles the visual line renderer for the slingshot and smoothly returns the slingshot to its resting position after release. The linerenderer follows the grabb interactable object making it look like you are draging the line. 
+
+<details>  
+<summary>ReturnAim script</summary>   
+  
+![ReturnAim Script](/VR_Party/Code/SlingShot/ReturnAim_Script.png) 
+</details> 
+
+The SnapGrabController script, attached to each ammo object, ensures that the correct interactor is used when grabbing the slingshot.
+
+<details>  
+<summary>SnapGrabController script</summary>   
+  
+![SnapGrabController Script](/VR_Party/Code/SlingShot/SnapGrabController_Script.png) 
+</details> 
+
+---
+
+#### *Scoring and cans*
+The CanHit script handles collisions between cans and ammo or the ground. It plays audio feedback, awards points, and tracks whether each can has fallen. 
+
+<details>  
+<summary>CanHit script</summary>   
+  
+![CanHit Script](/VR_Party/Code/SlingShot/CanHit_Script.png) 
+</details> 
+
+The RespawnObjectGroup script manages groups of cans, automatically resetting them once all have been knocked down, ensuring continuous gameplay. This script is used exclusively in normal mode, where cans are organized into groups.
+
+<details>  
+<summary>RespawnObjectGroup script</summary>   
+  
+![RespawnObjectGroup Script](/VR_Party/Code/SlingShot/RespawnObjectGroup_Script.png) 
+</details> 
 
 <table>
   <tr>
