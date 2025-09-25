@@ -77,7 +77,7 @@ When the Add Player button is pressed, the PartyManager is triggered, visually i
 </details>  
 
 <details>  
-<summary>Keyboard script used on every key</summary>   
+<summary>Keyboard key script used on every key</summary>   
   
 ![Keyboard Scrip](/VR_Party/Code/Menu/KeyboardKey_Script.png) 
 </details>  
