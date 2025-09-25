@@ -230,7 +230,7 @@ To make the basketball minigame more challenging, I positioned the hoop farther 
 The ColorMatch Minigame challenges players to adjust RGB values using physical levers until a cube matches a randomly generated target color shown on a sphere above it. I built the system using two core scripts that work together to handle color input, feedback, and scoring.
 
 #### *SetObjectRandomColor script*
-This script handles the goal system and scoring, At the start of each round,it generates a random target color and displays it on the sphere. It then continuously compares the player’s cube color to the target. If the difference is below a set threshold: the player gets points, a particle effect and sound are triggered for feedback, a new target color is generated, and scoring is temporarily locked to prevent spamming.
+This script handles the goal system and scoring, At the start of each round, it generates a random target color and displays it on the sphere. It then continuously compares the player’s cube color to the target. If the difference is below a set threshold: the player gets points, a particle effect and sound are triggered for feedback, a new target color is generated, and scoring is temporarily locked to prevent spamming.
 
 <details>  
 <summary>SetObjectRandomColor script</summary>   
@@ -270,6 +270,7 @@ The script retrieves the current material color from the player’s cube, normal
 ---
 
 #### *Challenge Mode*
+To make the ColorMatch minigame more challenging, I reduced the color similarity threshold between the cube and the target sphere, requiring players to be more precise with their RGB adjustments. I also removed the UI meters that displayed lever positions, making it progressively harder for players to match the colors accurately.
 
 <table>
   <tr>
