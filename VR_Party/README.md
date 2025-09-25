@@ -49,17 +49,34 @@ The red gizmo circles is how far you can pull a gun without it getting dropped:
 ---
 
 #### *Player System*
-Players enter their names on the arcade screen using a custom virtual keyboard I made. Names are displayed in a player list, and duplicate names are not allowed.
+Players enter their names on the arcade screen using a custom virtual keyboard I made. Names are displayed in a player list, and duplicate names are not allowed. Supports any number of players.
 
-Supports any number of players.
+When the Add Player button is pressed, the PartyManager is triggered, visually instantiating a UI player prefab and adding a new player with the chosen name to the game system. The player data is then saved using PlayerPrefs. Using PlayerPrefs, keeps the setup persistent between sessions.
 
-Player names and total player count are saved using PlayerPrefs, keeping the setup persistent between sessions.
+<details>  
+<summary>Keyboard script used on every key</summary>   
+  
+![Keyboard Scrip](/VR_Party/Code/Menu/KeyboardKey_Script.png) 
+</details>  
+
+<details>  
+<summary>PartyManager script, responsible for the game menus.</summary>   
+  
+![PartyManager script](/VR_Party/Code/Menu/PartyManager_Script.png) 
+</details>  
+
+<details>  
+<summary>Visual name script on the UI prefab</summary>   
+  
+![Name script](/VR_Party/Code/Menu/AddUIPlayer_Script.png) 
+</details>  
+
 
 #### *Game Modes*
-Once a minimum of two players has been added, a game can start. The PartyManager script handles game initialization: after a mode is selected, the UI locks to prevent further changes, and a fade animation plays using a black canvas transition. The PartyManager then checks if Challenge Mode is active and triggers the corresponding SceneDirector function to load the appropriate level. 
+Once a minimum of two players has been added, a game can start. The PartyManager script handles game initialization: after a mode is selected, the UI locks to prevent further changes, and a fade animation plays using a black canvas image transition. The PartyManager then checks if Challenge Mode is active and triggers the corresponding SceneDirector function to load the appropriate level. 
 
 Available modes on the arcade machine: Party Mode, Tournament Mode, Practice Mode, and Challenge Modes, which are harder versions of the main modes.
-Once a minimum of two players is added, a game can start. 
+Once a minimum of two players is added, a game can be started. 
 
 #### *Settings*
 The menu also includes a settings screen where players can adjust music and ambient audio with sliders. The sliders connect to Unity’s AudioMixer, so changes happen instantly. Settings are also stored with PlayerPrefs, and there’s an option to reset everything to default values.
@@ -70,14 +87,6 @@ The menu also includes a settings screen where players can adjust music and ambi
     <td><img src="/VR_Party/Images/Menu/MenuAddPlayer_Gif.gif" width="385" height="350" /></td>
   </tr>
 </table> 
-
----
-
-<details>  
-<summary>Menu example script</summary>   
-  
-![Menu Script](/) 
-</details>  
 
 ---
 
