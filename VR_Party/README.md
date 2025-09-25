@@ -271,7 +271,6 @@ The script retrieves the current material color from the player’s cube, normal
 
 #### *Challenge Mode*
 To make the ColorMatch minigame more challenging, I reduced the color similarity threshold between the cube and the target sphere, requiring players to be more precise with their RGB adjustments. I also removed the UI meters that displayed lever positions, making it progressively harder for players to match the colors accurately.
-
 <table>
   <tr>
     <td><img src="/VR_Party/Images/ColorMatch/ColorMatchPrefab.png" width="385" height="350" /></td>
@@ -294,7 +293,7 @@ To make the ColorMatch minigame more challenging, I reduced the color similarity
 ---
 
 #### *Challenge Mode*
-
+To make the Slingshot minigame more challenging, I arranged the cans one by one instead of stacking them as in normal mode, requiring the player to aim more precisely. Additionally, I increased the points awarded—the farther the cans are, the more points the player earns.
 <table>
   <tr>
     <td><img src="/VR_Party/Images/SlingShot/SlingshotChallengePrefab.png" width="385" height="350" /></td>
