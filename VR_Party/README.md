@@ -437,7 +437,7 @@ Resets the egg to its starting position when it collides with either the basket 
 </details> 
 
 
-The knifes looks a bit laggy because I was recording and playing at the same time, Eggknife is not my proudest work, it's kinda wonky but still fun to play.
+The knifes looks a bit laggy because I was recording and playing at the same time. Eggknife is not my proudest work, it's kinda wonky but still fun to play.
 <table>
   <tr>
     <td><img src="/VR_Party/Images/EggKnife/EggKnifeNormalPrefab.png" width="385" height="350" /></td>
