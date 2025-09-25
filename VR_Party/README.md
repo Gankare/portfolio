@@ -34,7 +34,7 @@ Picture of the model i got and what i made from it:
   </tr>
 </table>
 
-The guns are grabbable objects with a fixed hand pose, so when picked up they’re always held the right way. They’re connected to the arcade machine with joints acting like wires, so the guns can never leave the machine.
+The guns are grabbable objects with a fixed hand pose, ensuring they are always held correctly when picked up. Each gun starts in a Snap Interactable gun holder and can be snapped back into place at any time when released near or above the holder. The guns are also connected to the arcade machine using joints that act like wires, so the guns can never completely leave the machine.
 
 Initially, players could move the guns too far, causing the wires to glitch. To prevent this, I implemented a distance check script. If a gun exceeds the maximum allowed distance from the machine, it is forcefully released from the player’s hand, causing it to drop, as shown in the GIF below.
 
