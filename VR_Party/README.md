@@ -22,16 +22,6 @@ Below is a summary of some of my visual scripts written to this game, keep in mi
 ---
 
 ## *Arcade Machine Menu System*
-Picture of the models i got and what i made from it:
-<table>
-  <tr>
-    <td><img src="/VR_Party/Images/Menu/OldArcadeMachine.png" width="385" height="350" /></td>
-    <td><img src="/VR_Party/Images/Menu/MenuClose.png" width="385" height="350" /></td>
-  </tr>
-</table>
-
----
-
 #### *Guns and Interaction*
 For the VR Party menu, I used an arcade machine model provided by our artists. Players interact with it using two guns attached to the machine. Each gun fires a raycast from its tip: when a player grabs a gun and aims at the canvas on the arcade screen, a beam is emitted from the gun’s point. A Graphic Raycaster on the canvas detects these "shots" as clicks, allowing players to interact with the UI.
 
@@ -40,6 +30,14 @@ For the VR Party menu, I used an arcade machine model provided by our artists. P
   
 ![GunMenu Scrip](/VR_Party/Code/Menu/GunMenu_Script.png) 
 </details>  
+
+Picture of the models i got and what i made from it:
+<table>
+  <tr>
+    <td><img src="/VR_Party/Images/Menu/OldArcadeMachine.png" width="385" height="350" /></td>
+    <td><img src="/VR_Party/Images/Menu/MenuClose.png" width="385" height="350" /></td>
+  </tr>
+</table>
 
 The guns are grabbable objects with a fixed hand pose, ensuring they are always held correctly when picked up. Each gun starts in a Snap Interactable gun holder and can be snapped back into place at any time when released near or above the holder. The guns are also connected to the arcade machine using joints that act like wires, so the guns can never completely leave the machine.
 
