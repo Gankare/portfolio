@@ -34,9 +34,9 @@ Picture of the model i got and what i made from it:
   </tr>
 </table>
 
-The guns are grabbable objects with a fixed hand pose, so when picked up they’re always held the right way. They’re connected to the arcade machine with joints acting like wires, so the player can move them around but never pull them completely away.
+The guns are grabbable objects with a fixed hand pose, so when picked up they’re always held the right way. They’re connected to the arcade machine with joints acting like wires, so the guns can never leave the machine.
 
-To make sure the guns stay in place, I wrote a script that checks if a gun moves too far from the arcade machine, this is done with a distance check script. If the gun goes past the limit, it force releases from the player’s hand as you can see in the Gif below. 
+Initially, players could move the guns too far, causing the wires to glitch. To prevent this, I implemented a distance check script. If a gun exceeds the maximum allowed distance from the machine, it is forcefully released from the player’s hand, causing it to drop, as shown in the GIF below.
 
 The red gizmo circles is how far you can pull a gun without it getting dropped:
 <table>
