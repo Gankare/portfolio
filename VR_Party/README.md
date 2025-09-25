@@ -44,7 +44,7 @@ The guns are grabbable objects with a fixed hand pose, ensuring they are always 
 I created the wires using a plugin called WireBuilder. [WireBuilder - nicogarcia.s.dev's website](https://www.patreon.com/posts/wirebuilder-1-0-77014259)
 <table>
   <tr>
-    <td><img src="/VR_Party/Images/Menu/WireBuilder.png" width="600" height="450" /></td>
+    <td><img src="/VR_Party/Images/Menu/WireBuilder.png" width="700" height="550" /></td>
   </tr>
 </table>
 
