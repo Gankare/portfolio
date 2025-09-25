@@ -41,7 +41,7 @@ Picture of the models i got and what i made from it:
 
 The guns are grabbable objects with a fixed hand pose, ensuring they are always held correctly when picked up. Each gun starts in a Snap Interactable gun holder and can be snapped back into place at any time when released near or above the holder. The guns are also connected to the arcade machine using joints that act like wires, so the guns can never completely leave the machine. 
 
-The wires where created using a plugin I used called wirebuilder. I got it from nicogarcia.s.dev: [Wirebuilder website](https://www.patreon.com/posts/wirebuilder-1-0-77014259)
+The wires where created using a plugin I used called wirebuilder. I got it from nicogarcia.s.dev:  [Wirebuilder website](https://www.patreon.com/posts/wirebuilder-1-0-77014259)
 <table>
   <tr>
     <td><img src="/VR_Party/Images/Menu/WireBuilder.png" width="600" height="450" /></td>
