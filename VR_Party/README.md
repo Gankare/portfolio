@@ -146,7 +146,7 @@ Since real basketball hoops have nets, I downloaded a net model and applied Unit
 
 Finally, I added a collision detection script to the net. When a basketball touches the net, the script reduces the ball’s velocity to replicate the realistic slowdown of hitting a basketball net.
 
-Eventually i gots models from the artists to apply and the result looks like this:
+Once I received the finalized models from the artists, I integrated them into the project, resulting in this:
 <table>
   <tr>
     <td><img src="/VR_Party/Images/Basketball/NetWeight.png" width="385" height="350" /></td>
