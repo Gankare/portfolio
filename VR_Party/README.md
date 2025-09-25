@@ -143,20 +143,20 @@ Each minigame includes both a normal mode and a challenge mode, with the challen
 #### *Normal mode*
 The first minigame I created after building the menu was a basketball minigame. I wanted it to be simple but still offer a bit of challenge.
 
+A Minigame script is placed on every minigame to handle the start, end, and scoring logic, ensuring each game integrates consistently with the overall system.
+
+<details>  
+<summary>Basketball minigame script</summary>   
+  
+![Minigame Script](/VR_Party/Code/Basketball/BasketMiniGame_Script.png) 
+</details> 
+
 I started by creating spheres to serve as basketballs and made them grabbable using the Oculus Grabbable Interactable component. I then wrote scripts to handle scoring and added a particle effect to play whenever a goal was made.
 
 <details>  
 <summary>Goal script</summary>   
   
 ![BasketHit Script](/VR_Party/Code/Basketball/BasketHit_Script.png) 
-</details> 
-
-A Minigame script is placed on every minigame to handle the start, end, and scoring logic, ensuring each game integrates consistently with the overall system.
-
-<details>  
-<summary>Minigame script</summary>   
-  
-![Minigame Script](/VR_Party/Code/Basketball/BasketMiniGame_Script.png) 
 </details> 
 
 Since real basketball hoops have nets, I downloaded a net model and applied Unity’s Cloth component, which simulates fabric-like behavior. To achieve a realistic effect, I enabled continuous collision and adjusted the constraint points by setting different maximum distances. As shown in the image below, red points are locked with zero movement, while green points are more flexible, creating progressively looser constraints toward the bottom of the net.
@@ -220,6 +220,45 @@ To make the basketball minigame more challenging, I positioned the hoop farther 
 
 ### *Color match minigame*
 #### *Normal mode*
+
+<details>  
+<summary>Colormatch minigame script</summary>   
+  
+![ColorMatchMiniGame Script](/VR_Party/Code/ColorMatch/ColorMatchMiniGame_Script.png) 
+</details> 
+
+The ColorMatch Minigame challenges players to adjust RGB values using physical levers until a cube matches a randomly generated target color shown on a sphere above it. I built the system using two core scripts that work together to handle color input, feedback, and scoring.
+
+#### *SetObjectRandomColor script*
+This script handles the goal system and scoring, At the start of each round,it generates a random target color and displays it on the sphere. It then continuously compares the player’s cube color to the target. If the difference is below a set threshold: the player gets points, a particle effect and sound are triggered for feedback, a new target color is generated, and scoring is temporarily locked to prevent spamming.
+
+<details>  
+<summary>SetObjectRandomColor script</summary>   
+  
+![SetObjectRandomColor Script](/VR_Party/Code/ColorMatch/SetObjectRandomColor_Script.png) 
+</details> 
+
+#### *LeverColorControl script*
+This script is for the levers, each lever in the minigame controls a single color channel (R, G, or B). The lever’s rotation angle is read every frame. That angle is mapped to a 0–1 range using Mathf.InverseLerp. The corresponding color channel of the material is updated in real time.
+
+This system allows players to physically interact with the levers and directly control how much red, green, or blue is added to the cube object.
+
+<details>  
+<summary>LeverColorControl script</summary>   
+  
+![LeverColorControl Script](/VR_Party/Code/ColorMatch/LeverColorControl_Script.png) 
+</details> 
+
+#### *DisplayColorInfo script* 
+In normal mode, I added UI meters to show how far each lever has been pulled, making it easier for players to see how much of each RGB channel they’ve applied.
+
+The script retrieves the current material color from the player’s cube, normalizes the R, G, and B values between 0.00 and 1.00, rounds them for readability, and displays them in TextMeshPro fields, as shown in the GIFs below.
+
+<details>  
+<summary>DisplayColorInfo script</summary>   
+  
+![DisplayColorInfo Script](/VR_Party/Code/ColorMatch/DisplayColorInfo_Script.png) 
+</details> 
 
 <table>
   <tr>
