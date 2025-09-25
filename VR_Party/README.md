@@ -135,16 +135,39 @@ The menu also includes a settings screen where players can adjust music and ambi
 ## *My miniGames*
 The following section showcases the minigames I designed and programmed on my own. While I collaborated on other minigames, here I focus only on the projects where I was fully responsible for the implementation.
 
+Each minigame includes both a normal mode and a challenge mode, with the challenge mode designed to be slightly more difficult.
+
 ---
 
 ### *Basketball minigame*
+#### *Normal mode*
 The first minigame I created after building the menu was a basketball minigame. I wanted it to be simple but still offer a bit of challenge.
 
 I started by creating spheres to serve as basketballs and made them grabbable using the Oculus Grabbable Interactable component. I then wrote scripts to handle scoring and added a particle effect to play whenever a goal was made.
 
+<details>  
+<summary>Goal script</summary>   
+  
+![BasketHit Script](/VR_Party/Code/Basketball/BasketHit_Script.png) 
+</details> 
+
+A Minigame script is placed on every minigame to handle the start, end, and scoring logic, ensuring each game integrates consistently with the overall system.
+
+<details>  
+<summary>Minigame script</summary>   
+  
+![Minigame Script](/VR_Party/Code/Basketball/BasketMiniGame_Script.png) 
+</details> 
+
 Since real basketball hoops have nets, I downloaded a net model and applied Unity’s Cloth component, which simulates fabric-like behavior. To achieve a realistic effect, I enabled continuous collision and adjusted the constraint points by setting different maximum distances. As shown in the image below, red points are locked with zero movement, while green points are more flexible, creating progressively looser constraints toward the bottom of the net.
 
 Finally, I added a collision detection script to the net. When a basketball touches the net, the script reduces the ball’s velocity to replicate the realistic slowdown of hitting a basketball net.
+
+<details>  
+<summary>Cloth net script</summary>   
+  
+![ClothNetTrigger Script](/VR_Party/Code/Basketball/ClothNetTrigger_Script.png) 
+</details> 
 
 Once I received the finalized models from the artists, I integrated them into the project, resulting in this:
 <table>
@@ -154,7 +177,20 @@ Once I received the finalized models from the artists, I integrated them into th
   </tr>
 </table>
 
-#### *Normal mode*
+I wrote a script that automatically returns basketballs to the stand two seconds after hitting the ground.
+<details>  
+<summary>Return basketball script</summary>   
+  
+![ReturnBasketball Script](/VR_Party/Code/Basketball/ReturnBasketball_Script.png) 
+</details> 
+
+I also created a bounce sound script, which plays a sound whenever the ball collides with an object. The volume scales with the impact force, making collisions feel more realistic and dynamic, with harder bounces producing louder sounds.
+<details>  
+<summary>Bounce sound script</summary>   
+  
+![BounceSoundTrigger Script](/VR_Party/Code/Basketball/BounceSoundTrigger_Script.png) 
+</details> 
+
 <table>
   <tr>
     <td><img src="/VR_Party/Images/Basketball/BasketNormal_Gif.gif" width="385" height="350" /></td>
@@ -165,6 +201,13 @@ Once I received the finalized models from the artists, I integrated them into th
 ---
 
 #### *Challenge Mode*
+To make the basketball minigame more challenging, I positioned the hoop farther away from the player at the start. Additionally, the hoop changes position every time it’s hit, preventing players from getting too comfortable with a single spot.
+
+<details>  
+<summary>Change pos script</summary>   
+  
+![BasketChangePos Script](/VR_Party/Code/Basketball/BasketChangePos_Script.png) 
+</details> 
 
 <table>
   <tr>
