@@ -289,6 +289,7 @@ To make the ColorMatch minigame more challenging, I reduced the color similarity
 </details> 
 
 This minigame was the most challenging to develop. Creating a satisfying and intuitive slingshot that feels good to use was not easy, but I can confidently say that I successfully achieved it.
+
 I developed a modular system of scripts to handle ammo snapping, aiming, shooting, scoring, and respawning, making the gameplay smooth and immersive.
 
 #### *Ammo handling*
