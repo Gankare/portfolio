@@ -463,6 +463,13 @@ to make the EggKnife minigame more challenging, I redesigned the map by removing
   </tr>
 </table>
 
+Epic trickshot:
+<table>
+  <tr>
+    <td><img src="/VR_Party/Images/EggKnife/EggKnifeChallenge2_Gif.gif" width="385" height="350" /></td>
+  </tr>
+</table>
+
 ---
 
 ### *Sort minigame*
