@@ -371,6 +371,7 @@ The RespawnObjectGroup script manages groups of cans, automatically resetting th
 ![RespawnObjectGroup Script](/VR_Party/Code/SlingShot/RespawnObjectGroup_Script.png) 
 </details> 
 
+The aiming/pulling of the slingshots grab interactable includes a threshold that triggers an force release of the grab when the player pulls the slingshot all the way back. This means the entire action can be completed in a single grab: the player picks up the ammo, brings it near the slingshot, and pulls back to shoot—all in one smooth motion. This design creates a seamless and highly satisfying interaction, eliminating the need for manual release. as I hope you can se in this Gif:
 <table>
   <tr>
     <td><img src="/VR_Party/Images/SlingShot/SlingshotNormalPrefab.png" width="385" height="350" /></td>
