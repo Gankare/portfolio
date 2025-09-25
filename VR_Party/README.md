@@ -58,19 +58,23 @@ Player names and total player count are saved using PlayerPrefs, keeping the set
 #### *Game Modes*
 Once a minimum of two players is added, a game can start. 
 
-The PartyManager script handles game initialization:
+*The PartyManager script handles game initialization:
 
-UI locks after mode selection to prevent further changes.
+*UI locks after mode selection to prevent further changes.
 
-A fade animation plays using a black canvas transition.
+*A fade animation plays using a black canvas transition.
 
-The PartyManager checks if Challenge Mode is active and triggers the corresponding SceneDirector function to load the level.
+*The PartyManager checks if Challenge Mode is active and triggers the corresponding SceneDirector function to load the level.
 
 Available modes on the arcade machine:
-Party Mode 
-Tournament Mode 
-Practice Mode 
-Challenge Modes – harder versions of the main modes.
+
+*Party Mode 
+
+*Tournament Mode 
+
+*Practice Mode 
+
+*Challenge Modes – harder versions of the main modes.
 
 #### *Settings*
 
