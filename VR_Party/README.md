@@ -436,6 +436,8 @@ Resets the egg to its starting position when it collides with either the basket 
 ![ReturnEgg Script](/VR_Party/Code/EggKnife/ReturnEgg_Script.png) 
 </details> 
 
+
+The knifes looks a bit laggy because I was recording and playing at the same time, Eggknife is not my proudest work, it's kinda wonky but still fun to play.
 <table>
   <tr>
     <td><img src="/VR_Party/Images/EggKnife/EggKnifeNormalPrefab.png" width="385" height="350" /></td>
@@ -446,6 +448,13 @@ Resets the egg to its starting position when it collides with either the basket 
 ---
 
 #### *Challenge Mode*
+to make the EggKnife minigame more challenging, I redesigned the map by removing the edges that previously prevented eggs from falling, and I raised the basket height to require both horizontal and vertical movement. I also added eyes to the eggs and made them jump randomly as if they were alive. These changes made the gameplay more fun and challenging at the same time.
+
+<details>  
+<summary>RandomJump script</summary>   
+  
+![RandomJump Script](/VR_Party/Code/EggKnife/RandomJump_Script.png) 
+</details> 
 
 <table>
   <tr>
