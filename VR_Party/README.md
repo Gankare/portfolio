@@ -394,6 +394,18 @@ To make the Slingshot minigame more challenging, I arranged the cans one by one 
 
 ### *Egg-knife minigame*
 #### *Normal mode*
+At this stage of the project, I was balancing several responsibilities: updating the main menu, assisting other programmers with their minigames, updating all maps with shaders and models, and developing my own minigames. Therefore I wanted to create something quick but fun, I drew inspiration from a childhood game where you balance an egg on a spoon and race from one point to another without dropping it. Since our minigames were limited to one minute, I adapted the idea into a version where the goal is to place as many eggs as possible into a basket within the time limit.
+
+The challenge with using a spoon model was achieving accurate collision so the egg would sit naturally inside the spoon. This required a non-convex Mesh Collider, but the One Grab Physics Joint Transformer component—which we applied to all grabbable objects to ensure realistic physics and prevent clipping—does not support non-convex colliders. To overcome this limitation, I redesigned the gameplay: instead of a spoon, the player uses two knives like chopsticks to move the eggs into the basket. This solution maintained the fun and skill-based challenge while avoiding the collider restriction.
+
+Vissual reason why i did not use a spoon: 
+This displays the error if using non convex mesh collider and the spoon collider if using the a convex collider:
+<table>
+  <tr>
+    <td><img src="/VR_Party/Images/EggKnife/ErrorSpoon.png" width="385" height="350" /></td>
+    <td><img src="/VR_Party/Images/EggKnife/SpoonCollider.png" width="385" height="350" /></td>
+  </tr>
+</table>
 
 <table>
   <tr>
