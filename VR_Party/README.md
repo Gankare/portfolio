@@ -22,7 +22,9 @@ Below is a summary of some of my visual scripts written to this game, keep in mi
 ---
 
 ## *Arcade Machine Menu System*
-For the menu in VR Party, I used the arcade machine I got from our artists, players interact using two guns attached to the machine. The guns work as raycasters, so when you grab one and aim it at the canvas placed on the arcade screen it shoots out a linerenderer that looks like a beam from the guns point. A Graphic Raycaster on the canvas detects clicks when the guns are fired.
+
+#### *Guns and Interaction*
+For the VR Party menu, I used an arcade machine model provided by our artists. Players interact with it using two guns attached to the machine. Each gun fires a raycast from its tip: when a player grabs a gun and aims at the canvas on the arcade screen, a beam is emitted from the gun’s point. A Graphic Raycaster on the canvas detects these "shots" as clicks, allowing players to interact with the UI.
 
 Picture of the model i got and what i made from it:
 <table>
@@ -31,10 +33,6 @@ Picture of the model i got and what i made from it:
     <td><img src="/VR_Party/Images/Menu/MenuClose.png" width="385" height="350" /></td>
   </tr>
 </table>
-
----
-
-#### *Guns and Interaction*
 
 The guns are grabbable objects with a fixed hand pose, so when picked up they’re always held the right way. They’re connected to the arcade machine with joints acting like wires, so the player can move them around but never pull them completely away.
 
