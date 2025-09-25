@@ -323,7 +323,7 @@ The AimSlingShoot script calculates the slingshot’s pull amount based on how f
 
 <table>
   <tr>
-    <td><img src="/VR_Party/Images/SlingShot/AimConstraints.png" width="700" height="550" /></td>
+    <td><img src="/VR_Party/Images/SlingShot/AimConstraints.png" /></td>
   </tr>
 </table>
 
