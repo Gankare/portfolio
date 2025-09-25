@@ -41,18 +41,18 @@ Picture of the models i got and what i made from it:
 
 The guns are grabbable objects with a fixed hand pose, ensuring they are always held correctly when picked up. Each gun starts in a Snap Interactable gun holder and can be snapped back into place at any time when released near or above the holder. The guns are also connected to the arcade machine using joints that act like wires, so the guns can never completely leave the machine. 
 
+<details>  
+<summary>SnapStarter script</summary>   
+  
+![SnapStarter Scrip](/VR_Party/Code/Menu/SnapStarter_Script.png) 
+</details>  
+
 I created the wires using a plugin called WireBuilder. [WireBuilder - nicogarcia.s.dev's website](https://www.patreon.com/posts/wirebuilder-1-0-77014259)
 <table>
   <tr>
     <td><img src="/VR_Party/Images/Menu/WireBuilder.png" width="700" height="550" /></td>
   </tr>
 </table>
-
-<details>  
-<summary>SnapStarter script</summary>   
-  
-![SnapStarter Scrip](/VR_Party/Code/Menu/SnapStarter_Script.png) 
-</details>  
 
 Initially, players could move the guns too far, causing the wires to glitch. To prevent this, I implemented a distance check script. If a gun exceeds the maximum allowed distance from the machine, it is forcefully released from the player’s hand, causing it to drop, as shown in the GIF below.
 
