@@ -295,7 +295,7 @@ I developed a modular system of scripts to handle ammo snapping, aiming, shootin
 #### *Ammo handling*
 The AutoSnapAmmo and ToggleSlingSnap scripts manage snapping the ammo to the slingshot, allowing players to transition seamlessly from loading to shooting without needing to release their grab. These scripts enable or disable the snap interactable and grab logic depending on whether ammo is available. 
 
-Ammo is loaded using a Snap Zone on the slingshot, and each ammo object must have a Snap Interactor component for this system to work. This setup ensures smooth interactions, letting the player pick up ammo, snap it to the slingshot, and shoot without interruption.
+Ammo is loaded using a Snap Zone on the slingshot, and each ammo object must have a Snap Interactor component for this system to work. This setup ensures smooth interactions, letting the player pick up ammo, snap it to the slingshot, and shoot in one motion.
 
 <details>  
 <summary>AutoSnapAmmo script</summary>   
