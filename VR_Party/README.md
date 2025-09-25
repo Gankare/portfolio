@@ -53,7 +53,7 @@ Players enter their names on the arcade screen using a custom virtual keyboard I
 
 Supports any number of players.
 
-Player names and total count are saved using PlayerPrefs, keeping the setup persistent between sessions.
+Player names and total player count are saved using PlayerPrefs, keeping the setup persistent between sessions.
 
 #### *Game Modes*
 Once a minimum of two players is added, a game can start. The PartyManager script handles game initialization:
