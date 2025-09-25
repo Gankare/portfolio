@@ -56,9 +56,14 @@ Supports any number of players.
 Player names and total player count are saved using PlayerPrefs, keeping the setup persistent between sessions.
 
 #### *Game Modes*
-Once a minimum of two players is added, a game can start. The PartyManager script handles game initialization:
+Once a minimum of two players is added, a game can start. 
+
+The PartyManager script handles game initialization:
+
 UI locks after mode selection to prevent further changes.
+
 A fade animation plays using a black canvas transition.
+
 The PartyManager checks if Challenge Mode is active and triggers the corresponding SceneDirector function to load the level.
 
 Available modes on the arcade machine:
