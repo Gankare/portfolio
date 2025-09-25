@@ -402,8 +402,8 @@ Vissual reason why i did not use a spoon:
 This displays the error if using non convex mesh collider and the spoon collider if using the a convex collider:
 <table>
   <tr>
-    <td><img src="/VR_Party/Images/EggKnife/ErrorSpoon.png" /></td>
-    <td><img src="/VR_Party/Images/EggKnife/SpoonCollider.png" /></td>
+    <td><img src="/VR_Party/Images/EggKnife/ErrorSpoon.png" width="800" height="500"/></td>
+    <td><img src="/VR_Party/Images/EggKnife/SpoonCollider.png" width="800" height="500" /></td>
   </tr>
 </table>
 
