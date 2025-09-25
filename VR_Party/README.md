@@ -138,6 +138,14 @@ The following section showcases the minigames I designed and programmed on my ow
 ---
 
 ### *Basketball minigame*
+The first minigame I created after building the menu was a basketball minigame. I wanted it to be simple but still offer a bit of challenge.
+
+I started by creating spheres to serve as basketballs and made them grabbable using the Oculus Grabbable Interactable component. I then wrote scripts to handle scoring and added a particle effect to play whenever a goal was made.
+
+Since real basketball hoops have nets, I downloaded a net model and applied Unity’s Cloth component, which simulates fabric-like behavior. To achieve a realistic effect, I enabled continuous collision and adjusted the constraint points by setting different maximum distances. As shown in the image below, red points are locked with zero movement, while green points are more flexible, creating progressively looser constraints toward the bottom of the net.
+
+Finally, I added a collision detection script to the net. When a basketball touches the net, the script reduces the ball’s velocity to replicate the realistic slowdown of hitting a basketball net.
+
 #### *Normal mode*
 
 <table>
