@@ -56,28 +56,12 @@ Supports any number of players.
 Player names and total player count are saved using PlayerPrefs, keeping the setup persistent between sessions.
 
 #### *Game Modes*
+Once a minimum of two players has been added, a game can start. The PartyManager script handles game initialization: after a mode is selected, the UI locks to prevent further changes, and a fade animation plays using a black canvas transition. The PartyManager then checks if Challenge Mode is active and triggers the corresponding SceneDirector function to load the appropriate level. 
+
+Available modes on the arcade machine: Party Mode, Tournament Mode, Practice Mode, and Challenge Modes, which are harder versions of the main modes.
 Once a minimum of two players is added, a game can start. 
 
-*The PartyManager script handles game initialization:
-
-*UI locks after mode selection to prevent further changes.
-
-*A fade animation plays using a black canvas transition.
-
-*The PartyManager checks if Challenge Mode is active and triggers the corresponding SceneDirector function to load the level.
-
-Available modes on the arcade machine:
-
-*Party Mode 
-
-*Tournament Mode 
-
-*Practice Mode 
-
-*Challenge Modes – harder versions of the main modes.
-
 #### *Settings*
-
 The menu also includes a settings screen where players can adjust music and ambient audio with sliders. The sliders connect to Unity’s AudioMixer, so changes happen instantly. Settings are also stored with PlayerPrefs, and there’s an option to reset everything to default values.
 
 <table>
