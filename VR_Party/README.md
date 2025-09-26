@@ -654,7 +654,7 @@ This script randomly selects and spawns a map from a predefined list so you can 
 </details>
 
 #### *MapSpawnPoints* 
-The script handles player spawn locations within each map, picking a random point from multiple options. You can have how many spawn positions as you like, in this project each map had between 1 and 4.
+The script handles player spawn locations within each map, picking a random point from multiple options. Each spawn point includes both a position and a rotation, ensuring players start in the correct orientation. You can have how many spawn positions as you like, in this project each map had between 1 and 4.
 
 <details>  
 <summary>MapSpawnPoints script</summary>   
@@ -663,7 +663,7 @@ The script handles player spawn locations within each map, picking a random poin
 </details>
 
 #### *MapIdentifier* 
-This script labels each map with its type (e.g., Castle, Forest, Desert, Water) so other systems know which one is active, this is used for music in this project so that a music script checks what map type it is and from a list chooses a song that fits that map.
+This script labels each map with its type (Castle, Forest, Desert, Water) so other systems know which one is active. In this project, it was primarily used by the music system, which checked the map type and selected a fitting soundtrack from a predefined list.
 
 <details>  
 <summary>MapIdentifier script</summary>   
