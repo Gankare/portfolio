@@ -555,7 +555,10 @@ These settings is placed on every map, setting the spawnpoint and type of map. S
   </tr>
 </table>
 
+---
+
 #### *Lake forest map*
+These are the models I got from the artists and also the settings for this map:
 <table>
   <tr>
     <td><img src="/VR_Party/Images/MapSelect/ForestMapModels.png" /></td>
@@ -563,6 +566,7 @@ These settings is placed on every map, setting the spawnpoint and type of map. S
   </tr>
 </table>
 
+Left image is what I started with and right is the final look:
 <table>
   <tr>
     <td><img src="/VR_Party/Images/MapSelect/ForestMapOld.png" /></td>
@@ -570,14 +574,20 @@ These settings is placed on every map, setting the spawnpoint and type of map. S
   </tr>
 </table>
 
+---
+
 #### *Mesa normal & water map*
+This map evolved into two versions: the original map and a water-themed variant. For the water version, I added a blue post-processing layer to the map prefab and a semi-transparent water layer above it, creating the effect of being submerged underwater.
+
+The map foundation and models I got from the artists:
 <table>
   <tr>
     <td><img src="/VR_Party/Images/MapSelect/DesertMapOld.png" /></td>
     <td><img src="/VR_Party/Images/MapSelect/DesertMapModels.png" /></td>
   </tr>
   <table>
-    
+
+Final look for both versions of the map:
 <table>
   <tr>
     <td><img src="/VR_Party/Images/MapSelect/DesertMap.png" /></td> 
@@ -585,7 +595,12 @@ These settings is placed on every map, setting the spawnpoint and type of map. S
   </tr>
 </table>
 
+---
+
 #### *Room map*
+You can't se much difference on these pictures but basically I had to recreate all the materials for all the models in this room and like the other maps i put out spawnpositions and added the right settings. When playing, you notice that everything has outlines, this pictures are taken far away.
+
+Left image is what I started with and right is the final look:
 <table>
   <tr>
     <td><img src="/VR_Party/Images/MapSelect/RoomMapOld.png" /></td>
@@ -593,7 +608,12 @@ These settings is placed on every map, setting the spawnpoint and type of map. S
   </tr>
   <table>
 
-  #### *Moon map*
+---
+
+#### *Moon map*
+For this map I created a little universe around the moon with the planet models. I also used postprocessing on this map prefab to make it feel more like you are in space. If you have seen this map on the gameplay Gifs, the post processing was of on those Gifs. The images below displays how it looks when postprocessing is on.
+
+The map and models I got from the artists:
 <table>
   <tr>
     <td><img src="/VR_Party/Images/MapSelect/MoonMapOld.png" /></td>
@@ -601,6 +621,7 @@ These settings is placed on every map, setting the spawnpoint and type of map. S
   </tr>
   <table>
 
+Final look of the map from different angles:
   <table>
   <tr>
     <td><img src="/VR_Party/Images/MapSelect/MoonMap1.png" /></td>
