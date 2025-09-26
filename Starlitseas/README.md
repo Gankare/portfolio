@@ -1,7 +1,7 @@
 # Starlitseas  
 ![Starlitseas_Title](/Starlitseas/Images/Starlitseas_Portal.png)  
 [Itch.io page](https://yrgo-game-creator.itch.io/starlit-seas )  
-[Repository Link](https://github.com/Z1LENT/Starlitseas) 
+[Repository Link](https://github.com/Z1LENT/Starlitseas)  
 [Starlitseas Trailer](https://www.youtube.com/watch?v=ija0xM384GU&t=36s)
 ## *A brief game description*
 
