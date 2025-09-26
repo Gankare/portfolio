@@ -474,6 +474,40 @@ Epic trickshot:
 
 ### *Sort minigame*
 #### *Normal mode*
+The sort minigame is also simple, balls spawn with random colors and the player’s goal is to place as many balls as possible into their corresponding colored bowls within the time limit.
+
+<details>  
+<summary>Sort minigame script</summary>   
+  
+![SortMiniGame Script](/VR_Party/Code/Sort/SortMiniGame_Script.png) 
+</details> 
+
+#### *BowlColorAddScore script*
+This script is attached to each bowl, it detects when balls enter the trigger area. Uses a color enum to identify the bowl’s color and checks the ball’s tag for a match. If a ball matches the bowl color, it calls the BallController script to deactivate the ball, award a point and remove the ball from play. This system ensures that only correctly matched balls contribute to the player’s score.
+
+<details>  
+<summary>BowlColorAddScore script</summary>   
+  
+![BowlColorAddScore Script](/VR_Party/Code/Sort/BowlColorAddScore_Script.png) 
+</details>
+
+#### *BallController script*
+Attached to each ball, this script manages interaction and scoring. When a ball enters the correct bowl, it is deactivated to prevent double scoring. The script also disables the ball’s collider and grab interaction, ensuring players cannot repeatedly score with the same ball.
+
+<details>  
+<summary>BallController script</summary>   
+  
+![BallController Script](/VR_Party/Code/Sort/BallController_Script.png) 
+</details>
+
+#### *SpawnBalls*
+This script manages spawning of balls during the minigame. Spawns batches of balls at a set interval and within a defined area around a central spawn point. Randomly selects ball prefabs from a list, allowing multiple colors.
+
+<details>  
+<summary>SpawnBalls script</summary>   
+  
+![SpawnBalls Script](/VR_Party/Code/Sort/SpawnBalls_Script.png) 
+</details>
 
 <table>
   <tr>
@@ -485,6 +519,7 @@ Epic trickshot:
 ---
 
 #### *Challenge Mode*
+To make the Sort minigame more challenging, I increased the variety of ball colors beyond the number of bowls and raised the ball spawn rate, overwhelming the player with balls of the wrong colors. This fast-paced environment forces players to quickly identify and pick the correct colors, making the gameplay more engaging and challenging.
 
 <table>
   <tr>
