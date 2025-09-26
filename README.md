@@ -63,8 +63,8 @@ Role: Lead Programmer, LevelDesigner
 
 <table>
   <tr>
-<td><img src="ScrapBattle/Images/Building_Gif.gif" width="385" height="250" /></td>
-<td><img src="ScrapBattle/Images/Driving_Gif.gif" width="385" height="250" /></td>
+<td><img src="ScrapBattle/Images/Building_Gif.gif" width="475" height="275" /></td>
+<td><img src="ScrapBattle/Images/Driving_Gif.gif" width="475" height="275" /></td>
   </tr>
 </table>
 
