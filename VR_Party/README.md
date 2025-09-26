@@ -530,12 +530,12 @@ To make the Sort minigame more challenging, I increased the variety of ball colo
 
 ---
 
-## *Cel Shader(maps & minigames)*
+## *Cel Shader(Applied to maps & minigames)*
 At the start of the project, our team decided that the game should have a colorful, cartoon style, so we opted to use a cel shader. a cel shader creates a stylized, cartoon-like look by using discrete bands of color for shadows instead of smooth gradients. Typically, it applies two or more distinct shades to define lighting and shadow, giving objects a bold, graphic appearance.
 
 My mission was to use the cel shader to create a variety of materials and apply them across the game’s maps. I also placed models and configured post-processing settings to define the overall visual style, ensuring the game had a cohesive, colorful, and stylized look. 
 
-As shown in the minigames above, I applied the cel shader to all of them. Additionally, I added an outline effect to every material using the cel shader, enhancing the cartoony, stylized look of the game.
+As shown in the minigames above, I applied the cel shader to all of them. Additionally, I added an outline effect to every material via the cel shader settings, enhancing the cartoony look of the game.
 
 ---
 
@@ -641,7 +641,7 @@ Final look of the map from different angles:
     
 ---
 
-## *Map selector*
+## *Map management system*
 To control which maps each minigame could be played on, and to define the spawn points or game plateaus where the player appears, I created a map management system built around three core scripts.
 
 #### *RandomMapSpawner* 
