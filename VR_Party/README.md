@@ -519,7 +519,7 @@ This script manages spawning of balls during the minigame. Spawns batches of bal
 ---
 
 #### *Challenge Mode*
-To make the Sort minigame more challenging, I increased the variety of ball colors beyond the number of bowls and raised the ball spawn rate, overwhelming the player with balls of the wrong colors. This fast-paced environment forces players to quickly identify and pick the correct colors, making the gameplay more engaging and challenging.
+To make the Sort minigame more challenging, I increased the variety of ball colors beyond the number of bowls and raised the ball spawn rate. This fast-paced gameplay overwhelms the player with balls, many of which are the wrong colors, making the experience both intense and challenging.
 
 <table>
   <tr>
