@@ -16,8 +16,8 @@ Role: Lead Programmer
 
 <table>
   <tr>
-    <td><img src="VR_Party/Images/SlingShot/SlingShotNormal_Gif.gif" width="475" height="275"/></td>
-    <td><img src="VR_Party/Images/EggKnife/EggKnifeChallenge2_Gif.gif" width="475" height="275"/></td>
+    <td><img src="VR_Party/Images/SlingShot/SlingShotNormal_Gif.gif" width="385" height="250" /></td>
+    <td><img src="VR_Party/Images/EggKnife/EggKnifeChallenge2_Gif.gif" width="385" height="250" /></td>
   </tr>
 </table>
 
@@ -31,8 +31,8 @@ Team: Solo
 
 <table>
   <tr>
-    <td><img src="VR_Snap/Images/Camera_Gif.gif" width="475" height="275"/></td>
-    <td><img src="VR_Snap/Images/LocoMotion_Gif.gif" width="475" height="275"/></td>
+    <td><img src="VR_Snap/Images/Camera_Gif.gif" width="385" height="250" /></td>
+    <td><img src="VR_Snap/Images/LocoMotion_Gif.gif" width="385" height="250" /></td>
   </tr>
 </table>
 
@@ -47,8 +47,8 @@ Role: Programmer
 
 <table>
   <tr>
-    <td><img src="Tamagotchi_Sim/Images/MR_Gif.gif" width="475" height="275"/></td>
-    <td><img src="Tamagotchi_Sim/Images/VRCatch_Gif.gif" width="475" height="275"/></td>
+    <td><img src="Tamagotchi_Sim/Images/MR_Gif.gif" width="385" height="250" /></td>
+    <td><img src="Tamagotchi_Sim/Images/VRCatch_Gif.gif" width="385" height="250" /></td>
   </tr>
 </table>
 
@@ -63,8 +63,8 @@ Role: Lead Programmer, LevelDesigner
 
 <table>
   <tr>
-<td><img src="ScrapBattle/Images/Building_Gif.gif" width="475" height="275" /></td>
-<td><img src="ScrapBattle/Images/Driving_Gif.gif" width="475" height="275" /></td>
+<td><img src="ScrapBattle/Images/Building_Gif.gif" width="385" height="250" /></td>
+<td><img src="ScrapBattle/Images/Driving_Gif.gif" width="385" height="250" /></td>
   </tr>
 </table>
 
@@ -78,8 +78,8 @@ Team: Solo
 
 <table>
   <tr>
-    <td><img src="LightBound_Together/Images/Destruction_Gif.gif" width="475" height="275"/></td>
-    <td><img src="LightBound_Together/Images/EndFire_Gif.gif" width="475" height="275"/></td>
+    <td><img src="LightBound_Together/Images/Destruction_Gif.gif" /></td>
+    <td><img src="LightBound_Together/Images/EndFire_Gif.gif" /></td>
   </tr>
 </table>
 
@@ -94,8 +94,8 @@ Role: Programmer, Enviroment and Submarine Designer
 
 <table>
   <tr>
-    <td><img src="DeepPressure/Images/HighPressure_Gif.gif" width="475" height="275" /></td>
-    <td><img src="DeepPressure/Images/Tentacle_Gif.gif" width="475" height="275" /></td>
+    <td><img src="DeepPressure/Images/HighPressure_Gif.gif" width="385" height="250" /></td>
+    <td><img src="DeepPressure/Images/Tentacle_Gif.gif" width="385" height="250" /></td>
   </tr>
 </table>
 
