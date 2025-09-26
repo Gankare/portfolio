@@ -535,7 +535,12 @@ At the start of the project, our team decided that the game should have a colorf
 
 My mission was to use the cel shader to create a variety of materials and apply them across the game’s maps. I also placed models and configured post-processing settings to define the overall visual style, ensuring the game had a cohesive, colorful, and stylized look.
 
+As shown in the minigames above, I applied the cel shader to all of them. Additionally, I added an outline effect to every material using the cel shader, enhancing the cartoony, stylized look of the game.
+
+---
+
 #### *Jump castle map*
+Left image is what I started with and right is when shader is added:
 <table>
   <tr>
     <td><img src="/VR_Party/Images/MapSelect/CastleMapOld.png" /></td>
