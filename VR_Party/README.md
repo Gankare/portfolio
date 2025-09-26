@@ -459,7 +459,7 @@ to make the EggKnife minigame more challenging, I redesigned the map by removing
 <table>
   <tr>
     <td><img src="/VR_Party/Images/EggKnife/EggKnifeChallengePrefab.png" width="385" height="350" /></td>
-    <td><img src="/VR_Party/Images/EggKnife/EggKnifeChallenge1_Gif.gif" width="385" height="350" /></td>
+    <td><img src="/VR_Party/Images/EggKnife/EggKnifeChallenge_Gif.gif" width="385" height="350" /></td>
   </tr>
 </table>
 
