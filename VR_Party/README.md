@@ -533,21 +533,22 @@ To make the Sort minigame more challenging, I increased the variety of ball colo
 ## *Cel Shader(maps & minigames)*
 At the start of the project, our team decided that the game should have a colorful, cartoon style, so we opted to use a cel shader. a cel shader creates a stylized, cartoon-like look by using discrete bands of color for shadows instead of smooth gradients. Typically, it applies two or more distinct shades to define lighting and shadow, giving objects a bold, graphic appearance.
 
-My mission was to use the cel shader to create a variety of materials and apply them across the game’s maps. I also placed models and configured post-processing settings to define the overall visual style, ensuring the game had a cohesive, colorful, and stylized look.
+My mission was to use the cel shader to create a variety of materials and apply them across the game’s maps. I also placed models and configured post-processing settings to define the overall visual style, ensuring the game had a cohesive, colorful, and stylized look. 
 
 As shown in the minigames above, I applied the cel shader to all of them. Additionally, I added an outline effect to every material using the cel shader, enhancing the cartoony, stylized look of the game.
 
 ---
 
 #### *Jump castle map*
-Left image is what I started with and right is when shader is added:
+Left image is what I started with and right is the final look when shader and game platoe is added:
 <table>
   <tr>
     <td><img src="/VR_Party/Images/MapSelect/CastleMapOld.png" /></td>
     <td><img src="/VR_Party/Images/MapSelect/CastleMap.png" /></td>
   </tr>
   <table>
-    
+
+These settings is placed on every map, setting the spawnpoint and type of map. Scripts explained further down:
 <table>
   <tr>
     <td><img src="/VR_Party/Images/MapSelect/CastleSettings.png" /></td>
