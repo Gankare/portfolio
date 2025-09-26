@@ -577,7 +577,7 @@ Left image is what I started with and right is the final look:
 ---
 
 #### *Mesa normal & water map*
-This map evolved into two versions: the original map and a water-themed variant. For the water version, I added a blue post-processing layer to the map prefab and a semi-transparent water layer above it, creating the effect of being submerged underwater.
+This map evolved into two versions: the original map and a water-themed variant. For the water version, I added blue post-processing, a semi-transparent water layer above and air bubbles particles. Resulting in the effect of being submerged underwater.
 
 The map foundation and models I got from the artists:
 <table>
@@ -598,7 +598,7 @@ Final look for both versions of the map:
 ---
 
 #### *Room map*
-You can't se much difference on these pictures but basically I had to recreate all the materials for all the models in this room and like the other maps i put out spawnpositions and added the right settings. When playing, you notice that everything has outlines, this pictures are taken far away.
+You can't se much difference on these pictures but basically I had to recreate all the materials for all the models in this room and like the other maps i put out spawnpositions and added the right settings. When playing, you notice that everything has outlines but this pictures where taken to far away to display that.
 
 Left image is what I started with and right is the final look:
 <table>
@@ -611,7 +611,9 @@ Left image is what I started with and right is the final look:
 ---
 
 #### *Moon map*
-For this map I created a little universe around the moon with the planet models. I also used postprocessing on this map prefab to make it feel more like you are in space. If you have seen this map on the gameplay Gifs, the post processing was of on those Gifs. The images below displays how it looks when postprocessing is on.
+For this map I created a little universe around the moon with the planet models. I also used postprocessing on this map prefab to make it feel more like you are in space. If you have seen this map on the gameplay Gifs above, the post processing was of on those Gifs. The images below displays how it looks when postprocessing is on.
+
+I also added a rotation script to all the planets with a adjustable speed, so they rotate a different speeds making it feel like the enviroment is more alive.
 
 The map and models I got from the artists:
 <table>
@@ -620,6 +622,8 @@ The map and models I got from the artists:
     <td><img src="/VR_Party/Images/MapSelect/MoonMapModels.png" /></td>
   </tr>
   <table>
+
+It's hard to show in images but when playing in VR it looks really good.
 
 Final look of the map from different angles:
   <table>
@@ -638,3 +642,34 @@ Final look of the map from different angles:
 ---
 
 ## *Map selector*
+To control which maps each minigame could be played on, and to define the spawn points or game plateaus where the player appears, I created a map management system built around three core scripts.
+
+#### *RandomMapSpawner* 
+This script randomly selects and spawns a map from a predefined list so you can have different maps for different minigames, this script is placed on the minigame prefabs.
+
+<details>  
+<summary>RandomMapSpawner script</summary>   
+  
+![RandomMapSpawner Script](/VR_Party/Code/MapSelect/RandomMapSpawner_Script.png) 
+</details>
+
+#### *MapSpawnPoints* 
+The script handles player spawn locations within each map, picking a random point from multiple options. You can have how many spawn positions as you like, in this project each map had between 1 and 4.
+
+<details>  
+<summary>MapSpawnPoints script</summary>   
+  
+![MapSpawnPoints Script](/VR_Party/Code/MapSelect/MapSpawnPoints_Script.png) 
+</details>
+
+#### *MapIdentifier* 
+This script labels each map with its type (e.g., Castle, Forest, Desert, Water) so other systems know which one is active, this is used for music in this project so that a music script checks what map type it is and from a list chooses a song that fits that map.
+
+<details>  
+<summary>MapIdentifier script</summary>   
+  
+![MapIdentifier Script](/VR_Party/Code/MapSelect/MapIdentifier_Script.png) 
+</details>
+
+Together, these scripts ensure that maps are flexible, randomized, and reusable across different minigames.
+
