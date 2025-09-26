@@ -500,7 +500,7 @@ Attached to each ball, this script manages interaction and scoring. When a ball 
 ![BallController Script](/VR_Party/Code/Sort/BallController_Script.png) 
 </details>
 
-#### *SpawnBalls*
+#### *SpawnBalls script*
 This script manages spawning of balls during the minigame. Spawns batches of balls at a set interval and within a defined area around a central spawn point. Randomly selects ball prefabs from a list, allowing multiple colors.
 
 <details>  
