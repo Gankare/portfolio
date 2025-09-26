@@ -16,8 +16,8 @@ Role: Lead Programmer
 
 <table>
   <tr>
-    <td><img src="VR_Party/Images/SlingShot/SlingShotNormal_Gif.gif" width="385" height="350" /></td>
-    <td><img src="VR_Party/Images/EggKnife/EggKnifeChallenge2_Gif.gif" width="385" height="350" /></td>
+    <td><img src="VR_Party/Images/SlingShot/SlingShotNormal_Gif.gif" /></td>
+    <td><img src="VR_Party/Images/EggKnife/EggKnifeChallenge2_Gif.gif" /></td>
   </tr>
 </table>
 
@@ -31,8 +31,8 @@ Team: Solo
 
 <table>
   <tr>
-    <td><img src="VR_Snap/Images/Camera_Gif.gif" height="350" /></td>
-    <td><img src="VR_Snap/Images/LocoMotion_Gif.gif" height="350" /></td>
+    <td><img src="VR_Snap/Images/Camera_Gif.gif" /></td>
+    <td><img src="VR_Snap/Images/LocoMotion_Gif.gif" /></td>
   </tr>
 </table>
 
