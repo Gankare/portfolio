@@ -3,7 +3,7 @@
 CV link: ![FilipSalomonsson_CV](/Assests/FilipSalomonsson_CV.pdf)  
 
 # About me
-I’m Filip, a 23-year-old Game Programmer specializing in Unity and VR. I recently moved to Malmö, Sweden, and enjoy creating games, building levels, and learning new techniques. I’m currently seeking opportunities as a game programmer or level designer, where I can grow, collaborate with others, and explore new genres in game development.
+I’m Filip, a 24-year-old Game Programmer from Sweden, specializing in Unity and VR. I enjoy creating all types of games, building worlds, and learning new techniques. I’m currently seeking opportunities as a game programmer or level designer, where I can grow, collaborate with others, and explore new genres in game development.
 
 # Game Projects
 
