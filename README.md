@@ -16,8 +16,8 @@ Role: Programmer
 
 <table>
   <tr>
-    <td><img src="VR_Party/Images/SlingShot/SlingShotNormal_Gif.gif" width="385" height="250" /></td>
-    <td><img src="VR_Party/Images/EggKnife/EggKnifeChallenge2_Gif.gif" width="385" height="250" /></td>
+    <td><img src="NanoKings/Images/NanoKingsGameplay1.webm" width="385" height="250" /></td>
+    <td><img src="NanoKings/Images/NanoKingsGameplay2.webm" width="385" height="250" /></td>
   </tr>
 </table>
 
