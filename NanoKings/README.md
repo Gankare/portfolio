@@ -7,12 +7,21 @@
 
 ## *A brief game description*
 
-**Tama Sim** is a VR simulator I developed together with a graphic design student as an experiment in mixed reality (MR). The game is inspired by Tamagotchi, reimagined in VR. Players care for a virtual pet by feeding it, playing with it, and cleaning up after it.
+**Nanokings** is a roguelite RPG combining reverse bullet-hell and hack-and-slash gameplay. The game takes place in a post-apocalyptic world inspired by Norse mythology, where players fight mutated creatures and rival Viking tribes while developing their character through weapons, items, upgrades and different gameplay systems.
 
-The better care you provide, the faster the pet grows. Once it fully evolves, you can choose to start over with a new pet. Neglecting the pet slows its growth, and if ignored for too long, it can even die. To add variety, each pet spawns with a random color, giving every playthrough a slightly different feel.
 
 ---
 ## *My contributions to this project*
-Below is a summary of some of my visual scripts written to this game, keep in mind that this is a group effort and we co-developed a lot of features, but all the highlighted features below have been implemented by me.
+I contributed to Nanokings as a Game Programmer, working alongside the development team to implement, maintain and debug gameplay-related systems.
+
+Due to confidentiality agreements, I cannot share source code or disclose detailed information about anything I worked on. Instead check out the game on Steam:  https://store.steampowered.com/app/2142550/Nanokings/ 
+
+Areas I worked on included:
+- Enemy AI    
+- Player Abilities     
+- Setup some animations for Player and enemies    
+- UI-related functionality and layout for items, stats, upgrades, settings/options
+- Panorama system for menu    
+- Debugging and bug fixing    
 
 ---
