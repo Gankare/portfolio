@@ -16,8 +16,8 @@ Role: Programmer
 
 <table>
   <tr>
-    <td><img src="NanoKings/Images/NanoKingsGameplay1.gif" width="385" height="250" /></td>
     <td><img src="NanoKings/Images/NanoKingsGameplay2.gif" width="385" height="250" /></td>
+    <td><img src="NanoKings/Images/NanoKingsGameplay1.gif" width="385" height="250" /></td>
   </tr>
 </table>
 
