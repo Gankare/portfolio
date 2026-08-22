@@ -17,11 +17,12 @@ I contributed to Nanokings as a Game Programmer, working alongside the developme
 Due to confidentiality agreements, I cannot share source code or disclose detailed information about anything I worked on. Instead check out the game on Steam:  https://store.steampowered.com/app/2142550/Nanokings/ 
 
 Areas I worked on included:
-- Enemy AI    
-- Player Abilities     
-- Setup some animations for Player and enemies    
-- UI-related functionality and layout for items, stats, upgrades, settings/options
-- Panorama system for menu    
-- Debugging and bug fixing    
+- Enemy AI and behavior systems
+- Player abilities and gameplay mechanics
+- Player and enemy animation setup
+- Visual indicators for abilities and attacks
+- UI functionality and layout for items, stats, upgrades, and settings
+- Menu panorama/parallax system
+- Debugging, testing, and bug fixing
 
 ---
