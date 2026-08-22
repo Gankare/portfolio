@@ -10,8 +10,8 @@ I’m Filip, a 24-year-old Game Programmer from Sweden, specializing in Unity an
 ## [***NanoKings***](NanoKings) ← Click here for more info!
 I worked on it: *2025 November - February 2026*  
 Engine: Unity  
-Genré: Bullet Heaven, Action RPG, Hack and Slash, Indie, 2D, Isometric, Pixel Graphics, Vikings, Singleplayer
-Team: 30 +  
+Genré: Bullet Heaven, Action RPG, Hack and Slash, Indie, 2D, Isometric, Pixel Graphics, Vikings, Singleplayer  
+Team: around 25 at the time  
 Role: Programmer
 
 <table>
