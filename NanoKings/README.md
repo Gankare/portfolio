@@ -14,7 +14,11 @@
 ## *My contributions to this project*
 I contributed to Nanokings as a Game Programmer, working alongside the development team to implement, maintain and debug gameplay-related systems.
 
-Due to confidentiality agreements, I cannot share source code or disclose detailed information about anything I worked on. Instead check out the game on Steam:  https://store.steampowered.com/app/2142550/Nanokings/ 
+Due to confidentiality agreements, I cannot share source code or disclose detailed information about anything I worked on. Instead check out the game on: 
+- [Steam page](https://store.steampowered.com/app/2142550/Nanokings/)    
+- [Official Website](https://runicdices.com/nanokings)
+- [Youtube](https://www.youtube.com/@runicdices2411) 
+- [Instagram](https://www.instagram.com/nanokingsgame/) 
 
 Areas I worked on included:
 - Enemy AI and behavior systems
