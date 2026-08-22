@@ -1,7 +1,7 @@
 # NanoKings
 <table>
   <tr>
-    <td><img src="/Tamagotchi_Sim/Images/MRTama.png" width="500" height="450" /></td>
+    <td><img src="/NanoKings/Images/Background.png" /></td>
   </tr>
 </table> 
 
